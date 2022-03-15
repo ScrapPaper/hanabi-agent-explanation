@@ -76,7 +76,7 @@ def evaluate(
         runner.stop()
 
     scores = [g.last_episode_score() for g in games]
-    num_perfect = np.sum([1 for s in scores if s == 10])
+    num_perfect = np.sum([1 for s in scores if s == 25])
     return np.mean(scores), num_perfect / len(scores), scores, num_perfect, all_actors
 
 

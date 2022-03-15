@@ -257,7 +257,7 @@ if __name__ == "__main__":
         model = belief_model.ARBeliefModel.load(
             cfgs["belief_model"],
             args.train_device,
-            2,
+            5,
             0,
             belief_config["fc_only"],
         )
@@ -266,8 +266,8 @@ if __name__ == "__main__":
             args.train_device,
             games[0].feature_size(cfgs["sad"])[1],
             args.hid_dim,
-            2,  # hand_size
-            10,  # bits per card
+            5,  # hand_size
+            25,  # bits per card
             0,  # num_sample
             fc_only=args.fc_only,
         ).to(args.train_device)

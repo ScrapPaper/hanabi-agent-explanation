@@ -14,8 +14,8 @@ class V0BeliefModel(torch.jit.ScriptModule):
     def __init__(self, device, num_sample):
         super().__init__()
         self.device = device
-        self.hand_size = 2
-        self.bit_per_card = 10
+        self.hand_size = 5
+        self.bit_per_card = 25
         self.num_sample = num_sample
 
     @torch.jit.script_method
@@ -99,7 +99,7 @@ class ARBeliefModel(torch.jit.ScriptModule):
         ).to(device)
         self.lstm.flatten_parameters()
 
-        self.emb = nn.Linear(10, self.hid_dim // 8, bias=False)
+        self.emb = nn.Linear(25, self.hid_dim // 8, bias=False)
         self.auto_regress = nn.LSTM(
             self.hid_dim + self.hid_dim // 8,
             self.hid_dim,
@@ -137,7 +137,7 @@ class ARBeliefModel(torch.jit.ScriptModule):
 
         # ar_card_in  = batch.obs[self.ar_input_key]
         seq, bsize, _ = ar_card_in.size()
-        ar_card_in = ar_card_in.view(seq * bsize, self.hand_size, 10)
+        ar_card_in = ar_card_in.view(seq * bsize, self.hand_size, 25)
 
         ar_emb_in = self.emb(ar_card_in)
         # ar_card_in: [seq * batch, 5, 64]
@@ -162,7 +162,7 @@ class ARBeliefModel(torch.jit.ScriptModule):
 
         # v0: [seq, batch, hand_size, bit_per_card]
         v0 = batch.obs["priv_ar_v0"]
-        v0 = v0.view(v0.size(0), v0.size(1), self.hand_size, 17)[:, :, :, :10]
+        v0 = v0.view(v0.size(0), v0.size(1), self.hand_size, 35)[:, :, :, :25]
         logv0 = v0.clamp(min=1e-6).log()
         _, avg_xent_v0, _ = pred_loss(logv0, gtruth, seq_len)
         return xent, avg_xent, avg_xent_v0, nll_per_card
@@ -222,7 +222,7 @@ class ARBeliefModel(torch.jit.ScriptModule):
             sample_t = prob.multinomial(1)
             sample_t = sample_t.view(bsize, self.num_sample)
             onehot_sample_t = torch.zeros(
-                bsize, self.num_sample, 10, device=sample_t.device
+                bsize, self.num_sample, 25, device=sample_t.device
             )
             onehot_sample_t.scatter_(2, sample_t.unsqueeze(2), 1)
             in_t = self.emb(onehot_sample_t)

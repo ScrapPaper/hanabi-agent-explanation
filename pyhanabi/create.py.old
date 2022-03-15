@@ -22,7 +22,7 @@ def create_envs(
     bomb,
     max_len,
     *,
-    hand_size=2,
+    hand_size=5,
     random_start_player=1,
 ):
     games = []

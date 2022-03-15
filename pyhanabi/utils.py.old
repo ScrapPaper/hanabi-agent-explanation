@@ -152,7 +152,7 @@ def load_agent(weight_file, overwrite):
         flatten_dict(cfg, new_cfg)
         cfg = new_cfg
 
-    hand_size = cfg.get("hand_size", 2)
+    hand_size = cfg.get("hand_size", 5)
 
     game = create_envs(
         1,
@@ -185,7 +185,6 @@ def load_agent(weight_file, overwrite):
         config["nlayer"] = cfg["nlayer"]
         config["max_len"] = cfg["max_len"]
 
-    print("feature_size:", game.feature_size(cfg["sad"]))
     agent = r2d2.R2D2Agent(**config).to(config["device"])
     load_weight(agent.online_net, weight_file, config["device"])
     agent.sync_target_with_online()

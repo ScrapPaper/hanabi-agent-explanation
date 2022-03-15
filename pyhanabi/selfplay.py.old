@@ -150,7 +150,6 @@ if __name__ == "__main__":
         args.max_len,
     )
 
-    print("feature_size:", games[0].feature_size(args.sad))
     agent = r2d2.R2D2Agent(
         (args.method == "vdn"),
         args.multi_step,
@@ -210,7 +209,7 @@ if __name__ == "__main__":
                 ARBeliefModel.load(
                     args.belief_model,
                     device,
-                    2,
+                    5,
                     args.num_fict_sample,
                     belief_config["fc_only"],
                 )
