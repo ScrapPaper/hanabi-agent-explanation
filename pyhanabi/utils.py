@@ -14,7 +14,7 @@ import numpy as np
 import r2d2
 from create import create_envs
 import common_utils
-from supervised_model import SupervisedAgent
+# from supervised_model import SupervisedAgent
 
 
 def load_supervised_agent(weight_file, device):
