@@ -22,7 +22,7 @@
 
 namespace hanabi_learning_env {
 
-constexpr int kMaxNumColors = 5;
+constexpr int kMaxNumColors = 2;
 constexpr int kMaxNumRanks = 5;
 
 // Returns a character representation of an integer color/rank index.

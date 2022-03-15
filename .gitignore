@@ -4,7 +4,9 @@ cmake-build-debug/
 *.pyc
 */__pycache__/*
 .DS_Store
-pyhanabi/exps
+pyhanabi/exps/*/*
+!model0.pthw
+!train.log
 sweep
 sweep_*
 plot.png

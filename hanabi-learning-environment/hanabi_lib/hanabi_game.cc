@@ -21,8 +21,8 @@ namespace hanabi_learning_env {
 namespace {
 // Constants.
 const int kDefaultPlayers = 2;
-const int kInformationTokens = 8;
-const int kLifeTokens = 3;
+const int kInformationTokens = 3;
+const int kLifeTokens = 1;
 const bool kDefaultRandomStart = false;
 }  // namespace
 
@@ -148,9 +148,9 @@ int HanabiGame::GetSampledStartPlayer() const {
 
 int HanabiGame::HandSizeFromRules() const {
   if (num_players_ < 4) {
-    return 5;
+    return 2;
   }
-  return 4;
+  return 2;
 }
 
 // Uid mapping.  h=hand_size, p=num_players, c=colors, r=ranks
