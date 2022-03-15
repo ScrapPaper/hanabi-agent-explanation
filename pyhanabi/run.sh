@@ -5,8 +5,6 @@ cp -n selfplay.py selfplay.py.old
 cp -n train_belief.py train_belief.py.old
 cp -n utils.py utils.py.old
 mv legacy_agent.py legacy_agent.py.old
-mv supervised_learn.py supervised_learn.py.old
-mv supervised_model.py supervised_model.py.old
 sed -r  -e "s/25/10/g" \
         -e "s/35/17/g" \
         -e "s/(hand_size =) 5/\1 2/g" \
