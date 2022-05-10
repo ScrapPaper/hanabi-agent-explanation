@@ -1,0 +1,22 @@
+#!/bin/sh
+if [ "$#" -ne 4 ]; then
+  echo "Usage: $0 CONFIG TRAIN TEST DIRECTORY" >&2; exit 1
+elif [ ! -f "$1" ] && [ "$1" != "-" ]; then
+  echo "Error: Config file '$1' does not exist"; exit 1
+elif [ ! -f "$2" ]; then
+  echo "Error: Train file '$2' does not exist"; exit 1
+elif [ ! -f "$3" ]; then
+  echo "Error: Test file '$3' does not exist"; exit 1
+elif [ ! -d "$4" ]; then
+  mkdir "$4"
+fi
+if [ -f "$4/Statistics6.txt" ]; then
+  echo "Error: Output directory '$4' contains Statistics6.txt"; exit 1
+fi
+CFG="$4/test.conf"
+[ "$1" = "-" ] && cat >"$CFG" && config="$CFG" || config="$1"
+i=6
+for seed in 2067696344 89106417 1866798170 1179318389 704022111; do
+  (set -x; sed "s/\(random seed\).*/\1 $seed/g" "$config" | BioHEL-demo/BioHEL-cuda/biohelcuda - "$2" "$3" > "$4"/Statistics$i.txt 2> /dev/null)
+  i=$((i+1))
+done

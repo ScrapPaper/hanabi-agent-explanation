@@ -1,1 +1,0 @@
-python3 -c "from tools.find_best_models import *; find_best_models('exps', 5000, 1, 5000, 1, 2, False)"

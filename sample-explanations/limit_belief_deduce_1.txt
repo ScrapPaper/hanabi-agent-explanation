@@ -1,0 +1,11 @@
+safeToPlay_c1 -> PLAY_1
+~wasTouched_c5 & info [<= 7] -> DISCARD_5
+Rnk_c5 is [2,3,4,5,X] & Kpossible1_c2 & discards_B5 [<= 0] & info [>= 5] -> RANK_1
+safeToPlay_c2 -> PLAY_2
+safeToPlay_c3 -> PLAY_3
+safeToPlay_c4 -> PLAY_4
+~is2_c2 & KCol_c4 is [B,R,W,X,Y] & discards_R2 [<= 1] & ~KsafeToDiscard_c3 & ~safeToDiscard_c3 & safeToDiscard_c5 & unsafeToDiscard_c1 -> DISCARD_5
+Default rule -> PLAY_5
+
+Accuracy: 0.321095
+Full log: rule-list-learning\Outputs\limit\dbeliefOutputs\Statistics1.txt

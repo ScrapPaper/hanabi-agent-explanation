@@ -1,0 +1,2763 @@
+One Point Crossover
+Majoritarian class will be default
+MDL fitness function
+Minumum number of classifiers per individual in initialization:20.000000
+Maximum number of classifiers per individual in initialization:20.000000
+GA Iterations:50.000000
+Initial theory length proportion in MDL formula: 0.250000
+Iteracio activacio MDL 10
+MDL Weight relax factor 0.900000
+Popsize: 500.000000
+Crossover probability: 0.600000
+Individual-wise mutation probability:0.600000
+Probability of value ONE for GABIL and ADI KR:0.750000
+Tournament Selection without replacement Algorithm
+Tournament size:4.000000
+ILAS Windowing of degree 1
+Dump learning process statistics at each iteration
+Initialization uses examples to create the initial rules
+Instances used in initialization are sampled with uniform class distribution
+Coverage breakpoint for MDL fitness : 0.050000
+Number of times we will try to learn a rule from the current training set: 2
+Coverage ratio for MDL fitness : 0.900000
+Using HYPERRECT Knowledge Representation
+Number of expressed attributes in initialization : 15.000000
+Hyperrectangle attribute list knowledge representation
+Probability of generalizing the hyperrect list KR: 0.100000
+Probability of specializing the hyperrect list KR: 0.100000
+Expected number of attributes: 10
+Device selected through configuration: 0.000000
+Percentage of device memory used: 1.000000
+CUDA Enabled fitness function activated
+Random seed specified:1961362653
+Random seed 1961362653
+Dataset name: belief_deduce_train
+Attribute 0:Name isR_c1 Def:{0,1}
+Attribute 0 nominal
+Value 0 of attribute 0: 0
+Value 1 of attribute 0: 1
+Attribute 1:Name isY_c1 Def:{0,1}
+Attribute 1 nominal
+Value 0 of attribute 1: 0
+Value 1 of attribute 1: 1
+Attribute 2:Name isG_c1 Def:{0,1}
+Attribute 2 nominal
+Value 0 of attribute 2: 0
+Value 1 of attribute 2: 1
+Attribute 3:Name isW_c1 Def:{0,1}
+Attribute 3 nominal
+Value 0 of attribute 3: 0
+Value 1 of attribute 3: 1
+Attribute 4:Name isB_c1 Def:{0,1}
+Attribute 4 nominal
+Value 0 of attribute 4: 0
+Value 1 of attribute 4: 1
+Attribute 5:Name is1_c1 Def:{0,1}
+Attribute 5 nominal
+Value 0 of attribute 5: 0
+Value 1 of attribute 5: 1
+Attribute 6:Name is2_c1 Def:{0,1}
+Attribute 6 nominal
+Value 0 of attribute 6: 0
+Value 1 of attribute 6: 1
+Attribute 7:Name is3_c1 Def:{0,1}
+Attribute 7 nominal
+Value 0 of attribute 7: 0
+Value 1 of attribute 7: 1
+Attribute 8:Name is4_c1 Def:{0,1}
+Attribute 8 nominal
+Value 0 of attribute 8: 0
+Value 1 of attribute 8: 1
+Attribute 9:Name is5_c1 Def:{0,1}
+Attribute 9 nominal
+Value 0 of attribute 9: 0
+Value 1 of attribute 9: 1
+Attribute 10:Name isR_c2 Def:{0,1}
+Attribute 10 nominal
+Value 0 of attribute 10: 0
+Value 1 of attribute 10: 1
+Attribute 11:Name isY_c2 Def:{0,1}
+Attribute 11 nominal
+Value 0 of attribute 11: 0
+Value 1 of attribute 11: 1
+Attribute 12:Name isG_c2 Def:{0,1}
+Attribute 12 nominal
+Value 0 of attribute 12: 0
+Value 1 of attribute 12: 1
+Attribute 13:Name isW_c2 Def:{0,1}
+Attribute 13 nominal
+Value 0 of attribute 13: 0
+Value 1 of attribute 13: 1
+Attribute 14:Name isB_c2 Def:{0,1}
+Attribute 14 nominal
+Value 0 of attribute 14: 0
+Value 1 of attribute 14: 1
+Attribute 15:Name is1_c2 Def:{0,1}
+Attribute 15 nominal
+Value 0 of attribute 15: 0
+Value 1 of attribute 15: 1
+Attribute 16:Name is2_c2 Def:{0,1}
+Attribute 16 nominal
+Value 0 of attribute 16: 0
+Value 1 of attribute 16: 1
+Attribute 17:Name is3_c2 Def:{0,1}
+Attribute 17 nominal
+Value 0 of attribute 17: 0
+Value 1 of attribute 17: 1
+Attribute 18:Name is4_c2 Def:{0,1}
+Attribute 18 nominal
+Value 0 of attribute 18: 0
+Value 1 of attribute 18: 1
+Attribute 19:Name is5_c2 Def:{0,1}
+Attribute 19 nominal
+Value 0 of attribute 19: 0
+Value 1 of attribute 19: 1
+Attribute 20:Name isR_c3 Def:{0,1}
+Attribute 20 nominal
+Value 0 of attribute 20: 0
+Value 1 of attribute 20: 1
+Attribute 21:Name isY_c3 Def:{0,1}
+Attribute 21 nominal
+Value 0 of attribute 21: 0
+Value 1 of attribute 21: 1
+Attribute 22:Name isG_c3 Def:{0,1}
+Attribute 22 nominal
+Value 0 of attribute 22: 0
+Value 1 of attribute 22: 1
+Attribute 23:Name isW_c3 Def:{0,1}
+Attribute 23 nominal
+Value 0 of attribute 23: 0
+Value 1 of attribute 23: 1
+Attribute 24:Name isB_c3 Def:{0,1}
+Attribute 24 nominal
+Value 0 of attribute 24: 0
+Value 1 of attribute 24: 1
+Attribute 25:Name is1_c3 Def:{0,1}
+Attribute 25 nominal
+Value 0 of attribute 25: 0
+Value 1 of attribute 25: 1
+Attribute 26:Name is2_c3 Def:{0,1}
+Attribute 26 nominal
+Value 0 of attribute 26: 0
+Value 1 of attribute 26: 1
+Attribute 27:Name is3_c3 Def:{0,1}
+Attribute 27 nominal
+Value 0 of attribute 27: 0
+Value 1 of attribute 27: 1
+Attribute 28:Name is4_c3 Def:{0,1}
+Attribute 28 nominal
+Value 0 of attribute 28: 0
+Value 1 of attribute 28: 1
+Attribute 29:Name is5_c3 Def:{0,1}
+Attribute 29 nominal
+Value 0 of attribute 29: 0
+Value 1 of attribute 29: 1
+Attribute 30:Name isR_c4 Def:{0,1}
+Attribute 30 nominal
+Value 0 of attribute 30: 0
+Value 1 of attribute 30: 1
+Attribute 31:Name isY_c4 Def:{0,1}
+Attribute 31 nominal
+Value 0 of attribute 31: 0
+Value 1 of attribute 31: 1
+Attribute 32:Name isG_c4 Def:{0,1}
+Attribute 32 nominal
+Value 0 of attribute 32: 0
+Value 1 of attribute 32: 1
+Attribute 33:Name isW_c4 Def:{0,1}
+Attribute 33 nominal
+Value 0 of attribute 33: 0
+Value 1 of attribute 33: 1
+Attribute 34:Name isB_c4 Def:{0,1}
+Attribute 34 nominal
+Value 0 of attribute 34: 0
+Value 1 of attribute 34: 1
+Attribute 35:Name is1_c4 Def:{0,1}
+Attribute 35 nominal
+Value 0 of attribute 35: 0
+Value 1 of attribute 35: 1
+Attribute 36:Name is2_c4 Def:{0,1}
+Attribute 36 nominal
+Value 0 of attribute 36: 0
+Value 1 of attribute 36: 1
+Attribute 37:Name is3_c4 Def:{0,1}
+Attribute 37 nominal
+Value 0 of attribute 37: 0
+Value 1 of attribute 37: 1
+Attribute 38:Name is4_c4 Def:{0,1}
+Attribute 38 nominal
+Value 0 of attribute 38: 0
+Value 1 of attribute 38: 1
+Attribute 39:Name is5_c4 Def:{0,1}
+Attribute 39 nominal
+Value 0 of attribute 39: 0
+Value 1 of attribute 39: 1
+Attribute 40:Name isR_c5 Def:{0,1}
+Attribute 40 nominal
+Value 0 of attribute 40: 0
+Value 1 of attribute 40: 1
+Attribute 41:Name isY_c5 Def:{0,1}
+Attribute 41 nominal
+Value 0 of attribute 41: 0
+Value 1 of attribute 41: 1
+Attribute 42:Name isG_c5 Def:{0,1}
+Attribute 42 nominal
+Value 0 of attribute 42: 0
+Value 1 of attribute 42: 1
+Attribute 43:Name isW_c5 Def:{0,1}
+Attribute 43 nominal
+Value 0 of attribute 43: 0
+Value 1 of attribute 43: 1
+Attribute 44:Name isB_c5 Def:{0,1}
+Attribute 44 nominal
+Value 0 of attribute 44: 0
+Value 1 of attribute 44: 1
+Attribute 45:Name is1_c5 Def:{0,1}
+Attribute 45 nominal
+Value 0 of attribute 45: 0
+Value 1 of attribute 45: 1
+Attribute 46:Name is2_c5 Def:{0,1}
+Attribute 46 nominal
+Value 0 of attribute 46: 0
+Value 1 of attribute 46: 1
+Attribute 47:Name is3_c5 Def:{0,1}
+Attribute 47 nominal
+Value 0 of attribute 47: 0
+Value 1 of attribute 47: 1
+Attribute 48:Name is4_c5 Def:{0,1}
+Attribute 48 nominal
+Value 0 of attribute 48: 0
+Value 1 of attribute 48: 1
+Attribute 49:Name is5_c5 Def:{0,1}
+Attribute 49 nominal
+Value 0 of attribute 49: 0
+Value 1 of attribute 49: 1
+Attribute 50:Name psR_c1 Def:{0,1}
+Attribute 50 nominal
+Value 0 of attribute 50: 0
+Value 1 of attribute 50: 1
+Attribute 51:Name psY_c1 Def:{0,1}
+Attribute 51 nominal
+Value 0 of attribute 51: 0
+Value 1 of attribute 51: 1
+Attribute 52:Name psG_c1 Def:{0,1}
+Attribute 52 nominal
+Value 0 of attribute 52: 0
+Value 1 of attribute 52: 1
+Attribute 53:Name psW_c1 Def:{0,1}
+Attribute 53 nominal
+Value 0 of attribute 53: 0
+Value 1 of attribute 53: 1
+Attribute 54:Name psB_c1 Def:{0,1}
+Attribute 54 nominal
+Value 0 of attribute 54: 0
+Value 1 of attribute 54: 1
+Attribute 55:Name ps1_c1 Def:{0,1}
+Attribute 55 nominal
+Value 0 of attribute 55: 0
+Value 1 of attribute 55: 1
+Attribute 56:Name ps2_c1 Def:{0,1}
+Attribute 56 nominal
+Value 0 of attribute 56: 0
+Value 1 of attribute 56: 1
+Attribute 57:Name ps3_c1 Def:{0,1}
+Attribute 57 nominal
+Value 0 of attribute 57: 0
+Value 1 of attribute 57: 1
+Attribute 58:Name ps4_c1 Def:{0,1}
+Attribute 58 nominal
+Value 0 of attribute 58: 0
+Value 1 of attribute 58: 1
+Attribute 59:Name ps5_c1 Def:{0,1}
+Attribute 59 nominal
+Value 0 of attribute 59: 0
+Value 1 of attribute 59: 1
+Attribute 60:Name psR_c2 Def:{0,1}
+Attribute 60 nominal
+Value 0 of attribute 60: 0
+Value 1 of attribute 60: 1
+Attribute 61:Name psY_c2 Def:{0,1}
+Attribute 61 nominal
+Value 0 of attribute 61: 0
+Value 1 of attribute 61: 1
+Attribute 62:Name psG_c2 Def:{0,1}
+Attribute 62 nominal
+Value 0 of attribute 62: 0
+Value 1 of attribute 62: 1
+Attribute 63:Name psW_c2 Def:{0,1}
+Attribute 63 nominal
+Value 0 of attribute 63: 0
+Value 1 of attribute 63: 1
+Attribute 64:Name psB_c2 Def:{0,1}
+Attribute 64 nominal
+Value 0 of attribute 64: 0
+Value 1 of attribute 64: 1
+Attribute 65:Name ps1_c2 Def:{0,1}
+Attribute 65 nominal
+Value 0 of attribute 65: 0
+Value 1 of attribute 65: 1
+Attribute 66:Name ps2_c2 Def:{0,1}
+Attribute 66 nominal
+Value 0 of attribute 66: 0
+Value 1 of attribute 66: 1
+Attribute 67:Name ps3_c2 Def:{0,1}
+Attribute 67 nominal
+Value 0 of attribute 67: 0
+Value 1 of attribute 67: 1
+Attribute 68:Name ps4_c2 Def:{0,1}
+Attribute 68 nominal
+Value 0 of attribute 68: 0
+Value 1 of attribute 68: 1
+Attribute 69:Name ps5_c2 Def:{0,1}
+Attribute 69 nominal
+Value 0 of attribute 69: 0
+Value 1 of attribute 69: 1
+Attribute 70:Name psR_c3 Def:{0,1}
+Attribute 70 nominal
+Value 0 of attribute 70: 0
+Value 1 of attribute 70: 1
+Attribute 71:Name psY_c3 Def:{0,1}
+Attribute 71 nominal
+Value 0 of attribute 71: 0
+Value 1 of attribute 71: 1
+Attribute 72:Name psG_c3 Def:{0,1}
+Attribute 72 nominal
+Value 0 of attribute 72: 0
+Value 1 of attribute 72: 1
+Attribute 73:Name psW_c3 Def:{0,1}
+Attribute 73 nominal
+Value 0 of attribute 73: 0
+Value 1 of attribute 73: 1
+Attribute 74:Name psB_c3 Def:{0,1}
+Attribute 74 nominal
+Value 0 of attribute 74: 0
+Value 1 of attribute 74: 1
+Attribute 75:Name ps1_c3 Def:{0,1}
+Attribute 75 nominal
+Value 0 of attribute 75: 0
+Value 1 of attribute 75: 1
+Attribute 76:Name ps2_c3 Def:{0,1}
+Attribute 76 nominal
+Value 0 of attribute 76: 0
+Value 1 of attribute 76: 1
+Attribute 77:Name ps3_c3 Def:{0,1}
+Attribute 77 nominal
+Value 0 of attribute 77: 0
+Value 1 of attribute 77: 1
+Attribute 78:Name ps4_c3 Def:{0,1}
+Attribute 78 nominal
+Value 0 of attribute 78: 0
+Value 1 of attribute 78: 1
+Attribute 79:Name ps5_c3 Def:{0,1}
+Attribute 79 nominal
+Value 0 of attribute 79: 0
+Value 1 of attribute 79: 1
+Attribute 80:Name psR_c4 Def:{0,1}
+Attribute 80 nominal
+Value 0 of attribute 80: 0
+Value 1 of attribute 80: 1
+Attribute 81:Name psY_c4 Def:{0,1}
+Attribute 81 nominal
+Value 0 of attribute 81: 0
+Value 1 of attribute 81: 1
+Attribute 82:Name psG_c4 Def:{0,1}
+Attribute 82 nominal
+Value 0 of attribute 82: 0
+Value 1 of attribute 82: 1
+Attribute 83:Name psW_c4 Def:{0,1}
+Attribute 83 nominal
+Value 0 of attribute 83: 0
+Value 1 of attribute 83: 1
+Attribute 84:Name psB_c4 Def:{0,1}
+Attribute 84 nominal
+Value 0 of attribute 84: 0
+Value 1 of attribute 84: 1
+Attribute 85:Name ps1_c4 Def:{0,1}
+Attribute 85 nominal
+Value 0 of attribute 85: 0
+Value 1 of attribute 85: 1
+Attribute 86:Name ps2_c4 Def:{0,1}
+Attribute 86 nominal
+Value 0 of attribute 86: 0
+Value 1 of attribute 86: 1
+Attribute 87:Name ps3_c4 Def:{0,1}
+Attribute 87 nominal
+Value 0 of attribute 87: 0
+Value 1 of attribute 87: 1
+Attribute 88:Name ps4_c4 Def:{0,1}
+Attribute 88 nominal
+Value 0 of attribute 88: 0
+Value 1 of attribute 88: 1
+Attribute 89:Name ps5_c4 Def:{0,1}
+Attribute 89 nominal
+Value 0 of attribute 89: 0
+Value 1 of attribute 89: 1
+Attribute 90:Name psR_c5 Def:{0,1}
+Attribute 90 nominal
+Value 0 of attribute 90: 0
+Value 1 of attribute 90: 1
+Attribute 91:Name psY_c5 Def:{0,1}
+Attribute 91 nominal
+Value 0 of attribute 91: 0
+Value 1 of attribute 91: 1
+Attribute 92:Name psG_c5 Def:{0,1}
+Attribute 92 nominal
+Value 0 of attribute 92: 0
+Value 1 of attribute 92: 1
+Attribute 93:Name psW_c5 Def:{0,1}
+Attribute 93 nominal
+Value 0 of attribute 93: 0
+Value 1 of attribute 93: 1
+Attribute 94:Name psB_c5 Def:{0,1}
+Attribute 94 nominal
+Value 0 of attribute 94: 0
+Value 1 of attribute 94: 1
+Attribute 95:Name ps1_c5 Def:{0,1}
+Attribute 95 nominal
+Value 0 of attribute 95: 0
+Value 1 of attribute 95: 1
+Attribute 96:Name ps2_c5 Def:{0,1}
+Attribute 96 nominal
+Value 0 of attribute 96: 0
+Value 1 of attribute 96: 1
+Attribute 97:Name ps3_c5 Def:{0,1}
+Attribute 97 nominal
+Value 0 of attribute 97: 0
+Value 1 of attribute 97: 1
+Attribute 98:Name ps4_c5 Def:{0,1}
+Attribute 98 nominal
+Value 0 of attribute 98: 0
+Value 1 of attribute 98: 1
+Attribute 99:Name ps5_c5 Def:{0,1}
+Attribute 99 nominal
+Value 0 of attribute 99: 0
+Value 1 of attribute 99: 1
+Attribute 100:Name Col_c1 Def:{B,G,R,W,X,Y}
+Attribute 100 nominal
+Value 0 of attribute 100: B
+Value 1 of attribute 100: G
+Value 2 of attribute 100: R
+Value 3 of attribute 100: W
+Value 4 of attribute 100: X
+Value 5 of attribute 100: Y
+Attribute 101:Name Rnk_c1 Def:{1,2,3,4,5,X}
+Attribute 101 nominal
+Value 0 of attribute 101: 1
+Value 1 of attribute 101: 2
+Value 2 of attribute 101: 3
+Value 3 of attribute 101: 4
+Value 4 of attribute 101: 5
+Value 5 of attribute 101: X
+Attribute 102:Name Col_c2 Def:{B,G,R,W,X,Y}
+Attribute 102 nominal
+Value 0 of attribute 102: B
+Value 1 of attribute 102: G
+Value 2 of attribute 102: R
+Value 3 of attribute 102: W
+Value 4 of attribute 102: X
+Value 5 of attribute 102: Y
+Attribute 103:Name Rnk_c2 Def:{1,2,3,4,5,X}
+Attribute 103 nominal
+Value 0 of attribute 103: 1
+Value 1 of attribute 103: 2
+Value 2 of attribute 103: 3
+Value 3 of attribute 103: 4
+Value 4 of attribute 103: 5
+Value 5 of attribute 103: X
+Attribute 104:Name Col_c3 Def:{B,G,R,W,X,Y}
+Attribute 104 nominal
+Value 0 of attribute 104: B
+Value 1 of attribute 104: G
+Value 2 of attribute 104: R
+Value 3 of attribute 104: W
+Value 4 of attribute 104: X
+Value 5 of attribute 104: Y
+Attribute 105:Name Rnk_c3 Def:{1,2,3,4,5,X}
+Attribute 105 nominal
+Value 0 of attribute 105: 1
+Value 1 of attribute 105: 2
+Value 2 of attribute 105: 3
+Value 3 of attribute 105: 4
+Value 4 of attribute 105: 5
+Value 5 of attribute 105: X
+Attribute 106:Name Col_c4 Def:{B,G,R,W,X,Y}
+Attribute 106 nominal
+Value 0 of attribute 106: B
+Value 1 of attribute 106: G
+Value 2 of attribute 106: R
+Value 3 of attribute 106: W
+Value 4 of attribute 106: X
+Value 5 of attribute 106: Y
+Attribute 107:Name Rnk_c4 Def:{1,2,3,4,5,X}
+Attribute 107 nominal
+Value 0 of attribute 107: 1
+Value 1 of attribute 107: 2
+Value 2 of attribute 107: 3
+Value 3 of attribute 107: 4
+Value 4 of attribute 107: 5
+Value 5 of attribute 107: X
+Attribute 108:Name Col_c5 Def:{B,G,R,W,X,Y}
+Attribute 108 nominal
+Value 0 of attribute 108: B
+Value 1 of attribute 108: G
+Value 2 of attribute 108: R
+Value 3 of attribute 108: W
+Value 4 of attribute 108: X
+Value 5 of attribute 108: Y
+Attribute 109:Name Rnk_c5 Def:{1,2,3,4,5,X}
+Attribute 109 nominal
+Value 0 of attribute 109: 1
+Value 1 of attribute 109: 2
+Value 2 of attribute 109: 3
+Value 3 of attribute 109: 4
+Value 4 of attribute 109: 5
+Value 5 of attribute 109: X
+Attribute 110:Name KpsR_c1 Def:{0,1}
+Attribute 110 nominal
+Value 0 of attribute 110: 0
+Value 1 of attribute 110: 1
+Attribute 111:Name KpsY_c1 Def:{0,1}
+Attribute 111 nominal
+Value 0 of attribute 111: 0
+Value 1 of attribute 111: 1
+Attribute 112:Name KpsG_c1 Def:{0,1}
+Attribute 112 nominal
+Value 0 of attribute 112: 0
+Value 1 of attribute 112: 1
+Attribute 113:Name KpsW_c1 Def:{0,1}
+Attribute 113 nominal
+Value 0 of attribute 113: 0
+Value 1 of attribute 113: 1
+Attribute 114:Name KpsB_c1 Def:{0,1}
+Attribute 114 nominal
+Value 0 of attribute 114: 0
+Value 1 of attribute 114: 1
+Attribute 115:Name Kps1_c1 Def:{0,1}
+Attribute 115 nominal
+Value 0 of attribute 115: 0
+Value 1 of attribute 115: 1
+Attribute 116:Name Kps2_c1 Def:{0,1}
+Attribute 116 nominal
+Value 0 of attribute 116: 0
+Value 1 of attribute 116: 1
+Attribute 117:Name Kps3_c1 Def:{0,1}
+Attribute 117 nominal
+Value 0 of attribute 117: 0
+Value 1 of attribute 117: 1
+Attribute 118:Name Kps4_c1 Def:{0,1}
+Attribute 118 nominal
+Value 0 of attribute 118: 0
+Value 1 of attribute 118: 1
+Attribute 119:Name Kps5_c1 Def:{0,1}
+Attribute 119 nominal
+Value 0 of attribute 119: 0
+Value 1 of attribute 119: 1
+Attribute 120:Name KpsR_c2 Def:{0,1}
+Attribute 120 nominal
+Value 0 of attribute 120: 0
+Value 1 of attribute 120: 1
+Attribute 121:Name KpsY_c2 Def:{0,1}
+Attribute 121 nominal
+Value 0 of attribute 121: 0
+Value 1 of attribute 121: 1
+Attribute 122:Name KpsG_c2 Def:{0,1}
+Attribute 122 nominal
+Value 0 of attribute 122: 0
+Value 1 of attribute 122: 1
+Attribute 123:Name KpsW_c2 Def:{0,1}
+Attribute 123 nominal
+Value 0 of attribute 123: 0
+Value 1 of attribute 123: 1
+Attribute 124:Name KpsB_c2 Def:{0,1}
+Attribute 124 nominal
+Value 0 of attribute 124: 0
+Value 1 of attribute 124: 1
+Attribute 125:Name Kps1_c2 Def:{0,1}
+Attribute 125 nominal
+Value 0 of attribute 125: 0
+Value 1 of attribute 125: 1
+Attribute 126:Name Kps2_c2 Def:{0,1}
+Attribute 126 nominal
+Value 0 of attribute 126: 0
+Value 1 of attribute 126: 1
+Attribute 127:Name Kps3_c2 Def:{0,1}
+Attribute 127 nominal
+Value 0 of attribute 127: 0
+Value 1 of attribute 127: 1
+Attribute 128:Name Kps4_c2 Def:{0,1}
+Attribute 128 nominal
+Value 0 of attribute 128: 0
+Value 1 of attribute 128: 1
+Attribute 129:Name Kps5_c2 Def:{0,1}
+Attribute 129 nominal
+Value 0 of attribute 129: 0
+Value 1 of attribute 129: 1
+Attribute 130:Name KpsR_c3 Def:{0,1}
+Attribute 130 nominal
+Value 0 of attribute 130: 0
+Value 1 of attribute 130: 1
+Attribute 131:Name KpsY_c3 Def:{0,1}
+Attribute 131 nominal
+Value 0 of attribute 131: 0
+Value 1 of attribute 131: 1
+Attribute 132:Name KpsG_c3 Def:{0,1}
+Attribute 132 nominal
+Value 0 of attribute 132: 0
+Value 1 of attribute 132: 1
+Attribute 133:Name KpsW_c3 Def:{0,1}
+Attribute 133 nominal
+Value 0 of attribute 133: 0
+Value 1 of attribute 133: 1
+Attribute 134:Name KpsB_c3 Def:{0,1}
+Attribute 134 nominal
+Value 0 of attribute 134: 0
+Value 1 of attribute 134: 1
+Attribute 135:Name Kps1_c3 Def:{0,1}
+Attribute 135 nominal
+Value 0 of attribute 135: 0
+Value 1 of attribute 135: 1
+Attribute 136:Name Kps2_c3 Def:{0,1}
+Attribute 136 nominal
+Value 0 of attribute 136: 0
+Value 1 of attribute 136: 1
+Attribute 137:Name Kps3_c3 Def:{0,1}
+Attribute 137 nominal
+Value 0 of attribute 137: 0
+Value 1 of attribute 137: 1
+Attribute 138:Name Kps4_c3 Def:{0,1}
+Attribute 138 nominal
+Value 0 of attribute 138: 0
+Value 1 of attribute 138: 1
+Attribute 139:Name Kps5_c3 Def:{0,1}
+Attribute 139 nominal
+Value 0 of attribute 139: 0
+Value 1 of attribute 139: 1
+Attribute 140:Name KpsR_c4 Def:{0,1}
+Attribute 140 nominal
+Value 0 of attribute 140: 0
+Value 1 of attribute 140: 1
+Attribute 141:Name KpsY_c4 Def:{0,1}
+Attribute 141 nominal
+Value 0 of attribute 141: 0
+Value 1 of attribute 141: 1
+Attribute 142:Name KpsG_c4 Def:{0,1}
+Attribute 142 nominal
+Value 0 of attribute 142: 0
+Value 1 of attribute 142: 1
+Attribute 143:Name KpsW_c4 Def:{0,1}
+Attribute 143 nominal
+Value 0 of attribute 143: 0
+Value 1 of attribute 143: 1
+Attribute 144:Name KpsB_c4 Def:{0,1}
+Attribute 144 nominal
+Value 0 of attribute 144: 0
+Value 1 of attribute 144: 1
+Attribute 145:Name Kps1_c4 Def:{0,1}
+Attribute 145 nominal
+Value 0 of attribute 145: 0
+Value 1 of attribute 145: 1
+Attribute 146:Name Kps2_c4 Def:{0,1}
+Attribute 146 nominal
+Value 0 of attribute 146: 0
+Value 1 of attribute 146: 1
+Attribute 147:Name Kps3_c4 Def:{0,1}
+Attribute 147 nominal
+Value 0 of attribute 147: 0
+Value 1 of attribute 147: 1
+Attribute 148:Name Kps4_c4 Def:{0,1}
+Attribute 148 nominal
+Value 0 of attribute 148: 0
+Value 1 of attribute 148: 1
+Attribute 149:Name Kps5_c4 Def:{0,1}
+Attribute 149 nominal
+Value 0 of attribute 149: 0
+Value 1 of attribute 149: 1
+Attribute 150:Name KpsR_c5 Def:{0,1}
+Attribute 150 nominal
+Value 0 of attribute 150: 0
+Value 1 of attribute 150: 1
+Attribute 151:Name KpsY_c5 Def:{0,1}
+Attribute 151 nominal
+Value 0 of attribute 151: 0
+Value 1 of attribute 151: 1
+Attribute 152:Name KpsG_c5 Def:{0,1}
+Attribute 152 nominal
+Value 0 of attribute 152: 0
+Value 1 of attribute 152: 1
+Attribute 153:Name KpsW_c5 Def:{0,1}
+Attribute 153 nominal
+Value 0 of attribute 153: 0
+Value 1 of attribute 153: 1
+Attribute 154:Name KpsB_c5 Def:{0,1}
+Attribute 154 nominal
+Value 0 of attribute 154: 0
+Value 1 of attribute 154: 1
+Attribute 155:Name Kps1_c5 Def:{0,1}
+Attribute 155 nominal
+Value 0 of attribute 155: 0
+Value 1 of attribute 155: 1
+Attribute 156:Name Kps2_c5 Def:{0,1}
+Attribute 156 nominal
+Value 0 of attribute 156: 0
+Value 1 of attribute 156: 1
+Attribute 157:Name Kps3_c5 Def:{0,1}
+Attribute 157 nominal
+Value 0 of attribute 157: 0
+Value 1 of attribute 157: 1
+Attribute 158:Name Kps4_c5 Def:{0,1}
+Attribute 158 nominal
+Value 0 of attribute 158: 0
+Value 1 of attribute 158: 1
+Attribute 159:Name Kps5_c5 Def:{0,1}
+Attribute 159 nominal
+Value 0 of attribute 159: 0
+Value 1 of attribute 159: 1
+Attribute 160:Name KCol_c1 Def:{B,G,R,W,X,Y}
+Attribute 160 nominal
+Value 0 of attribute 160: B
+Value 1 of attribute 160: G
+Value 2 of attribute 160: R
+Value 3 of attribute 160: W
+Value 4 of attribute 160: X
+Value 5 of attribute 160: Y
+Attribute 161:Name KRnk_c1 Def:{1,2,3,4,5,X}
+Attribute 161 nominal
+Value 0 of attribute 161: 1
+Value 1 of attribute 161: 2
+Value 2 of attribute 161: 3
+Value 3 of attribute 161: 4
+Value 4 of attribute 161: 5
+Value 5 of attribute 161: X
+Attribute 162:Name KCol_c2 Def:{B,G,R,W,X,Y}
+Attribute 162 nominal
+Value 0 of attribute 162: B
+Value 1 of attribute 162: G
+Value 2 of attribute 162: R
+Value 3 of attribute 162: W
+Value 4 of attribute 162: X
+Value 5 of attribute 162: Y
+Attribute 163:Name KRnk_c2 Def:{1,2,3,4,5,X}
+Attribute 163 nominal
+Value 0 of attribute 163: 1
+Value 1 of attribute 163: 2
+Value 2 of attribute 163: 3
+Value 3 of attribute 163: 4
+Value 4 of attribute 163: 5
+Value 5 of attribute 163: X
+Attribute 164:Name KCol_c3 Def:{B,G,R,W,X,Y}
+Attribute 164 nominal
+Value 0 of attribute 164: B
+Value 1 of attribute 164: G
+Value 2 of attribute 164: R
+Value 3 of attribute 164: W
+Value 4 of attribute 164: X
+Value 5 of attribute 164: Y
+Attribute 165:Name KRnk_c3 Def:{1,2,3,4,5,X}
+Attribute 165 nominal
+Value 0 of attribute 165: 1
+Value 1 of attribute 165: 2
+Value 2 of attribute 165: 3
+Value 3 of attribute 165: 4
+Value 4 of attribute 165: 5
+Value 5 of attribute 165: X
+Attribute 166:Name KCol_c4 Def:{B,G,R,W,X,Y}
+Attribute 166 nominal
+Value 0 of attribute 166: B
+Value 1 of attribute 166: G
+Value 2 of attribute 166: R
+Value 3 of attribute 166: W
+Value 4 of attribute 166: X
+Value 5 of attribute 166: Y
+Attribute 167:Name KRnk_c4 Def:{1,2,3,4,5,X}
+Attribute 167 nominal
+Value 0 of attribute 167: 1
+Value 1 of attribute 167: 2
+Value 2 of attribute 167: 3
+Value 3 of attribute 167: 4
+Value 4 of attribute 167: 5
+Value 5 of attribute 167: X
+Attribute 168:Name KCol_c5 Def:{B,G,R,W,X,Y}
+Attribute 168 nominal
+Value 0 of attribute 168: B
+Value 1 of attribute 168: G
+Value 2 of attribute 168: R
+Value 3 of attribute 168: W
+Value 4 of attribute 168: X
+Value 5 of attribute 168: Y
+Attribute 169:Name KRnk_c5 Def:{1,2,3,4,5,X}
+Attribute 169 nominal
+Value 0 of attribute 169: 1
+Value 1 of attribute 169: 2
+Value 2 of attribute 169: 3
+Value 3 of attribute 169: 4
+Value 4 of attribute 169: 5
+Value 5 of attribute 169: X
+Attribute 170:Name fw_R Def:NUMERIC
+Attribute 170 real valued
+Attribute 171:Name fw_Y Def:NUMERIC
+Attribute 171 real valued
+Attribute 172:Name fw_G Def:NUMERIC
+Attribute 172 real valued
+Attribute 173:Name fw_W Def:NUMERIC
+Attribute 173 real valued
+Attribute 174:Name fw_B Def:NUMERIC
+Attribute 174 real valued
+Attribute 175:Name ds_R1 Def:NUMERIC
+Attribute 175 real valued
+Attribute 176:Name ds_Y1 Def:NUMERIC
+Attribute 176 real valued
+Attribute 177:Name ds_G1 Def:NUMERIC
+Attribute 177 real valued
+Attribute 178:Name ds_W1 Def:NUMERIC
+Attribute 178 real valued
+Attribute 179:Name ds_B1 Def:NUMERIC
+Attribute 179 real valued
+Attribute 180:Name ds_R2 Def:NUMERIC
+Attribute 180 real valued
+Attribute 181:Name ds_Y2 Def:NUMERIC
+Attribute 181 real valued
+Attribute 182:Name ds_G2 Def:NUMERIC
+Attribute 182 real valued
+Attribute 183:Name ds_W2 Def:NUMERIC
+Attribute 183 real valued
+Attribute 184:Name ds_B2 Def:NUMERIC
+Attribute 184 real valued
+Attribute 185:Name ds_R3 Def:NUMERIC
+Attribute 185 real valued
+Attribute 186:Name ds_Y3 Def:NUMERIC
+Attribute 186 real valued
+Attribute 187:Name ds_G3 Def:NUMERIC
+Attribute 187 real valued
+Attribute 188:Name ds_W3 Def:NUMERIC
+Attribute 188 real valued
+Attribute 189:Name ds_B3 Def:NUMERIC
+Attribute 189 real valued
+Attribute 190:Name ds_R4 Def:NUMERIC
+Attribute 190 real valued
+Attribute 191:Name ds_Y4 Def:NUMERIC
+Attribute 191 real valued
+Attribute 192:Name ds_G4 Def:NUMERIC
+Attribute 192 real valued
+Attribute 193:Name ds_W4 Def:NUMERIC
+Attribute 193 real valued
+Attribute 194:Name ds_B4 Def:NUMERIC
+Attribute 194 real valued
+Attribute 195:Name ds_R5 Def:NUMERIC
+Attribute 195 real valued
+Attribute 196:Name ds_Y5 Def:NUMERIC
+Attribute 196 real valued
+Attribute 197:Name ds_G5 Def:NUMERIC
+Attribute 197 real valued
+Attribute 198:Name ds_W5 Def:NUMERIC
+Attribute 198 real valued
+Attribute 199:Name ds_B5 Def:NUMERIC
+Attribute 199 real valued
+Attribute 200:Name COLOR Def:{0,1}
+Attribute 200 nominal
+Value 0 of attribute 200: 0
+Value 1 of attribute 200: 1
+Attribute 201:Name RANK Def:{0,1}
+Attribute 201 nominal
+Value 0 of attribute 201: 0
+Value 1 of attribute 201: 1
+Attribute 202:Name DISCARD Def:{0,1}
+Attribute 202 nominal
+Value 0 of attribute 202: 0
+Value 1 of attribute 202: 1
+Attribute 203:Name PLAY Def:{0,1}
+Attribute 203 nominal
+Value 0 of attribute 203: 0
+Value 1 of attribute 203: 1
+Attribute 204:Name NONE Def:{0,1}
+Attribute 204 nominal
+Value 0 of attribute 204: 0
+Value 1 of attribute 204: 1
+Attribute 205:Name isCritical_c1 Def:{0,1}
+Attribute 205 nominal
+Value 0 of attribute 205: 0
+Value 1 of attribute 205: 1
+Attribute 206:Name isCritical_c2 Def:{0,1}
+Attribute 206 nominal
+Value 0 of attribute 206: 0
+Value 1 of attribute 206: 1
+Attribute 207:Name isCritical_c3 Def:{0,1}
+Attribute 207 nominal
+Value 0 of attribute 207: 0
+Value 1 of attribute 207: 1
+Attribute 208:Name isCritical_c4 Def:{0,1}
+Attribute 208 nominal
+Value 0 of attribute 208: 0
+Value 1 of attribute 208: 1
+Attribute 209:Name isCritical_c5 Def:{0,1}
+Attribute 209 nominal
+Value 0 of attribute 209: 0
+Value 1 of attribute 209: 1
+Attribute 210:Name wasTouched_c1 Def:{0,1}
+Attribute 210 nominal
+Value 0 of attribute 210: 0
+Value 1 of attribute 210: 1
+Attribute 211:Name wasTouched_c2 Def:{0,1}
+Attribute 211 nominal
+Value 0 of attribute 211: 0
+Value 1 of attribute 211: 1
+Attribute 212:Name wasTouched_c3 Def:{0,1}
+Attribute 212 nominal
+Value 0 of attribute 212: 0
+Value 1 of attribute 212: 1
+Attribute 213:Name wasTouched_c4 Def:{0,1}
+Attribute 213 nominal
+Value 0 of attribute 213: 0
+Value 1 of attribute 213: 1
+Attribute 214:Name wasTouched_c5 Def:{0,1}
+Attribute 214 nominal
+Value 0 of attribute 214: 0
+Value 1 of attribute 214: 1
+Attribute 215:Name life Def:NUMERIC
+Attribute 215 real valued
+Attribute 216:Name info Def:NUMERIC
+Attribute 216 real valued
+Attribute 217:Name KsfD_c1 Def:{0,1}
+Attribute 217 nominal
+Value 0 of attribute 217: 0
+Value 1 of attribute 217: 1
+Attribute 218:Name KsfD_c2 Def:{0,1}
+Attribute 218 nominal
+Value 0 of attribute 218: 0
+Value 1 of attribute 218: 1
+Attribute 219:Name KsfD_c3 Def:{0,1}
+Attribute 219 nominal
+Value 0 of attribute 219: 0
+Value 1 of attribute 219: 1
+Attribute 220:Name KsfD_c4 Def:{0,1}
+Attribute 220 nominal
+Value 0 of attribute 220: 0
+Value 1 of attribute 220: 1
+Attribute 221:Name KsfD_c5 Def:{0,1}
+Attribute 221 nominal
+Value 0 of attribute 221: 0
+Value 1 of attribute 221: 1
+Attribute 222:Name KsfP_c1 Def:{0,1}
+Attribute 222 nominal
+Value 0 of attribute 222: 0
+Value 1 of attribute 222: 1
+Attribute 223:Name KsfP_c2 Def:{0,1}
+Attribute 223 nominal
+Value 0 of attribute 223: 0
+Value 1 of attribute 223: 1
+Attribute 224:Name KsfP_c3 Def:{0,1}
+Attribute 224 nominal
+Value 0 of attribute 224: 0
+Value 1 of attribute 224: 1
+Attribute 225:Name KsfP_c4 Def:{0,1}
+Attribute 225 nominal
+Value 0 of attribute 225: 0
+Value 1 of attribute 225: 1
+Attribute 226:Name KsfP_c5 Def:{0,1}
+Attribute 226 nominal
+Value 0 of attribute 226: 0
+Value 1 of attribute 226: 1
+Attribute 227:Name KusfD_c1 Def:{0,1}
+Attribute 227 nominal
+Value 0 of attribute 227: 0
+Value 1 of attribute 227: 1
+Attribute 228:Name KusfD_c2 Def:{0,1}
+Attribute 228 nominal
+Value 0 of attribute 228: 0
+Value 1 of attribute 228: 1
+Attribute 229:Name KusfD_c3 Def:{0,1}
+Attribute 229 nominal
+Value 0 of attribute 229: 0
+Value 1 of attribute 229: 1
+Attribute 230:Name KusfD_c4 Def:{0,1}
+Attribute 230 nominal
+Value 0 of attribute 230: 0
+Value 1 of attribute 230: 1
+Attribute 231:Name KusfD_c5 Def:{0,1}
+Attribute 231 nominal
+Value 0 of attribute 231: 0
+Value 1 of attribute 231: 1
+Attribute 232:Name KusfP_c1 Def:{0,1}
+Attribute 232 nominal
+Value 0 of attribute 232: 0
+Value 1 of attribute 232: 1
+Attribute 233:Name KusfP_c2 Def:{0,1}
+Attribute 233 nominal
+Value 0 of attribute 233: 0
+Value 1 of attribute 233: 1
+Attribute 234:Name KusfP_c3 Def:{0,1}
+Attribute 234 nominal
+Value 0 of attribute 234: 0
+Value 1 of attribute 234: 1
+Attribute 235:Name KusfP_c4 Def:{0,1}
+Attribute 235 nominal
+Value 0 of attribute 235: 0
+Value 1 of attribute 235: 1
+Attribute 236:Name KusfP_c5 Def:{0,1}
+Attribute 236 nominal
+Value 0 of attribute 236: 0
+Value 1 of attribute 236: 1
+Attribute 237:Name sfD_c1 Def:{0,1}
+Attribute 237 nominal
+Value 0 of attribute 237: 0
+Value 1 of attribute 237: 1
+Attribute 238:Name sfD_c2 Def:{0,1}
+Attribute 238 nominal
+Value 0 of attribute 238: 0
+Value 1 of attribute 238: 1
+Attribute 239:Name sfD_c3 Def:{0,1}
+Attribute 239 nominal
+Value 0 of attribute 239: 0
+Value 1 of attribute 239: 1
+Attribute 240:Name sfD_c4 Def:{0,1}
+Attribute 240 nominal
+Value 0 of attribute 240: 0
+Value 1 of attribute 240: 1
+Attribute 241:Name sfD_c5 Def:{0,1}
+Attribute 241 nominal
+Value 0 of attribute 241: 0
+Value 1 of attribute 241: 1
+Attribute 242:Name sfP_c1 Def:{0,1}
+Attribute 242 nominal
+Value 0 of attribute 242: 0
+Value 1 of attribute 242: 1
+Attribute 243:Name sfP_c2 Def:{0,1}
+Attribute 243 nominal
+Value 0 of attribute 243: 0
+Value 1 of attribute 243: 1
+Attribute 244:Name sfP_c3 Def:{0,1}
+Attribute 244 nominal
+Value 0 of attribute 244: 0
+Value 1 of attribute 244: 1
+Attribute 245:Name sfP_c4 Def:{0,1}
+Attribute 245 nominal
+Value 0 of attribute 245: 0
+Value 1 of attribute 245: 1
+Attribute 246:Name sfP_c5 Def:{0,1}
+Attribute 246 nominal
+Value 0 of attribute 246: 0
+Value 1 of attribute 246: 1
+Attribute 247:Name usfD_c1 Def:{0,1}
+Attribute 247 nominal
+Value 0 of attribute 247: 0
+Value 1 of attribute 247: 1
+Attribute 248:Name usfD_c2 Def:{0,1}
+Attribute 248 nominal
+Value 0 of attribute 248: 0
+Value 1 of attribute 248: 1
+Attribute 249:Name usfD_c3 Def:{0,1}
+Attribute 249 nominal
+Value 0 of attribute 249: 0
+Value 1 of attribute 249: 1
+Attribute 250:Name usfD_c4 Def:{0,1}
+Attribute 250 nominal
+Value 0 of attribute 250: 0
+Value 1 of attribute 250: 1
+Attribute 251:Name usfD_c5 Def:{0,1}
+Attribute 251 nominal
+Value 0 of attribute 251: 0
+Value 1 of attribute 251: 1
+Attribute 252:Name usfP_c1 Def:{0,1}
+Attribute 252 nominal
+Value 0 of attribute 252: 0
+Value 1 of attribute 252: 1
+Attribute 253:Name usfP_c2 Def:{0,1}
+Attribute 253 nominal
+Value 0 of attribute 253: 0
+Value 1 of attribute 253: 1
+Attribute 254:Name usfP_c3 Def:{0,1}
+Attribute 254 nominal
+Value 0 of attribute 254: 0
+Value 1 of attribute 254: 1
+Attribute 255:Name usfP_c4 Def:{0,1}
+Attribute 255 nominal
+Value 0 of attribute 255: 0
+Value 1 of attribute 255: 1
+Attribute 256:Name usfP_c5 Def:{0,1}
+Attribute 256 nominal
+Value 0 of attribute 256: 0
+Value 1 of attribute 256: 1
+Attribute 257:Name class Def:{COLOR_B,COLOR_G,COLOR_R,COLOR_W,COLOR_Y,DISCARD_1,DISCARD_2,DISCARD_3,DISCARD_4,DISCARD_5,PLAY_1,PLAY_2,PLAY_3,PLAY_4,PLAY_5,RANK_1,RANK_2,RANK_3,RANK_4,RANK_5}
+Attribute 257 nominal
+Value 0 of attribute 257: COLOR_B
+Value 1 of attribute 257: COLOR_G
+Value 2 of attribute 257: COLOR_R
+Value 3 of attribute 257: COLOR_W
+Value 4 of attribute 257: COLOR_Y
+Value 5 of attribute 257: DISCARD_1
+Value 6 of attribute 257: DISCARD_2
+Value 7 of attribute 257: DISCARD_3
+Value 8 of attribute 257: DISCARD_4
+Value 9 of attribute 257: DISCARD_5
+Value 10 of attribute 257: PLAY_1
+Value 11 of attribute 257: PLAY_2
+Value 12 of attribute 257: PLAY_3
+Value 13 of attribute 257: PLAY_4
+Value 14 of attribute 257: PLAY_5
+Value 15 of attribute 257: RANK_1
+Value 16 of attribute 257: RANK_2
+Value 17 of attribute 257: RANK_3
+Value 18 of attribute 257: RANK_4
+Value 19 of attribute 257: RANK_5
+Least frequent class is 5
+Most frequent class is 14
+Coverage break for class 0 : 1.000000
+Coverage break for class 1 : 1.000000
+Coverage break for class 2 : 1.000000
+Coverage break for class 3 : 1.000000
+Coverage break for class 4 : 1.000000
+Coverage break for class 5 : 1.000000
+Coverage break for class 6 : 1.000000
+Coverage break for class 7 : 1.000000
+Coverage break for class 8 : 1.000000
+Coverage break for class 9 : 0.380821
+Coverage break for class 10 : 0.665231
+Coverage break for class 11 : 0.781366
+Coverage break for class 12 : 0.992814
+Coverage break for class 13 : 1.000000
+Coverage break for class 14 : 0.377671
+Coverage break for class 15 : 1.000000
+Coverage break for class 16 : 1.000000
+Coverage break for class 17 : 1.000000
+Coverage break for class 18 : 1.000000
+Coverage break for class 19 : 0.877926
+Probability of irrelevant attribute set to 0.941634
+Codigo cudaUsing 1.000000 of device memory 16908615680
+Set mem device 16908615680 memBlock 49152 threads 1024 Device 0
+All instances loaded to memory
+Initial population average accuracy1:0.009503 accuracy2:0.057721
+It 0,Best ac:0.131295 0.131295 fi:0.868705. Ave ac:0.016532,0.019764
+It 1,Best ac:0.131295 0.131295 fi:0.868705. Ave ac:0.027863,0.025998
+It 2,Best ac:0.129857 0.150152 fi:0.851617. Ave ac:0.042604,0.034919
+It 3,Best ac:0.129095 0.154676 fi:0.848031. Ave ac:0.054897,0.039064
+It 4,Best ac:0.122476 0.177927 fi:0.832922. Ave ac:0.065605,0.041613
+It 5,Best ac:0.122476 0.177927 fi:0.832922. Ave ac:0.074909,0.043836
+It 6,Best ac:0.128886 0.179633 fi:0.823331. Ave ac:0.079976,0.043910
+It 7,Best ac:0.128886 0.179633 fi:0.823331. Ave ac:0.083124,0.045657
+It 8,Best ac:0.128810 0.184207 fi:0.818851. Ave ac:0.081659,0.047611
+It 9,Best ac:0.121248 0.195865 fi:0.816495. Ave ac:0.081771,0.048075
+Iteration 10:MDL fitness activated
+Error 0.816495 TL 0.006485
+MDL Theory Length Weight: 41.9678361725 (1)
+It 10,Best ac:0.131295 0.131295 fi:0.868705. Ave ac:0.082305,0.046863
+It 11,Best ac:0.131295 0.131295 fi:0.868705. Ave ac:0.085466,0.047304
+It 12,Best ac:0.131295 0.131295 fi:0.868705. Ave ac:0.083606,0.048213
+It 13,Best ac:0.131295 0.131295 fi:0.868705. Ave ac:0.085822,0.047430
+It 14,Best ac:0.131295 0.131295 fi:0.868705. Ave ac:0.084605,0.048060
+It 15,Best ac:0.131295 0.131295 fi:0.868705. Ave ac:0.085307,0.048015
+It 16,Best ac:0.131295 0.131295 fi:0.868705. Ave ac:0.083494,0.046500
+It 17,Best ac:0.131295 0.131295 fi:0.868705. Ave ac:0.086814,0.047513
+It 18,Best ac:0.131295 0.131295 fi:0.868705. Ave ac:0.084102,0.047555
+It 19,Best ac:0.131295 0.131295 fi:0.868705. Ave ac:0.084377,0.046446
+MDL Theory Length Weight: 37.7710525552 (11)
+It 20,Best ac:0.131295 0.131295 fi:0.868705. Ave ac:0.088729,0.046857
+It 21,Best ac:0.131295 0.131295 fi:0.868705. Ave ac:0.087523,0.046745
+It 22,Best ac:0.131295 0.131295 fi:0.868705. Ave ac:0.089906,0.047039
+It 23,Best ac:0.131295 0.131295 fi:0.868705. Ave ac:0.090490,0.047341
+It 24,Best ac:0.131295 0.131295 fi:0.868705. Ave ac:0.089592,0.047008
+It 25,Best ac:0.131295 0.131295 fi:0.868705. Ave ac:0.088772,0.048286
+It 26,Best ac:0.131295 0.131295 fi:0.868705. Ave ac:0.089040,0.047049
+It 27,Best ac:0.131295 0.131295 fi:0.868705. Ave ac:0.090483,0.048918
+It 28,Best ac:0.131295 0.131295 fi:0.868705. Ave ac:0.099998,0.044137
+It 29,Best ac:0.131295 0.131295 fi:0.868705. Ave ac:0.100908,0.045280
+MDL Theory Length Weight: 33.9939472997 (21)
+It 30,Best ac:0.131295 0.131295 fi:0.868705. Ave ac:0.104829,0.044050
+It 31,Best ac:0.131295 0.131295 fi:0.868705. Ave ac:0.111202,0.039625
+It 32,Best ac:0.131295 0.131295 fi:0.868705. Ave ac:0.111650,0.039320
+It 33,Best ac:0.131295 0.131295 fi:0.868705. Ave ac:0.116120,0.034382
+It 34,Best ac:0.131295 0.131295 fi:0.868705. Ave ac:0.117195,0.033499
+It 35,Best ac:0.131295 0.131295 fi:0.868705. Ave ac:0.119587,0.030290
+It 36,Best ac:0.131295 0.131295 fi:0.868705. Ave ac:0.120438,0.030307
+It 37,Best ac:0.131295 0.131295 fi:0.868705. Ave ac:0.121624,0.029588
+It 38,Best ac:0.131295 0.131295 fi:0.868705. Ave ac:0.118906,0.031519
+It 39,Best ac:0.131295 0.131295 fi:0.868705. Ave ac:0.120341,0.029646
+MDL Theory Length Weight: 30.5945525698 (31)
+It 40,Best ac:0.131295 0.131295 fi:0.868705. Ave ac:0.121214,0.029573
+It 41,Best ac:0.131295 0.131295 fi:0.868705. Ave ac:0.119651,0.031997
+It 42,Best ac:0.131295 0.131295 fi:0.868705. Ave ac:0.118619,0.031925
+It 43,Best ac:0.131295 0.131295 fi:0.868705. Ave ac:0.120888,0.029427
+It 44,Best ac:0.131295 0.131295 fi:0.868705. Ave ac:0.120811,0.029733
+It 45,Best ac:0.131295 0.131295 fi:0.868705. Ave ac:0.118450,0.032260
+It 46,Best ac:0.131295 0.131295 fi:0.868705. Ave ac:0.118614,0.032464
+It 47,Best ac:0.131295 0.131295 fi:0.868705. Ave ac:0.117985,0.032742
+It 48,Best ac:0.131295 0.131295 fi:0.868705. Ave ac:0.120870,0.028518
+It 49,Best ac:0.131295 0.131295 fi:0.868705. Ave ac:0.118024,0.033316
+Best acc 0.131295 0.131295
+All instances loaded to memory
+Initial population average accuracy1:0.008534 accuracy2:0.055296
+It 0,Best ac:0.112543 0.148550 fi:0.874517. Ave ac:0.012697,0.017275
+It 1,Best ac:0.089267 0.198400 fi:0.853299. Ave ac:0.022158,0.023303
+It 2,Best ac:0.089267 0.198400 fi:0.853299. Ave ac:0.034782,0.028816
+It 3,Best ac:0.118743 0.191966 fi:0.823474. Ave ac:0.047822,0.036661
+It 4,Best ac:0.118743 0.191966 fi:0.823474. Ave ac:0.063193,0.042233
+It 5,Best ac:0.121448 0.192257 fi:0.819857. Ave ac:0.073531,0.043613
+It 6,Best ac:0.118133 0.199729 fi:0.816461. Ave ac:0.079312,0.043357
+It 7,Best ac:0.127924 0.189220 fi:0.814927. Ave ac:0.081588,0.043761
+It 8,Best ac:0.112533 0.212644 fi:0.810435. Ave ac:0.079714,0.045022
+It 9,Best ac:0.127248 0.197001 fi:0.807978. Ave ac:0.079602,0.046192
+Iteration 10:MDL fitness activated
+Error 0.807978 TL 0.008741
+MDL Theory Length Weight: 30.8117573507 (1)
+It 10,Best ac:0.123829 0.133165 fi:0.896001. Ave ac:0.077280,0.043681
+It 11,Best ac:0.131295 0.131295 fi:0.868705. Ave ac:0.078089,0.044181
+It 12,Best ac:0.131295 0.131295 fi:0.868705. Ave ac:0.078163,0.044768
+It 13,Best ac:0.131295 0.131295 fi:0.868705. Ave ac:0.080072,0.045734
+It 14,Best ac:0.131295 0.131295 fi:0.868705. Ave ac:0.080557,0.047230
+It 15,Best ac:0.131295 0.131295 fi:0.868705. Ave ac:0.084950,0.046530
+It 16,Best ac:0.131295 0.131295 fi:0.868705. Ave ac:0.089064,0.046726
+It 17,Best ac:0.131295 0.131295 fi:0.868705. Ave ac:0.087758,0.047435
+It 18,Best ac:0.131295 0.131295 fi:0.868705. Ave ac:0.090630,0.047920
+It 19,Best ac:0.131295 0.131295 fi:0.868705. Ave ac:0.094267,0.047165
+It 20,Best ac:0.131295 0.131295 fi:0.868705. Ave ac:0.097579,0.046589
+MDL Theory Length Weight: 27.7305816156 (10)
+It 21,Best ac:0.131295 0.131295 fi:0.868705. Ave ac:0.099188,0.046232
+It 22,Best ac:0.131295 0.131295 fi:0.868705. Ave ac:0.102441,0.044605
+It 23,Best ac:0.131295 0.131295 fi:0.868705. Ave ac:0.105107,0.043449
+It 24,Best ac:0.131295 0.131295 fi:0.868705. Ave ac:0.111111,0.039226
+It 25,Best ac:0.131295 0.131295 fi:0.868705. Ave ac:0.112175,0.038065
+It 26,Best ac:0.131295 0.131295 fi:0.868705. Ave ac:0.117939,0.032962
+It 27,Best ac:0.131295 0.131295 fi:0.868705. Ave ac:0.117918,0.033686
+It 28,Best ac:0.131295 0.131295 fi:0.868705. Ave ac:0.118775,0.031588
+It 29,Best ac:0.131295 0.131295 fi:0.868705. Ave ac:0.119007,0.031632
+It 30,Best ac:0.131295 0.131295 fi:0.868705. Ave ac:0.117813,0.033758
+MDL Theory Length Weight: 24.9575234541 (20)
+It 31,Best ac:0.131295 0.131295 fi:0.868705. Ave ac:0.120198,0.031311
+It 32,Best ac:0.131295 0.131295 fi:0.868705. Ave ac:0.119684,0.031123
+It 33,Best ac:0.131295 0.131295 fi:0.868705. Ave ac:0.120799,0.029410
+It 34,Best ac:0.131295 0.131295 fi:0.868705. Ave ac:0.119559,0.030739
+It 35,Best ac:0.131295 0.131295 fi:0.868705. Ave ac:0.116837,0.035129
+It 36,Best ac:0.131295 0.131295 fi:0.868705. Ave ac:0.120746,0.029875
+It 37,Best ac:0.131295 0.131295 fi:0.868705. Ave ac:0.120517,0.029806
+It 38,Best ac:0.131295 0.131295 fi:0.868705. Ave ac:0.120111,0.030371
+It 39,Best ac:0.131295 0.131295 fi:0.868705. Ave ac:0.117268,0.033363
+It 40,Best ac:0.131295 0.131295 fi:0.868705. Ave ac:0.119529,0.032816
+MDL Theory Length Weight: 22.4617711087 (30)
+It 41,Best ac:0.131295 0.131295 fi:0.868705. Ave ac:0.119290,0.030867
+It 42,Best ac:0.131295 0.131295 fi:0.868705. Ave ac:0.120636,0.029812
+It 43,Best ac:0.131295 0.131295 fi:0.868705. Ave ac:0.119791,0.030563
+It 44,Best ac:0.131295 0.131295 fi:0.868705. Ave ac:0.117867,0.034176
+It 45,Best ac:0.131295 0.131295 fi:0.868705. Ave ac:0.121676,0.029470
+It 46,Best ac:0.131295 0.131295 fi:0.868705. Ave ac:0.121224,0.029180
+It 47,Best ac:0.131295 0.131295 fi:0.868705. Ave ac:0.123287,0.026625
+It 48,Best ac:0.131295 0.131295 fi:0.868705. Ave ac:0.117882,0.032926
+It 49,Best ac:0.131295 0.131295 fi:0.868705. Ave ac:0.119775,0.030771
+Best acc 0.131295 0.131295
+All instances loaded to memory
+Initial population average accuracy1:0.008677 accuracy2:0.059020
+It 0,Best ac:0.128819 0.133539 fi:0.869507. Ave ac:0.015607,0.018873
+It 1,Best ac:0.118990 0.179948 fi:0.835187. Ave ac:0.025013,0.027154
+It 2,Best ac:0.118990 0.179948 fi:0.835187. Ave ac:0.037760,0.035089
+It 3,Best ac:0.116143 0.184034 fi:0.834605. Ave ac:0.053800,0.041358
+It 4,Best ac:0.116143 0.184034 fi:0.834605. Ave ac:0.066521,0.044443
+It 5,Best ac:0.127857 0.175962 fi:0.828267. Ave ac:0.077933,0.044932
+It 6,Best ac:0.129486 0.175745 fi:0.826481. Ave ac:0.079461,0.045579
+It 7,Best ac:0.129486 0.175745 fi:0.826481. Ave ac:0.078494,0.045505
+It 8,Best ac:0.121181 0.204031 fi:0.808410. Ave ac:0.079701,0.044554
+It 9,Best ac:0.121181 0.204031 fi:0.808410. Ave ac:0.076636,0.043962
+Iteration 10:MDL fitness activated
+Error 0.808410 TL 0.007782
+MDL Theory Length Weight: 34.6269030563 (2)
+It 10,Best ac:0.131143 0.153218 fi:0.914337. Ave ac:0.077090,0.045531
+It 11,Best ac:0.131295 0.131295 fi:0.868705. Ave ac:0.078567,0.046311
+It 12,Best ac:0.131295 0.131295 fi:0.868705. Ave ac:0.078634,0.047815
+It 13,Best ac:0.131295 0.131295 fi:0.868705. Ave ac:0.080618,0.046531
+It 14,Best ac:0.131295 0.131295 fi:0.868705. Ave ac:0.081675,0.047485
+It 15,Best ac:0.131295 0.131295 fi:0.868705. Ave ac:0.082764,0.048000
+It 16,Best ac:0.131295 0.131295 fi:0.868705. Ave ac:0.084363,0.046970
+It 17,Best ac:0.131295 0.131295 fi:0.868705. Ave ac:0.079543,0.049698
+It 18,Best ac:0.131295 0.131295 fi:0.868705. Ave ac:0.084261,0.049062
+It 19,Best ac:0.131295 0.131295 fi:0.868705. Ave ac:0.085376,0.047453
+It 20,Best ac:0.131295 0.131295 fi:0.868705. Ave ac:0.084588,0.049500
+MDL Theory Length Weight: 31.1642127507 (10)
+It 21,Best ac:0.131295 0.131295 fi:0.868705. Ave ac:0.082834,0.050403
+It 22,Best ac:0.131295 0.131295 fi:0.868705. Ave ac:0.083480,0.050252
+It 23,Best ac:0.131295 0.131295 fi:0.868705. Ave ac:0.084624,0.050233
+It 24,Best ac:0.131295 0.131295 fi:0.868705. Ave ac:0.087716,0.049082
+It 25,Best ac:0.131295 0.131295 fi:0.868705. Ave ac:0.086994,0.049929
+It 26,Best ac:0.131295 0.131295 fi:0.868705. Ave ac:0.086018,0.049563
+It 27,Best ac:0.131295 0.131295 fi:0.868705. Ave ac:0.086594,0.049301
+It 28,Best ac:0.131295 0.131295 fi:0.868705. Ave ac:0.086107,0.048645
+It 29,Best ac:0.131295 0.131295 fi:0.868705. Ave ac:0.084499,0.051523
+It 30,Best ac:0.131295 0.131295 fi:0.868705. Ave ac:0.087777,0.049164
+MDL Theory Length Weight: 28.0477914756 (20)
+It 31,Best ac:0.131295 0.131295 fi:0.868705. Ave ac:0.088279,0.049170
+It 32,Best ac:0.131295 0.131295 fi:0.868705. Ave ac:0.085268,0.050815
+It 33,Best ac:0.131295 0.131295 fi:0.868705. Ave ac:0.085707,0.049375
+It 34,Best ac:0.131295 0.131295 fi:0.868705. Ave ac:0.089722,0.049591
+It 35,Best ac:0.131295 0.131295 fi:0.868705. Ave ac:0.088931,0.049472
+It 36,Best ac:0.131295 0.131295 fi:0.868705. Ave ac:0.092112,0.048823
+It 37,Best ac:0.131295 0.131295 fi:0.868705. Ave ac:0.090018,0.048959
+It 38,Best ac:0.131295 0.131295 fi:0.868705. Ave ac:0.089747,0.048888
+It 39,Best ac:0.131295 0.131295 fi:0.868705. Ave ac:0.090291,0.047174
+It 40,Best ac:0.131295 0.131295 fi:0.868705. Ave ac:0.091993,0.048535
+MDL Theory Length Weight: 25.2430123280 (30)
+It 41,Best ac:0.131295 0.131295 fi:0.868705. Ave ac:0.092717,0.048278
+It 42,Best ac:0.131295 0.131295 fi:0.868705. Ave ac:0.100658,0.046227
+It 43,Best ac:0.131295 0.131295 fi:0.868705. Ave ac:0.102237,0.043477
+It 44,Best ac:0.131295 0.131295 fi:0.868705. Ave ac:0.108951,0.041016
+It 45,Best ac:0.131295 0.131295 fi:0.868705. Ave ac:0.112684,0.037082
+It 46,Best ac:0.131295 0.131295 fi:0.868705. Ave ac:0.115681,0.034980
+It 47,Best ac:0.131295 0.131295 fi:0.868705. Ave ac:0.116356,0.035577
+It 48,Best ac:0.131295 0.131295 fi:0.868705. Ave ac:0.115187,0.036211
+It 49,Best ac:0.131295 0.131295 fi:0.868705. Ave ac:0.116966,0.032627
+Best acc 0.131295 0.131295
+All instances loaded to memory
+Initial population average accuracy1:0.009562 accuracy2:0.056223
+It 0,Best ac:0.131295 0.131295 fi:0.868705. Ave ac:0.015931,0.018210
+It 1,Best ac:0.131295 0.131295 fi:0.868705. Ave ac:0.025326,0.024739
+It 2,Best ac:0.116076 0.161025 fi:0.857695. Ave ac:0.037497,0.030985
+It 3,Best ac:0.126914 0.171667 fi:0.833722. Ave ac:0.050145,0.037396
+It 4,Best ac:0.127886 0.175789 fi:0.828405. Ave ac:0.061684,0.041377
+It 5,Best ac:0.119781 0.196335 fi:0.817829. Ave ac:0.070851,0.044350
+It 6,Best ac:0.119781 0.196335 fi:0.817829. Ave ac:0.082403,0.044481
+It 7,Best ac:0.121019 0.203478 fi:0.809163. Ave ac:0.081727,0.048120
+It 8,Best ac:0.108581 0.234054 fi:0.793887. Ave ac:0.082348,0.047571
+It 9,Best ac:0.108581 0.234054 fi:0.793887. Ave ac:0.078501,0.048358
+Iteration 10:MDL fitness activated
+Error 0.793887 TL 0.013619
+MDL Theory Length Weight: 19.4313190887 (2)
+It 10,Best ac:0.131295 0.131295 fi:0.868705. Ave ac:0.079988,0.048552
+It 11,Best ac:0.131295 0.131295 fi:0.868705. Ave ac:0.080387,0.049748
+It 12,Best ac:0.131295 0.131295 fi:0.868705. Ave ac:0.086405,0.048080
+It 13,Best ac:0.131295 0.131295 fi:0.868705. Ave ac:0.083644,0.050073
+It 14,Best ac:0.131295 0.131295 fi:0.868705. Ave ac:0.088836,0.050289
+It 15,Best ac:0.131295 0.131295 fi:0.868705. Ave ac:0.085528,0.049952
+It 16,Best ac:0.131295 0.131295 fi:0.868705. Ave ac:0.086511,0.049322
+It 17,Best ac:0.131295 0.131295 fi:0.868705. Ave ac:0.092034,0.047618
+It 18,Best ac:0.131295 0.131295 fi:0.868705. Ave ac:0.093100,0.047812
+It 19,Best ac:0.131295 0.131295 fi:0.868705. Ave ac:0.089032,0.049304
+MDL Theory Length Weight: 17.4881871798 (12)
+It 20,Best ac:0.131295 0.131295 fi:0.868705. Ave ac:0.092661,0.048182
+It 21,Best ac:0.131295 0.131295 fi:0.868705. Ave ac:0.098451,0.047758
+It 22,Best ac:0.131295 0.131295 fi:0.868705. Ave ac:0.101866,0.045349
+It 23,Best ac:0.131295 0.131295 fi:0.868705. Ave ac:0.111204,0.038541
+It 24,Best ac:0.131295 0.131295 fi:0.868705. Ave ac:0.113580,0.036321
+It 25,Best ac:0.131295 0.131295 fi:0.868705. Ave ac:0.112551,0.038383
+It 26,Best ac:0.131295 0.131295 fi:0.868705. Ave ac:0.117884,0.032861
+It 27,Best ac:0.131295 0.131295 fi:0.868705. Ave ac:0.119146,0.030994
+It 28,Best ac:0.131295 0.131295 fi:0.868705. Ave ac:0.118621,0.032406
+It 29,Best ac:0.131295 0.131295 fi:0.868705. Ave ac:0.118181,0.031977
+MDL Theory Length Weight: 15.7393684618 (22)
+It 30,Best ac:0.131295 0.131295 fi:0.868705. Ave ac:0.119494,0.029980
+It 31,Best ac:0.130286 0.167178 fi:0.864685. Ave ac:0.119100,0.032169
+It 32,Best ac:0.130286 0.167178 fi:0.864685. Ave ac:0.118160,0.033126
+It 33,Best ac:0.130286 0.167178 fi:0.864685. Ave ac:0.116447,0.035800
+It 34,Best ac:0.130286 0.167178 fi:0.864685. Ave ac:0.118476,0.034192
+It 35,Best ac:0.130286 0.167178 fi:0.864685. Ave ac:0.113713,0.038981
+It 36,Best ac:0.130286 0.167178 fi:0.864685. Ave ac:0.115396,0.037218
+It 37,Best ac:0.130286 0.167178 fi:0.864685. Ave ac:0.112329,0.041446
+It 38,Best ac:0.130286 0.167178 fi:0.864685. Ave ac:0.106683,0.046824
+It 39,Best ac:0.130286 0.167178 fi:0.864685. Ave ac:0.102552,0.049518
+It 40,Best ac:0.130286 0.167178 fi:0.864685. Ave ac:0.097970,0.053387
+MDL Theory Length Weight: 14.1654316156 (10)
+It 41,Best ac:0.130286 0.167178 fi:0.861623. Ave ac:0.096538,0.052799
+It 42,Best ac:0.130286 0.167178 fi:0.861623. Ave ac:0.092340,0.055774
+It 43,Best ac:0.130286 0.167178 fi:0.861623. Ave ac:0.101547,0.051063
+It 44,Best ac:0.130286 0.167178 fi:0.861623. Ave ac:0.093928,0.055344
+It 45,Best ac:0.130286 0.167178 fi:0.861623. Ave ac:0.097924,0.054011
+It 46,Best ac:0.130286 0.167178 fi:0.861623. Ave ac:0.097220,0.053829
+It 47,Best ac:0.130286 0.167178 fi:0.861623. Ave ac:0.094185,0.055322
+It 48,Best ac:0.130286 0.167178 fi:0.861623. Ave ac:0.091787,0.055438
+It 49,Best ac:0.130286 0.167178 fi:0.861623. Ave ac:0.093608,0.054126
+Best acc 0.130286 0.167178
+Rule:Att wasTouched_c5 is 0|DISCARD_5
+Removed 81829 instances. 23171 Instances left. Acc of rule 0.130286-0.167178 
+Accuracy : 0.256448
+0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	
+0	0	0	0	0	0	0	0	0	2880	0	0	0	0	120	0	0	0	0	0	
+0	0	0	0	0	0	0	0	0	3461	0	0	0	0	133	0	0	0	0	0	
+0	0	0	0	0	0	0	0	0	3423	0	0	0	0	180	0	0	0	0	0	
+0	0	0	0	0	0	0	0	0	4085	0	0	0	0	187	0	0	0	0	0	
+0	0	0	0	0	0	0	0	0	3376	0	0	0	0	167	0	0	0	0	0	
+0	0	0	0	0	0	0	0	0	1501	0	0	0	0	617	0	0	0	0	0	
+0	0	0	0	0	0	0	0	0	1629	0	0	0	0	529	0	0	0	0	0	
+0	0	0	0	0	0	0	0	0	2179	0	0	0	0	1319	0	0	0	0	0	
+0	0	0	0	0	0	0	0	0	2494	0	0	0	0	1716	0	0	0	0	0	
+0	0	0	0	0	0	0	0	0	13680	0	0	0	0	106	0	0	0	0	0	
+0	0	0	0	0	0	0	0	0	6886	0	0	0	0	1006	0	0	0	0	0	
+0	0	0	0	0	0	0	0	0	5684	0	0	0	0	1035	0	0	0	0	0	
+0	0	0	0	0	0	0	0	0	4526	0	0	0	0	762	0	0	0	0	0	
+0	0	0	0	0	0	0	0	0	3815	0	0	0	0	590	0	0	0	0	0	
+0	0	0	0	0	0	0	0	0	654	0	0	0	0	13247	0	0	0	0	0	
+0	0	0	0	0	0	0	0	0	3146	0	0	0	0	658	0	0	0	0	0	
+0	0	0	0	0	0	0	0	0	3984	0	0	0	0	185	0	0	0	0	0	
+0	0	0	0	0	0	0	0	0	4301	0	0	0	0	155	0	0	0	0	0	
+0	0	0	0	0	0	0	0	0	4381	0	0	0	0	223	0	0	0	0	0	
+0	0	0	0	0	0	0	0	0	5744	0	0	0	0	236	0	0	0	0	0	
+All instances loaded to memory
+Initial population average accuracy1:0.004371 accuracy2:0.032220
+It 0,Best ac:0.001511 0.275591 fi:0.944070. Ave ac:0.006754,0.009673
+It 1,Best ac:0.001597 0.316239 fi:0.858830. Ave ac:0.009281,0.011972
+It 2,Best ac:0.002762 0.242424 fi:0.821568. Ave ac:0.011560,0.014013
+It 3,Best ac:0.003021 0.269231 fi:0.785620. Ave ac:0.012627,0.015141
+It 4,Best ac:0.003755 0.253644 fi:0.775305. Ave ac:0.012835,0.015802
+It 5,Best ac:0.002546 0.299492 fi:0.772118. Ave ac:0.011563,0.015683
+It 6,Best ac:0.003453 0.279720 fi:0.759894. Ave ac:0.009136,0.014955
+It 7,Best ac:0.003453 0.280702 fi:0.758912. Ave ac:0.005682,0.011925
+It 8,Best ac:0.001769 0.347458 fi:0.751578. Ave ac:0.003389,0.007187
+It 9,Best ac:0.003453 0.297398 fi:0.742216. Ave ac:0.002374,0.003146
+Iteration 10:MDL fitness activated
+Error 0.742216 TL 0.006072
+MDL Theory Length Weight: 40.7482775763 (1)
+It 10,Best ac:0.003755 0.253644 fi:0.854581. Ave ac:0.002217,0.001725
+It 11,Best ac:0.003755 0.253644 fi:0.854581. Ave ac:0.002271,0.001428
+It 12,Best ac:0.003755 0.253644 fi:0.854581. Ave ac:0.002416,0.001845
+It 13,Best ac:0.003755 0.253644 fi:0.854581. Ave ac:0.002339,0.001505
+It 14,Best ac:0.003755 0.253644 fi:0.854581. Ave ac:0.002324,0.001509
+It 15,Best ac:0.003755 0.253644 fi:0.854581. Ave ac:0.002425,0.001497
+It 16,Best ac:0.003755 0.253644 fi:0.854581. Ave ac:0.002458,0.001519
+It 17,Best ac:0.003755 0.253644 fi:0.854581. Ave ac:0.002654,0.001872
+It 18,Best ac:0.003755 0.253644 fi:0.854581. Ave ac:0.002578,0.001861
+It 19,Best ac:0.003755 0.253644 fi:0.854581. Ave ac:0.002517,0.001835
+MDL Theory Length Weight: 36.6734498187 (11)
+It 20,Best ac:0.003755 0.253644 fi:0.846654. Ave ac:0.002525,0.003096
+It 21,Best ac:0.003755 0.253644 fi:0.846654. Ave ac:0.002713,0.002740
+It 22,Best ac:0.003755 0.253644 fi:0.846654. Ave ac:0.002428,0.001498
+It 23,Best ac:0.003755 0.253644 fi:0.846654. Ave ac:0.002386,0.001593
+It 24,Best ac:0.003755 0.253644 fi:0.846654. Ave ac:0.002495,0.001746
+It 25,Best ac:0.003712 0.259036 fi:0.844516. Ave ac:0.002697,0.002260
+It 26,Best ac:0.003712 0.259036 fi:0.844516. Ave ac:0.002514,0.001515
+It 27,Best ac:0.003712 0.259036 fi:0.844516. Ave ac:0.002466,0.001490
+It 28,Best ac:0.003712 0.259036 fi:0.844516. Ave ac:0.002526,0.001521
+It 29,Best ac:0.003712 0.259036 fi:0.844516. Ave ac:0.002455,0.001540
+It 30,Best ac:0.003712 0.259036 fi:0.844516. Ave ac:0.002463,0.001537
+It 31,Best ac:0.003712 0.259036 fi:0.844516. Ave ac:0.002539,0.001547
+It 32,Best ac:0.003712 0.259036 fi:0.844516. Ave ac:0.002640,0.002026
+It 33,Best ac:0.003712 0.259036 fi:0.844516. Ave ac:0.002573,0.002865
+It 34,Best ac:0.003712 0.259036 fi:0.844355. Ave ac:0.002753,0.003511
+It 35,Best ac:0.003712 0.259036 fi:0.843730. Ave ac:0.002796,0.002327
+It 36,Best ac:0.003712 0.259036 fi:0.843730. Ave ac:0.002760,0.003530
+It 37,Best ac:0.003712 0.259036 fi:0.843730. Ave ac:0.002506,0.001547
+It 38,Best ac:0.003712 0.259036 fi:0.842966. Ave ac:0.002654,0.001525
+It 39,Best ac:0.003712 0.259036 fi:0.842966. Ave ac:0.002541,0.001540
+It 40,Best ac:0.003712 0.259036 fi:0.842966. Ave ac:0.002605,0.001907
+It 41,Best ac:0.003712 0.259036 fi:0.842966. Ave ac:0.002503,0.001547
+It 42,Best ac:0.003712 0.259036 fi:0.842966. Ave ac:0.002643,0.001554
+It 43,Best ac:0.003712 0.259036 fi:0.842966. Ave ac:0.002607,0.001533
+It 44,Best ac:0.003712 0.259036 fi:0.842966. Ave ac:0.002611,0.001513
+It 45,Best ac:0.003712 0.259036 fi:0.842966. Ave ac:0.002777,0.002019
+It 46,Best ac:0.003712 0.259036 fi:0.842966. Ave ac:0.002687,0.003524
+It 47,Best ac:0.003712 0.259036 fi:0.842966. Ave ac:0.002651,0.001544
+MDL Theory Length Weight: 33.0061048368 (10)
+It 48,Best ac:0.003712 0.259036 fi:0.835813. Ave ac:0.002711,0.001519
+It 49,Best ac:0.003712 0.259036 fi:0.835813. Ave ac:0.002687,0.001561
+Best acc 0.003712 0.259036
+All instances loaded to memory
+Initial population average accuracy1:0.004527 accuracy2:0.037669
+It 0,Best ac:0.071425 0.074399 fi:0.961149. Ave ac:0.007018,0.009634
+It 1,Best ac:0.070778 0.096442 fi:0.947847. Ave ac:0.010810,0.012495
+It 2,Best ac:0.074058 0.074058 fi:0.925942. Ave ac:0.014735,0.014375
+It 3,Best ac:0.074058 0.074058 fi:0.925942. Ave ac:0.016434,0.015959
+It 4,Best ac:0.074058 0.074058 fi:0.925942. Ave ac:0.019423,0.018072
+It 5,Best ac:0.074058 0.074058 fi:0.925942. Ave ac:0.025247,0.020933
+It 6,Best ac:0.072548 0.096112 fi:0.924284. Ave ac:0.030681,0.023036
+It 7,Best ac:0.072979 0.096408 fi:0.918161. Ave ac:0.036161,0.025685
+It 8,Best ac:0.072979 0.096408 fi:0.918161. Ave ac:0.040445,0.027679
+It 9,Best ac:0.072979 0.096408 fi:0.918161. Ave ac:0.045194,0.027642
+Iteration 10:MDL fitness activated
+Error 0.918161 TL 0.001946
+MDL Theory Length Weight: 157.3115083827 (3)
+It 10,Best ac:0.074058 0.074058 fi:0.925942. Ave ac:0.047558,0.027287
+It 11,Best ac:0.074058 0.074058 fi:0.925942. Ave ac:0.046292,0.027751
+It 12,Best ac:0.035087 0.440173 fi:0.923188. Ave ac:0.044109,0.028480
+It 13,Best ac:0.035087 0.440173 fi:0.923188. Ave ac:0.043815,0.028978
+It 14,Best ac:0.035087 0.440173 fi:0.923188. Ave ac:0.044194,0.029102
+It 15,Best ac:0.035087 0.440173 fi:0.923188. Ave ac:0.045396,0.028218
+It 16,Best ac:0.035087 0.440173 fi:0.923188. Ave ac:0.042406,0.028784
+It 17,Best ac:0.035087 0.440173 fi:0.923188. Ave ac:0.044279,0.027967
+It 18,Best ac:0.035087 0.440173 fi:0.923188. Ave ac:0.044871,0.028527
+It 19,Best ac:0.035087 0.440173 fi:0.923188. Ave ac:0.043713,0.028651
+It 20,Best ac:0.035087 0.440173 fi:0.923188. Ave ac:0.041764,0.028956
+It 21,Best ac:0.035087 0.440173 fi:0.923188. Ave ac:0.043646,0.028609
+MDL Theory Length Weight: 141.5803575444 (10)
+It 22,Best ac:0.035087 0.440173 fi:0.892583. Ave ac:0.044213,0.028989
+It 23,Best ac:0.035087 0.440173 fi:0.892583. Ave ac:0.045308,0.028109
+It 24,Best ac:0.035087 0.440173 fi:0.892583. Ave ac:0.044249,0.028203
+It 25,Best ac:0.035087 0.440173 fi:0.892583. Ave ac:0.041611,0.028843
+It 26,Best ac:0.035087 0.440173 fi:0.892583. Ave ac:0.041517,0.028092
+It 27,Best ac:0.035087 0.440173 fi:0.892583. Ave ac:0.039363,0.029005
+It 28,Best ac:0.035087 0.440173 fi:0.892583. Ave ac:0.043068,0.028129
+It 29,Best ac:0.035087 0.440173 fi:0.892583. Ave ac:0.046038,0.028655
+It 30,Best ac:0.035087 0.440173 fi:0.892583. Ave ac:0.049946,0.028177
+It 31,Best ac:0.035087 0.440173 fi:0.892583. Ave ac:0.050964,0.028152
+MDL Theory Length Weight: 127.4223217900 (20)
+It 32,Best ac:0.035087 0.440173 fi:0.865038. Ave ac:0.050764,0.028447
+It 33,Best ac:0.035087 0.440173 fi:0.865038. Ave ac:0.054813,0.027084
+It 34,Best ac:0.035087 0.440173 fi:0.865038. Ave ac:0.055484,0.026302
+It 35,Best ac:0.035087 0.440173 fi:0.865038. Ave ac:0.053435,0.027396
+It 36,Best ac:0.035087 0.440173 fi:0.865038. Ave ac:0.054166,0.026891
+It 37,Best ac:0.035087 0.440173 fi:0.865038. Ave ac:0.053270,0.027307
+It 38,Best ac:0.035087 0.440173 fi:0.865038. Ave ac:0.051716,0.027721
+It 39,Best ac:0.035087 0.440173 fi:0.865038. Ave ac:0.050722,0.028267
+It 40,Best ac:0.035087 0.440173 fi:0.865038. Ave ac:0.048530,0.028705
+It 41,Best ac:0.035087 0.440173 fi:0.865038. Ave ac:0.048161,0.028246
+MDL Theory Length Weight: 114.6800896110 (30)
+It 42,Best ac:0.035087 0.440173 fi:0.840248. Ave ac:0.046595,0.027576
+It 43,Best ac:0.035087 0.440173 fi:0.840248. Ave ac:0.044498,0.028692
+It 44,Best ac:0.035087 0.440173 fi:0.840248. Ave ac:0.047960,0.027968
+It 45,Best ac:0.035087 0.440173 fi:0.840248. Ave ac:0.045877,0.028515
+It 46,Best ac:0.035087 0.440173 fi:0.840248. Ave ac:0.047268,0.028316
+It 47,Best ac:0.035087 0.440173 fi:0.840248. Ave ac:0.042988,0.028108
+It 48,Best ac:0.035087 0.440173 fi:0.840248. Ave ac:0.042277,0.028808
+It 49,Best ac:0.035087 0.440173 fi:0.840248. Ave ac:0.043291,0.028220
+Best acc 0.035087 0.440173
+Rule:Att sfP_c1 is 1|PLAY_1
+Removed 1847 instances. 21324 Instances left. Acc of rule 0.035087-0.440173 
+Accuracy : 0.258524
+0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	
+0	0	0	0	0	0	0	0	0	2880	5	0	0	0	115	0	0	0	0	0	
+0	0	0	0	0	0	0	0	0	3461	8	0	0	0	125	0	0	0	0	0	
+0	0	0	0	0	0	0	0	0	3423	8	0	0	0	172	0	0	0	0	0	
+0	0	0	0	0	0	0	0	0	4085	3	0	0	0	184	0	0	0	0	0	
+0	0	0	0	0	0	0	0	0	3376	7	0	0	0	160	0	0	0	0	0	
+0	0	0	0	0	0	0	0	0	1501	0	0	0	0	617	0	0	0	0	0	
+0	0	0	0	0	0	0	0	0	1629	18	0	0	0	511	0	0	0	0	0	
+0	0	0	0	0	0	0	0	0	2179	56	0	0	0	1263	0	0	0	0	0	
+0	0	0	0	0	0	0	0	0	2494	42	0	0	0	1674	0	0	0	0	0	
+0	0	0	0	0	0	0	0	0	13680	14	0	0	0	92	0	0	0	0	0	
+0	0	0	0	0	0	0	0	0	6886	813	0	0	0	193	0	0	0	0	0	
+0	0	0	0	0	0	0	0	0	5684	126	0	0	0	909	0	0	0	0	0	
+0	0	0	0	0	0	0	0	0	4526	67	0	0	0	695	0	0	0	0	0	
+0	0	0	0	0	0	0	0	0	3815	39	0	0	0	551	0	0	0	0	0	
+0	0	0	0	0	0	0	0	0	654	595	0	0	0	12652	0	0	0	0	0	
+0	0	0	0	0	0	0	0	0	3146	23	0	0	0	635	0	0	0	0	0	
+0	0	0	0	0	0	0	0	0	3984	7	0	0	0	178	0	0	0	0	0	
+0	0	0	0	0	0	0	0	0	4301	2	0	0	0	153	0	0	0	0	0	
+0	0	0	0	0	0	0	0	0	4381	5	0	0	0	218	0	0	0	0	0	
+0	0	0	0	0	0	0	0	0	5744	9	0	0	0	227	0	0	0	0	0	
+All instances loaded to memory
+Initial population average accuracy1:0.004618 accuracy2:0.036262
+It 0,Best ac:0.075455 0.079199 fi:0.959630. Ave ac:0.007650,0.011202
+It 1,Best ac:0.076674 0.078162 fi:0.945135. Ave ac:0.010306,0.013941
+It 2,Best ac:0.078503 0.078503 fi:0.921497. Ave ac:0.012155,0.015939
+It 3,Best ac:0.078503 0.078503 fi:0.921497. Ave ac:0.014712,0.018758
+It 4,Best ac:0.078503 0.078503 fi:0.921497. Ave ac:0.017656,0.021345
+It 5,Best ac:0.028606 0.598626 fi:0.628420. Ave ac:0.023748,0.024247
+It 6,Best ac:0.033155 0.618007 fi:0.486126. Ave ac:0.029474,0.025374
+It 7,Best ac:0.034234 0.615514 fi:0.474554. Ave ac:0.035302,0.026595
+It 8,Best ac:0.034234 0.615514 fi:0.474554. Ave ac:0.038822,0.027352
+It 9,Best ac:0.034234 0.615514 fi:0.474554. Ave ac:0.035390,0.026250
+Iteration 10:MDL fitness activated
+Error 0.474554 TL 0.001946
+MDL Theory Length Weight: 81.3069138313 (3)
+It 10,Best ac:0.034234 0.615514 fi:0.632739. Ave ac:0.033060,0.025169
+It 11,Best ac:0.034234 0.615514 fi:0.632739. Ave ac:0.030000,0.023511
+It 12,Best ac:0.034234 0.615514 fi:0.632739. Ave ac:0.028335,0.022535
+It 13,Best ac:0.034234 0.615514 fi:0.632739. Ave ac:0.026663,0.021342
+It 14,Best ac:0.034234 0.615514 fi:0.632739. Ave ac:0.027048,0.019632
+It 15,Best ac:0.034234 0.615514 fi:0.632739. Ave ac:0.025913,0.016966
+It 16,Best ac:0.034234 0.615514 fi:0.632739. Ave ac:0.025632,0.015428
+It 17,Best ac:0.034234 0.615514 fi:0.632739. Ave ac:0.024189,0.014898
+It 18,Best ac:0.034234 0.615514 fi:0.632739. Ave ac:0.023721,0.014284
+It 19,Best ac:0.034234 0.615514 fi:0.632739. Ave ac:0.022937,0.015101
+MDL Theory Length Weight: 73.1762224481 (13)
+It 20,Best ac:0.034234 0.615514 fi:0.616920. Ave ac:0.024925,0.014235
+It 21,Best ac:0.034234 0.615514 fi:0.616920. Ave ac:0.023965,0.014717
+It 22,Best ac:0.034234 0.615514 fi:0.616920. Ave ac:0.023092,0.014844
+It 23,Best ac:0.034234 0.615514 fi:0.616920. Ave ac:0.022805,0.014536
+It 24,Best ac:0.034234 0.615514 fi:0.616920. Ave ac:0.025176,0.014593
+It 25,Best ac:0.034234 0.615514 fi:0.616920. Ave ac:0.025309,0.014154
+It 26,Best ac:0.034234 0.615514 fi:0.616920. Ave ac:0.024485,0.014617
+It 27,Best ac:0.034234 0.615514 fi:0.616920. Ave ac:0.024476,0.014875
+It 28,Best ac:0.034234 0.615514 fi:0.616920. Ave ac:0.024249,0.014363
+It 29,Best ac:0.034234 0.615514 fi:0.616920. Ave ac:0.024198,0.015061
+MDL Theory Length Weight: 65.8586002033 (23)
+It 30,Best ac:0.034234 0.615514 fi:0.602684. Ave ac:0.023707,0.015033
+It 31,Best ac:0.034234 0.615514 fi:0.602684. Ave ac:0.024566,0.014806
+It 32,Best ac:0.034234 0.615514 fi:0.602684. Ave ac:0.024079,0.014798
+It 33,Best ac:0.034234 0.615514 fi:0.602684. Ave ac:0.024220,0.014925
+It 34,Best ac:0.034234 0.615514 fi:0.602684. Ave ac:0.025018,0.015139
+It 35,Best ac:0.034234 0.615514 fi:0.602684. Ave ac:0.024937,0.015139
+It 36,Best ac:0.034234 0.615514 fi:0.602684. Ave ac:0.024066,0.015526
+It 37,Best ac:0.034234 0.615514 fi:0.602684. Ave ac:0.025193,0.014972
+It 38,Best ac:0.034234 0.615514 fi:0.602684. Ave ac:0.023815,0.015790
+It 39,Best ac:0.034234 0.615514 fi:0.602684. Ave ac:0.025517,0.015538
+MDL Theory Length Weight: 59.2727401830 (33)
+It 40,Best ac:0.034234 0.615514 fi:0.589871. Ave ac:0.025072,0.015525
+It 41,Best ac:0.034234 0.615514 fi:0.589871. Ave ac:0.023907,0.016229
+It 42,Best ac:0.034234 0.615514 fi:0.589871. Ave ac:0.025560,0.016151
+It 43,Best ac:0.034234 0.615514 fi:0.589871. Ave ac:0.024019,0.015850
+It 44,Best ac:0.034234 0.615514 fi:0.589871. Ave ac:0.025623,0.015022
+It 45,Best ac:0.034234 0.615514 fi:0.589871. Ave ac:0.024085,0.016146
+It 46,Best ac:0.034234 0.615514 fi:0.589871. Ave ac:0.024473,0.016283
+It 47,Best ac:0.034234 0.615514 fi:0.589871. Ave ac:0.024995,0.015884
+It 48,Best ac:0.034234 0.615514 fi:0.589871. Ave ac:0.025420,0.015572
+It 49,Best ac:0.034234 0.615514 fi:0.589871. Ave ac:0.024471,0.015910
+Best acc 0.034234 0.615514
+All instances loaded to memory
+Initial population average accuracy1:0.004535 accuracy2:0.036990
+It 0,Best ac:0.078503 0.078503 fi:0.921497. Ave ac:0.007557,0.011811
+It 1,Best ac:0.078503 0.078503 fi:0.921497. Ave ac:0.011576,0.015176
+It 2,Best ac:0.078503 0.078503 fi:0.921497. Ave ac:0.014299,0.017131
+It 3,Best ac:0.015710 0.711253 fi:0.864256. Ave ac:0.016253,0.019596
+It 4,Best ac:0.015710 0.711253 fi:0.864256. Ave ac:0.020442,0.021911
+It 5,Best ac:0.015710 0.711253 fi:0.864256. Ave ac:0.023364,0.023354
+It 6,Best ac:0.034234 0.615514 fi:0.474554. Ave ac:0.025923,0.025380
+It 7,Best ac:0.034234 0.615514 fi:0.474554. Ave ac:0.030394,0.026721
+It 8,Best ac:0.034234 0.615514 fi:0.474554. Ave ac:0.033050,0.028109
+It 9,Best ac:0.034234 0.616034 fi:0.474035. Ave ac:0.029514,0.026763
+Iteration 10:MDL fitness activated
+Error 0.474035 TL 0.003891
+MDL Theory Length Weight: 40.6089598175 (1)
+It 10,Best ac:0.034234 0.615514 fi:0.553560. Ave ac:0.024982,0.023436
+It 11,Best ac:0.034234 0.615514 fi:0.553560. Ave ac:0.023547,0.020363
+It 12,Best ac:0.034234 0.615514 fi:0.553560. Ave ac:0.020984,0.016393
+It 13,Best ac:0.034234 0.615514 fi:0.553560. Ave ac:0.021102,0.014034
+It 14,Best ac:0.034234 0.615514 fi:0.553560. Ave ac:0.022167,0.013544
+It 15,Best ac:0.034234 0.615514 fi:0.553560. Ave ac:0.021775,0.013975
+It 16,Best ac:0.034234 0.615514 fi:0.553560. Ave ac:0.022490,0.014130
+It 17,Best ac:0.034234 0.615514 fi:0.553560. Ave ac:0.023610,0.013500
+It 18,Best ac:0.034234 0.615514 fi:0.553560. Ave ac:0.022375,0.013943
+It 19,Best ac:0.034234 0.615514 fi:0.553560. Ave ac:0.022711,0.013804
+MDL Theory Length Weight: 36.5480638358 (11)
+It 20,Best ac:0.034234 0.615514 fi:0.545659. Ave ac:0.022432,0.013835
+It 21,Best ac:0.034234 0.615514 fi:0.545659. Ave ac:0.022861,0.013951
+It 22,Best ac:0.034234 0.615514 fi:0.545659. Ave ac:0.022898,0.013688
+It 23,Best ac:0.034234 0.615514 fi:0.545659. Ave ac:0.022266,0.014208
+It 24,Best ac:0.034234 0.615514 fi:0.545659. Ave ac:0.022115,0.014193
+It 25,Best ac:0.034234 0.615514 fi:0.545659. Ave ac:0.023089,0.013936
+It 26,Best ac:0.034234 0.615514 fi:0.545659. Ave ac:0.022791,0.014039
+It 27,Best ac:0.034234 0.615514 fi:0.545659. Ave ac:0.022768,0.014203
+It 28,Best ac:0.034234 0.615514 fi:0.545659. Ave ac:0.021603,0.014288
+It 29,Best ac:0.034234 0.615514 fi:0.545659. Ave ac:0.021684,0.014451
+MDL Theory Length Weight: 32.8932574522 (21)
+It 30,Best ac:0.034234 0.615514 fi:0.538549. Ave ac:0.023396,0.013886
+It 31,Best ac:0.034234 0.615514 fi:0.538549. Ave ac:0.023479,0.013972
+It 32,Best ac:0.034234 0.615514 fi:0.538549. Ave ac:0.023356,0.013638
+It 33,Best ac:0.034234 0.615514 fi:0.538549. Ave ac:0.021808,0.014179
+It 34,Best ac:0.034234 0.615514 fi:0.538549. Ave ac:0.022153,0.014016
+It 35,Best ac:0.034234 0.615514 fi:0.538549. Ave ac:0.022942,0.013779
+It 36,Best ac:0.034234 0.615514 fi:0.538549. Ave ac:0.022440,0.013979
+It 37,Best ac:0.034234 0.615514 fi:0.538549. Ave ac:0.022294,0.014359
+It 38,Best ac:0.034234 0.615514 fi:0.538549. Ave ac:0.022322,0.014024
+It 39,Best ac:0.034234 0.615514 fi:0.538549. Ave ac:0.021839,0.014265
+MDL Theory Length Weight: 29.6039317070 (31)
+It 40,Best ac:0.034234 0.615514 fi:0.532149. Ave ac:0.022287,0.014129
+It 41,Best ac:0.034234 0.615514 fi:0.532149. Ave ac:0.022053,0.013820
+It 42,Best ac:0.034234 0.615514 fi:0.532149. Ave ac:0.022487,0.013767
+It 43,Best ac:0.034234 0.615514 fi:0.532149. Ave ac:0.022831,0.013828
+It 44,Best ac:0.034234 0.615514 fi:0.532149. Ave ac:0.022502,0.013898
+It 45,Best ac:0.034234 0.615514 fi:0.532149. Ave ac:0.022144,0.014062
+It 46,Best ac:0.034234 0.615514 fi:0.532149. Ave ac:0.022277,0.013911
+It 47,Best ac:0.034234 0.615514 fi:0.532149. Ave ac:0.022672,0.014167
+It 48,Best ac:0.034234 0.615514 fi:0.532149. Ave ac:0.021666,0.014349
+It 49,Best ac:0.034234 0.615514 fi:0.532149. Ave ac:0.022248,0.013359
+Best acc 0.034234 0.615514
+Rule:Att sfP_c2 is 1|PLAY_2
+Removed 1186 instances. 20138 Instances left. Acc of rule 0.034234-0.615514 
+Accuracy : 0.261924
+0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	
+0	0	0	0	0	0	0	0	0	2880	5	2	0	0	113	0	0	0	0	0	
+0	0	0	0	0	0	0	0	0	3461	8	5	0	0	120	0	0	0	0	0	
+0	0	0	0	0	0	0	0	0	3423	8	2	0	0	170	0	0	0	0	0	
+0	0	0	0	0	0	0	0	0	4085	3	1	0	0	183	0	0	0	0	0	
+0	0	0	0	0	0	0	0	0	3376	7	5	0	0	155	0	0	0	0	0	
+0	0	0	0	0	0	0	0	0	1501	0	1	0	0	616	0	0	0	0	0	
+0	0	0	0	0	0	0	0	0	1629	18	0	0	0	511	0	0	0	0	0	
+0	0	0	0	0	0	0	0	0	2179	56	10	0	0	1253	0	0	0	0	0	
+0	0	0	0	0	0	0	0	0	2494	42	11	0	0	1663	0	0	0	0	0	
+0	0	0	0	0	0	0	0	0	13680	14	4	0	0	88	0	0	0	0	0	
+0	0	0	0	0	0	0	0	0	6886	813	4	0	0	189	0	0	0	0	0	
+0	0	0	0	0	0	0	0	0	5684	126	730	0	0	179	0	0	0	0	0	
+0	0	0	0	0	0	0	0	0	4526	67	11	0	0	684	0	0	0	0	0	
+0	0	0	0	0	0	0	0	0	3815	39	5	0	0	546	0	0	0	0	0	
+0	0	0	0	0	0	0	0	0	654	595	373	0	0	12279	0	0	0	0	0	
+0	0	0	0	0	0	0	0	0	3146	23	12	0	0	623	0	0	0	0	0	
+0	0	0	0	0	0	0	0	0	3984	7	1	0	0	177	0	0	0	0	0	
+0	0	0	0	0	0	0	0	0	4301	2	4	0	0	149	0	0	0	0	0	
+0	0	0	0	0	0	0	0	0	4381	5	1	0	0	217	0	0	0	0	0	
+0	0	0	0	0	0	0	0	0	5744	9	4	0	0	223	0	0	0	0	0	
+All instances loaded to memory
+Initial population average accuracy1:0.004306 accuracy2:0.035819
+It 0,Best ac:0.001688 0.253731 fi:0.845374. Ave ac:0.006703,0.009024
+It 1,Best ac:0.001688 0.253731 fi:0.845374. Ave ac:0.008777,0.011523
+It 2,Best ac:0.001688 0.272000 fi:0.827105. Ave ac:0.010329,0.013377
+It 3,Best ac:0.001887 0.290076 fi:0.801687. Ave ac:0.011610,0.015916
+It 4,Best ac:0.002284 0.308725 fi:0.768357. Ave ac:0.013229,0.017866
+It 5,Best ac:0.002284 0.308725 fi:0.768357. Ave ac:0.013104,0.017877
+It 6,Best ac:0.003675 0.271062 fi:0.754632. Ave ac:0.012952,0.019314
+It 7,Best ac:0.003675 0.271062 fi:0.754632. Ave ac:0.010013,0.018741
+It 8,Best ac:0.003675 0.271062 fi:0.754632. Ave ac:0.007263,0.016188
+It 9,Best ac:0.002880 0.320442 fi:0.734616. Ave ac:0.003621,0.009341
+Iteration 10:MDL fitness activated
+Error 0.734616 TL 0.003891
+MDL Theory Length Weight: 62.9321268724 (1)
+It 10,Best ac:0.003675 0.256055 fi:0.892075. Ave ac:0.002257,0.003241
+It 11,Best ac:0.003675 0.256055 fi:0.892075. Ave ac:0.002286,0.003163
+It 12,Best ac:0.003675 0.256055 fi:0.892075. Ave ac:0.002501,0.003240
+It 13,Best ac:0.003675 0.256055 fi:0.892075. Ave ac:0.002459,0.001576
+It 14,Best ac:0.003675 0.256055 fi:0.892075. Ave ac:0.002806,0.002869
+It 15,Best ac:0.003675 0.256055 fi:0.892075. Ave ac:0.002648,0.002661
+It 16,Best ac:0.003675 0.256055 fi:0.892075. Ave ac:0.002667,0.002421
+It 17,Best ac:0.003675 0.256055 fi:0.892075. Ave ac:0.002582,0.002158
+It 18,Best ac:0.003675 0.256055 fi:0.892075. Ave ac:0.002555,0.001637
+It 19,Best ac:0.003675 0.256055 fi:0.892075. Ave ac:0.002594,0.001639
+MDL Theory Length Weight: 56.6389141851 (11)
+It 20,Best ac:0.003675 0.256055 fi:0.879831. Ave ac:0.002452,0.001504
+It 21,Best ac:0.003675 0.256055 fi:0.879831. Ave ac:0.002529,0.001831
+It 22,Best ac:0.003675 0.256055 fi:0.879831. Ave ac:0.002526,0.001467
+It 23,Best ac:0.003675 0.256055 fi:0.879831. Ave ac:0.002423,0.001479
+It 24,Best ac:0.003675 0.256055 fi:0.879831. Ave ac:0.002551,0.001485
+It 25,Best ac:0.003675 0.256055 fi:0.879831. Ave ac:0.002458,0.001509
+It 26,Best ac:0.003675 0.256055 fi:0.879831. Ave ac:0.002564,0.001476
+It 27,Best ac:0.003675 0.256055 fi:0.879831. Ave ac:0.002481,0.001457
+It 28,Best ac:0.003675 0.256055 fi:0.879831. Ave ac:0.002520,0.001544
+It 29,Best ac:0.003675 0.256055 fi:0.879831. Ave ac:0.002672,0.004046
+MDL Theory Length Weight: 50.9750227666 (21)
+It 30,Best ac:0.003675 0.256055 fi:0.868812. Ave ac:0.002405,0.001503
+It 31,Best ac:0.003675 0.256055 fi:0.868812. Ave ac:0.002479,0.001498
+It 32,Best ac:0.003675 0.256055 fi:0.868812. Ave ac:0.002461,0.001534
+It 33,Best ac:0.003675 0.256055 fi:0.868812. Ave ac:0.002437,0.001479
+It 34,Best ac:0.003675 0.256055 fi:0.868812. Ave ac:0.002620,0.002297
+It 35,Best ac:0.003675 0.256055 fi:0.868812. Ave ac:0.002536,0.001963
+It 36,Best ac:0.003675 0.256055 fi:0.868812. Ave ac:0.002707,0.001736
+It 37,Best ac:0.003675 0.256055 fi:0.868812. Ave ac:0.002642,0.001708
+It 38,Best ac:0.003675 0.256055 fi:0.868812. Ave ac:0.002546,0.001523
+It 39,Best ac:0.003675 0.256055 fi:0.868812. Ave ac:0.002508,0.001537
+MDL Theory Length Weight: 45.8775204899 (31)
+It 40,Best ac:0.003675 0.256055 fi:0.858894. Ave ac:0.002516,0.001514
+It 41,Best ac:0.003675 0.256055 fi:0.858894. Ave ac:0.002562,0.003868
+It 42,Best ac:0.003675 0.256055 fi:0.858894. Ave ac:0.002802,0.005409
+It 43,Best ac:0.003675 0.256055 fi:0.858894. Ave ac:0.002521,0.003899
+It 44,Best ac:0.003675 0.256055 fi:0.858894. Ave ac:0.002504,0.001430
+It 45,Best ac:0.003675 0.256055 fi:0.858894. Ave ac:0.002356,0.001526
+It 46,Best ac:0.003675 0.256055 fi:0.858894. Ave ac:0.002413,0.001488
+It 47,Best ac:0.003675 0.256055 fi:0.858894. Ave ac:0.002534,0.001689
+It 48,Best ac:0.003675 0.256055 fi:0.858894. Ave ac:0.002532,0.001585
+It 49,Best ac:0.003675 0.256055 fi:0.858894. Ave ac:0.002528,0.001444
+Best acc 0.003675 0.256055
+All instances loaded to memory
+Initial population average accuracy1:0.004688 accuracy2:0.030400
+It 0,Best ac:0.082580 0.082580 fi:0.917420. Ave ac:0.007805,0.012438
+It 1,Best ac:0.012812 0.710744 fi:0.816729. Ave ac:0.010890,0.014908
+It 2,Best ac:0.012812 0.710744 fi:0.816729. Ave ac:0.014476,0.018189
+It 3,Best ac:0.012812 0.710744 fi:0.816729. Ave ac:0.017224,0.020922
+It 4,Best ac:0.012712 0.721127 fi:0.810009. Ave ac:0.021741,0.024131
+It 5,Best ac:0.018423 0.660142 fi:0.660370. Ave ac:0.028103,0.026958
+It 6,Best ac:0.018423 0.660142 fi:0.660370. Ave ac:0.029808,0.027179
+It 7,Best ac:0.018423 0.660142 fi:0.660370. Ave ac:0.033175,0.028647
+It 8,Best ac:0.018423 0.660142 fi:0.660370. Ave ac:0.032487,0.029835
+It 9,Best ac:0.018423 0.660142 fi:0.660370. Ave ac:0.034677,0.031027
+Iteration 10:MDL fitness activated
+Error 0.660370 TL 0.001946
+MDL Theory Length Weight: 113.1434741613 (5)
+It 10,Best ac:0.018423 0.660142 fi:0.880494. Ave ac:0.030383,0.030535
+It 11,Best ac:0.018423 0.660142 fi:0.880494. Ave ac:0.033124,0.030008
+It 12,Best ac:0.018423 0.660142 fi:0.880494. Ave ac:0.035634,0.031415
+It 13,Best ac:0.018423 0.660142 fi:0.880494. Ave ac:0.038303,0.031857
+It 14,Best ac:0.018423 0.660142 fi:0.880494. Ave ac:0.041679,0.031942
+It 15,Best ac:0.018423 0.660142 fi:0.880494. Ave ac:0.039593,0.032372
+It 16,Best ac:0.018423 0.660142 fi:0.880494. Ave ac:0.037522,0.032131
+It 17,Best ac:0.018423 0.660142 fi:0.880494. Ave ac:0.037687,0.031597
+It 18,Best ac:0.018423 0.660142 fi:0.880494. Ave ac:0.033161,0.029987
+It 19,Best ac:0.018423 0.660142 fi:0.880494. Ave ac:0.030247,0.028655
+MDL Theory Length Weight: 101.8291267451 (15)
+It 20,Best ac:0.018423 0.660142 fi:0.858482. Ave ac:0.029503,0.028623
+It 21,Best ac:0.018423 0.660142 fi:0.858482. Ave ac:0.026035,0.027104
+It 22,Best ac:0.018423 0.660142 fi:0.858482. Ave ac:0.025027,0.025854
+It 23,Best ac:0.018423 0.660142 fi:0.858482. Ave ac:0.025646,0.026231
+It 24,Best ac:0.018423 0.660142 fi:0.858482. Ave ac:0.023146,0.024281
+It 25,Best ac:0.018423 0.660142 fi:0.858482. Ave ac:0.018469,0.021015
+It 26,Best ac:0.018423 0.660142 fi:0.858482. Ave ac:0.016557,0.017491
+It 27,Best ac:0.018423 0.660142 fi:0.858482. Ave ac:0.014006,0.012168
+It 28,Best ac:0.018423 0.660142 fi:0.858482. Ave ac:0.013719,0.009575
+It 29,Best ac:0.018423 0.660142 fi:0.858482. Ave ac:0.013728,0.009719
+MDL Theory Length Weight: 91.6462140706 (25)
+It 30,Best ac:0.018423 0.660142 fi:0.838670. Ave ac:0.013007,0.008892
+It 31,Best ac:0.018423 0.660142 fi:0.838670. Ave ac:0.013626,0.008293
+It 32,Best ac:0.018423 0.660142 fi:0.838670. Ave ac:0.013621,0.008325
+It 33,Best ac:0.018423 0.660142 fi:0.838670. Ave ac:0.014069,0.008083
+It 34,Best ac:0.018423 0.660142 fi:0.838670. Ave ac:0.012915,0.008288
+It 35,Best ac:0.018423 0.660142 fi:0.838670. Ave ac:0.012223,0.008091
+It 36,Best ac:0.018423 0.660142 fi:0.838670. Ave ac:0.012811,0.008358
+It 37,Best ac:0.018423 0.660142 fi:0.838670. Ave ac:0.013399,0.008275
+It 38,Best ac:0.018423 0.660142 fi:0.838670. Ave ac:0.012675,0.008744
+It 39,Best ac:0.018423 0.660142 fi:0.838670. Ave ac:0.012852,0.008660
+MDL Theory Length Weight: 82.4815926636 (35)
+It 40,Best ac:0.018423 0.660142 fi:0.820840. Ave ac:0.013920,0.008623
+It 41,Best ac:0.018423 0.660142 fi:0.820840. Ave ac:0.013038,0.008510
+It 42,Best ac:0.018423 0.660142 fi:0.820840. Ave ac:0.012940,0.009194
+It 43,Best ac:0.018423 0.660142 fi:0.820840. Ave ac:0.013690,0.008291
+It 44,Best ac:0.018423 0.660142 fi:0.820840. Ave ac:0.013341,0.008619
+It 45,Best ac:0.018423 0.660142 fi:0.820840. Ave ac:0.012911,0.010053
+It 46,Best ac:0.018423 0.660142 fi:0.820840. Ave ac:0.013542,0.009365
+It 47,Best ac:0.018423 0.660142 fi:0.820840. Ave ac:0.012915,0.008701
+It 48,Best ac:0.018423 0.660142 fi:0.820840. Ave ac:0.013768,0.008377
+It 49,Best ac:0.018423 0.660142 fi:0.820840. Ave ac:0.012589,0.008012
+Best acc 0.018423 0.660142
+Rule:Att sfP_c4 is 1|PLAY_4
+Removed 562 instances. 19576 Instances left. Acc of rule 0.018423-0.660142 
+Accuracy : 0.264410
+0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	
+0	0	0	0	0	0	0	0	0	2880	5	2	0	0	113	0	0	0	0	0	
+0	0	0	0	0	0	0	0	0	3461	8	5	0	2	118	0	0	0	0	0	
+0	0	0	0	0	0	0	0	0	3423	8	2	0	2	168	0	0	0	0	0	
+0	0	0	0	0	0	0	0	0	4085	3	1	0	2	181	0	0	0	0	0	
+0	0	0	0	0	0	0	0	0	3376	7	5	0	5	150	0	0	0	0	0	
+0	0	0	0	0	0	0	0	0	1501	0	1	0	2	614	0	0	0	0	0	
+0	0	0	0	0	0	0	0	0	1629	18	0	0	3	508	0	0	0	0	0	
+0	0	0	0	0	0	0	0	0	2179	56	10	0	11	1242	0	0	0	0	0	
+0	0	0	0	0	0	0	0	0	2494	42	11	0	0	1663	0	0	0	0	0	
+0	0	0	0	0	0	0	0	0	13680	14	4	0	0	88	0	0	0	0	0	
+0	0	0	0	0	0	0	0	0	6886	813	4	0	2	187	0	0	0	0	0	
+0	0	0	0	0	0	0	0	0	5684	126	730	0	0	179	0	0	0	0	0	
+0	0	0	0	0	0	0	0	0	4526	67	11	0	25	659	0	0	0	0	0	
+0	0	0	0	0	0	0	0	0	3815	39	5	0	371	175	0	0	0	0	0	
+0	0	0	0	0	0	0	0	0	654	595	373	0	110	12169	0	0	0	0	0	
+0	0	0	0	0	0	0	0	0	3146	23	12	0	21	602	0	0	0	0	0	
+0	0	0	0	0	0	0	0	0	3984	7	1	0	1	176	0	0	0	0	0	
+0	0	0	0	0	0	0	0	0	4301	2	4	0	0	149	0	0	0	0	0	
+0	0	0	0	0	0	0	0	0	4381	5	1	0	0	217	0	0	0	0	0	
+0	0	0	0	0	0	0	0	0	5744	9	4	0	5	218	0	0	0	0	0	
+All instances loaded to memory
+Initial population average accuracy1:0.003869 accuracy2:0.031131
+It 0,Best ac:0.001737 0.276423 fi:0.822682. Ave ac:0.006054,0.009231
+It 1,Best ac:0.002401 0.293750 fi:0.781496. Ave ac:0.008593,0.012079
+It 2,Best ac:0.002401 0.293750 fi:0.781496. Ave ac:0.010055,0.013880
+It 3,Best ac:0.001584 0.407895 fi:0.759574. Ave ac:0.011038,0.014340
+It 4,Best ac:0.002758 0.313953 fi:0.748446. Ave ac:0.011300,0.014852
+It 5,Best ac:0.002758 0.313953 fi:0.748446. Ave ac:0.010964,0.015183
+It 6,Best ac:0.002758 0.313953 fi:0.748446. Ave ac:0.009869,0.016067
+It 7,Best ac:0.002758 0.317647 fi:0.744752. Ave ac:0.008330,0.016380
+It 8,Best ac:0.002452 0.342857 fi:0.730554. Ave ac:0.005169,0.012160
+It 9,Best ac:0.002503 0.362963 fi:0.708613. Ave ac:0.002508,0.005545
+Iteration 10:MDL fitness activated
+Error 0.708613 TL 0.011025
+MDL Theory Length Weight: 21.4251155093 (1)
+It 10,Best ac:0.003780 0.256944 fi:0.810433. Ave ac:0.002100,0.001351
+It 11,Best ac:0.003780 0.256944 fi:0.810433. Ave ac:0.002215,0.001401
+It 12,Best ac:0.003780 0.256944 fi:0.810433. Ave ac:0.002272,0.001431
+It 13,Best ac:0.003780 0.256944 fi:0.810433. Ave ac:0.002388,0.001477
+It 14,Best ac:0.003780 0.256944 fi:0.810433. Ave ac:0.002392,0.001499
+It 15,Best ac:0.003780 0.256944 fi:0.810433. Ave ac:0.002425,0.001491
+It 16,Best ac:0.003780 0.256944 fi:0.810433. Ave ac:0.002530,0.001479
+It 17,Best ac:0.003780 0.256944 fi:0.810433. Ave ac:0.002448,0.002064
+It 18,Best ac:0.003780 0.256944 fi:0.810433. Ave ac:0.002630,0.001962
+It 19,Best ac:0.003780 0.256944 fi:0.810433. Ave ac:0.002543,0.001509
+MDL Theory Length Weight: 19.2826039584 (11)
+It 20,Best ac:0.002861 0.329412 fi:0.804347. Ave ac:0.002522,0.001591
+It 21,Best ac:0.001890 0.381443 fi:0.799690. Ave ac:0.002572,0.001576
+It 22,Best ac:0.001890 0.381443 fi:0.799690. Ave ac:0.002594,0.001495
+It 23,Best ac:0.001890 0.381443 fi:0.799690. Ave ac:0.002455,0.001561
+It 24,Best ac:0.001890 0.370000 fi:0.798629. Ave ac:0.002583,0.001815
+It 25,Best ac:0.001584 0.516667 fi:0.763347. Ave ac:0.002512,0.003580
+It 26,Best ac:0.001584 0.516667 fi:0.763347. Ave ac:0.002391,0.001552
+It 27,Best ac:0.001584 0.516667 fi:0.763347. Ave ac:0.002257,0.001532
+It 28,Best ac:0.002299 0.428571 fi:0.762890. Ave ac:0.002239,0.001449
+It 29,Best ac:0.002299 0.428571 fi:0.762890. Ave ac:0.002193,0.001894
+It 30,Best ac:0.001737 0.453333 fi:0.758316. Ave ac:0.001892,0.001417
+It 31,Best ac:0.001737 0.453333 fi:0.758316. Ave ac:0.001811,0.001880
+It 32,Best ac:0.001584 0.584906 fi:0.745127. Ave ac:0.001622,0.001266
+It 33,Best ac:0.001584 0.584906 fi:0.732622. Ave ac:0.001573,0.001194
+It 34,Best ac:0.001584 0.584906 fi:0.732622. Ave ac:0.001517,0.001738
+It 35,Best ac:0.001584 0.584906 fi:0.732622. Ave ac:0.001531,0.002593
+It 36,Best ac:0.001584 0.584906 fi:0.732622. Ave ac:0.001435,0.001244
+It 37,Best ac:0.001584 0.584906 fi:0.732622. Ave ac:0.001387,0.001220
+It 38,Best ac:0.001584 0.584906 fi:0.732622. Ave ac:0.001390,0.001015
+It 39,Best ac:0.001584 0.584906 fi:0.732622. Ave ac:0.001348,0.001065
+It 40,Best ac:0.001584 0.584906 fi:0.732622. Ave ac:0.001387,0.001083
+It 41,Best ac:0.001584 0.584906 fi:0.732622. Ave ac:0.001328,0.001018
+It 42,Best ac:0.001584 0.584906 fi:0.732622. Ave ac:0.001289,0.000970
+MDL Theory Length Weight: 17.3543435625 (10)
+It 43,Best ac:0.001584 0.584906 fi:0.717616. Ave ac:0.001257,0.000949
+It 44,Best ac:0.001584 0.584906 fi:0.717616. Ave ac:0.001261,0.001329
+It 45,Best ac:0.001584 0.584906 fi:0.717616. Ave ac:0.001320,0.001856
+It 46,Best ac:0.001584 0.584906 fi:0.717616. Ave ac:0.001394,0.003379
+It 47,Best ac:0.001584 0.584906 fi:0.717616. Ave ac:0.001163,0.000865
+It 48,Best ac:0.001584 0.584906 fi:0.717616. Ave ac:0.001095,0.000877
+It 49,Best ac:0.001584 0.584906 fi:0.717616. Ave ac:0.001162,0.000905
+Best acc 0.001584 0.584906
+All instances loaded to memory
+Initial population average accuracy1:0.004038 accuracy2:0.034984
+It 0,Best ac:0.071261 0.204816 fi:0.956339. Ave ac:0.006065,0.010613
+It 1,Best ac:0.083316 0.087145 fi:0.932098. Ave ac:0.009851,0.014372
+It 2,Best ac:0.083316 0.087145 fi:0.932098. Ave ac:0.012464,0.018039
+It 3,Best ac:0.084951 0.084951 fi:0.915049. Ave ac:0.014015,0.020083
+It 4,Best ac:0.084951 0.084951 fi:0.915049. Ave ac:0.016509,0.022381
+It 5,Best ac:0.083623 0.109024 fi:0.906610. Ave ac:0.020010,0.025169
+It 6,Best ac:0.083674 0.108939 fi:0.906095. Ave ac:0.028219,0.030415
+It 7,Best ac:0.083674 0.108939 fi:0.906095. Ave ac:0.036430,0.032166
+It 8,Best ac:0.083674 0.108939 fi:0.906095. Ave ac:0.042808,0.033482
+It 9,Best ac:0.083674 0.108939 fi:0.906095. Ave ac:0.050188,0.033973
+Iteration 10:MDL fitness activated
+Error 0.906095 TL 0.001946
+MDL Theory Length Weight: 155.2441953303 (4)
+It 10,Best ac:0.084951 0.084951 fi:0.915049. Ave ac:0.052198,0.034523
+It 11,Best ac:0.084951 0.084951 fi:0.915049. Ave ac:0.052546,0.034118
+It 12,Best ac:0.084951 0.084951 fi:0.915049. Ave ac:0.050324,0.034439
+It 13,Best ac:0.084951 0.084951 fi:0.915049. Ave ac:0.048154,0.034906
+It 14,Best ac:0.084951 0.084951 fi:0.915049. Ave ac:0.050407,0.034932
+It 15,Best ac:0.084951 0.084951 fi:0.915049. Ave ac:0.055613,0.033984
+It 16,Best ac:0.084951 0.084951 fi:0.915049. Ave ac:0.059777,0.032823
+It 17,Best ac:0.084951 0.084951 fi:0.915049. Ave ac:0.058539,0.034109
+It 18,Best ac:0.084951 0.084951 fi:0.915049. Ave ac:0.064280,0.030958
+It 19,Best ac:0.084951 0.084951 fi:0.915049. Ave ac:0.065960,0.030863
+MDL Theory Length Weight: 139.7197757973 (14)
+It 20,Best ac:0.084951 0.084951 fi:0.915049. Ave ac:0.068073,0.029006
+It 21,Best ac:0.084951 0.084951 fi:0.915049. Ave ac:0.070612,0.028232
+It 22,Best ac:0.084951 0.084951 fi:0.915049. Ave ac:0.073568,0.024652
+It 23,Best ac:0.084951 0.084951 fi:0.915049. Ave ac:0.075674,0.023860
+It 24,Best ac:0.084951 0.084951 fi:0.915049. Ave ac:0.074626,0.024185
+It 25,Best ac:0.084951 0.084951 fi:0.915049. Ave ac:0.075934,0.022704
+It 26,Best ac:0.084951 0.084951 fi:0.915049. Ave ac:0.077017,0.021518
+It 27,Best ac:0.084951 0.084951 fi:0.915049. Ave ac:0.076609,0.022173
+It 28,Best ac:0.084951 0.084951 fi:0.915049. Ave ac:0.076249,0.022585
+It 29,Best ac:0.084951 0.084951 fi:0.915049. Ave ac:0.076491,0.022687
+MDL Theory Length Weight: 125.7477982175 (24)
+It 30,Best ac:0.084951 0.084951 fi:0.915049. Ave ac:0.075479,0.023242
+It 31,Best ac:0.084951 0.084951 fi:0.915049. Ave ac:0.078960,0.019036
+It 32,Best ac:0.084951 0.084951 fi:0.915049. Ave ac:0.076646,0.022252
+It 33,Best ac:0.084951 0.084951 fi:0.915049. Ave ac:0.075683,0.023044
+It 34,Best ac:0.084951 0.084951 fi:0.915049. Ave ac:0.075969,0.022835
+It 35,Best ac:0.084951 0.084951 fi:0.915049. Ave ac:0.077576,0.020424
+It 36,Best ac:0.084951 0.084951 fi:0.915049. Ave ac:0.075472,0.023494
+It 37,Best ac:0.084951 0.084951 fi:0.915049. Ave ac:0.076643,0.022261
+It 38,Best ac:0.084951 0.084951 fi:0.915049. Ave ac:0.078620,0.019283
+It 39,Best ac:0.084951 0.084951 fi:0.915049. Ave ac:0.076746,0.022153
+MDL Theory Length Weight: 113.1730183958 (34)
+It 40,Best ac:0.084951 0.084951 fi:0.915049. Ave ac:0.076104,0.023280
+It 41,Best ac:0.084951 0.084951 fi:0.915049. Ave ac:0.078108,0.020360
+It 42,Best ac:0.084951 0.084951 fi:0.915049. Ave ac:0.077050,0.022049
+It 43,Best ac:0.084951 0.084951 fi:0.915049. Ave ac:0.078290,0.020387
+It 44,Best ac:0.084951 0.084951 fi:0.915049. Ave ac:0.078464,0.019705
+It 45,Best ac:0.084951 0.084951 fi:0.915049. Ave ac:0.076082,0.023051
+It 46,Best ac:0.084951 0.084951 fi:0.915049. Ave ac:0.076303,0.022713
+It 47,Best ac:0.084951 0.084951 fi:0.915049. Ave ac:0.076764,0.022148
+It 48,Best ac:0.084951 0.084951 fi:0.915049. Ave ac:0.075375,0.023623
+It 49,Best ac:0.084951 0.084951 fi:0.915049. Ave ac:0.075798,0.023321
+Best acc 0.084951 0.084951
+Rule:Att is2_c2 is 0|Att sfD_c3 is 0|Att sfD_c5 is 1|Att usfD_c1 is 1|DISCARD_5
+Removed 53 instances. 19523 Instances left. Acc of rule 0.001584-0.584906 
+Accuracy : 0.264695
+0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	
+0	0	0	0	0	0	0	0	0	2880	5	2	0	0	113	0	0	0	0	0	
+0	0	0	0	0	0	0	0	0	3461	8	5	0	2	118	0	0	0	0	0	
+0	0	0	0	0	0	0	0	0	3423	8	2	0	2	168	0	0	0	0	0	
+0	0	0	0	0	0	0	0	0	4086	3	1	0	2	180	0	0	0	0	0	
+0	0	0	0	0	0	0	0	0	3376	7	5	0	5	150	0	0	0	0	0	
+0	0	0	0	0	0	0	0	0	1501	0	1	0	2	614	0	0	0	0	0	
+0	0	0	0	0	0	0	0	0	1635	18	0	0	3	502	0	0	0	0	0	
+0	0	0	0	0	0	0	0	0	2182	56	10	0	11	1239	0	0	0	0	0	
+0	0	0	0	0	0	0	0	0	2501	42	11	0	0	1656	0	0	0	0	0	
+0	0	0	0	0	0	0	0	0	13711	14	4	0	0	57	0	0	0	0	0	
+0	0	0	0	0	0	0	0	0	6886	813	4	0	2	187	0	0	0	0	0	
+0	0	0	0	0	0	0	0	0	5685	126	730	0	0	178	0	0	0	0	0	
+0	0	0	0	0	0	0	0	0	4528	67	11	0	25	657	0	0	0	0	0	
+0	0	0	0	0	0	0	0	0	3816	39	5	0	371	174	0	0	0	0	0	
+0	0	0	0	0	0	0	0	0	655	595	373	0	110	12168	0	0	0	0	0	
+0	0	0	0	0	0	0	0	0	3146	23	12	0	21	602	0	0	0	0	0	
+0	0	0	0	0	0	0	0	0	3984	7	1	0	1	176	0	0	0	0	0	
+0	0	0	0	0	0	0	0	0	4301	2	4	0	0	149	0	0	0	0	0	
+0	0	0	0	0	0	0	0	0	4381	5	1	0	0	217	0	0	0	0	0	
+0	0	0	0	0	0	0	0	0	5744	9	4	0	5	218	0	0	0	0	0	
+All instances loaded to memory
+Initial population average accuracy1:0.003985 accuracy2:0.034897
+It 0,Best ac:0.030170 0.035727 fi:0.985867. Ave ac:0.006243,0.008800
+It 1,Best ac:0.080264 0.114925 fi:0.938819. Ave ac:0.007477,0.009714
+It 2,Best ac:0.080264 0.114925 fi:0.938819. Ave ac:0.008435,0.011753
+It 3,Best ac:0.084823 0.084823 fi:0.915177. Ave ac:0.012045,0.016285
+It 4,Best ac:0.084823 0.084823 fi:0.915177. Ave ac:0.015035,0.020034
+It 5,Best ac:0.002151 0.183406 fi:0.859095. Ave ac:0.018989,0.022929
+It 6,Best ac:0.002151 0.184211 fi:0.858291. Ave ac:0.022780,0.024957
+It 7,Best ac:0.002203 0.182979 fi:0.856689. Ave ac:0.027064,0.026967
+It 8,Best ac:0.001793 0.222930 fi:0.839405. Ave ac:0.031866,0.029402
+It 9,Best ac:0.001793 0.222930 fi:0.839405. Ave ac:0.035564,0.031083
+Iteration 10:MDL fitness activated
+Error 0.839405 TL 0.005837
+MDL Theory Length Weight: 47.9393536391 (2)
+It 10,Best ac:0.084823 0.084823 fi:0.915177. Ave ac:0.030026,0.032700
+It 11,Best ac:0.084823 0.084823 fi:0.915177. Ave ac:0.030771,0.032323
+It 12,Best ac:0.084823 0.084823 fi:0.915177. Ave ac:0.029984,0.032151
+It 13,Best ac:0.084823 0.084823 fi:0.915177. Ave ac:0.033189,0.033804
+It 14,Best ac:0.084823 0.084823 fi:0.915177. Ave ac:0.041716,0.033287
+It 15,Best ac:0.084823 0.084823 fi:0.915177. Ave ac:0.042862,0.033599
+It 16,Best ac:0.084823 0.084823 fi:0.915177. Ave ac:0.046420,0.033730
+It 17,Best ac:0.084823 0.084823 fi:0.915177. Ave ac:0.050460,0.031925
+It 18,Best ac:0.084823 0.084823 fi:0.915177. Ave ac:0.052785,0.032798
+It 19,Best ac:0.084823 0.084823 fi:0.915177. Ave ac:0.055440,0.031209
+MDL Theory Length Weight: 43.1454182752 (12)
+It 20,Best ac:0.084823 0.084823 fi:0.915177. Ave ac:0.054215,0.031425
+It 21,Best ac:0.084823 0.084823 fi:0.915177. Ave ac:0.054367,0.031344
+It 22,Best ac:0.084823 0.084823 fi:0.915177. Ave ac:0.055060,0.032797
+It 23,Best ac:0.084823 0.084823 fi:0.915177. Ave ac:0.057131,0.030773
+It 24,Best ac:0.084823 0.084823 fi:0.915177. Ave ac:0.060892,0.029734
+It 25,Best ac:0.084823 0.084823 fi:0.915177. Ave ac:0.062785,0.029803
+It 26,Best ac:0.084823 0.084823 fi:0.915177. Ave ac:0.066272,0.028260
+It 27,Best ac:0.084823 0.084823 fi:0.915177. Ave ac:0.067600,0.028082
+It 28,Best ac:0.084823 0.084823 fi:0.915177. Ave ac:0.071145,0.025691
+It 29,Best ac:0.084823 0.084823 fi:0.915177. Ave ac:0.071570,0.025862
+MDL Theory Length Weight: 38.8308764476 (22)
+It 30,Best ac:0.084823 0.084823 fi:0.915177. Ave ac:0.072662,0.025650
+It 31,Best ac:0.084823 0.084823 fi:0.915177. Ave ac:0.073072,0.024842
+It 32,Best ac:0.084823 0.084823 fi:0.915177. Ave ac:0.076704,0.021151
+It 33,Best ac:0.084823 0.084823 fi:0.915177. Ave ac:0.076768,0.021589
+It 34,Best ac:0.084823 0.084823 fi:0.915177. Ave ac:0.075828,0.022782
+It 35,Best ac:0.084823 0.084823 fi:0.915177. Ave ac:0.077160,0.021358
+It 36,Best ac:0.084823 0.084823 fi:0.915177. Ave ac:0.076535,0.022156
+It 37,Best ac:0.084823 0.084823 fi:0.915177. Ave ac:0.077655,0.020874
+It 38,Best ac:0.084823 0.084823 fi:0.915177. Ave ac:0.073954,0.024839
+It 39,Best ac:0.084823 0.084823 fi:0.915177. Ave ac:0.075820,0.022495
+MDL Theory Length Weight: 34.9477888029 (32)
+It 40,Best ac:0.084823 0.084823 fi:0.915177. Ave ac:0.077136,0.021537
+It 41,Best ac:0.084823 0.084823 fi:0.915177. Ave ac:0.076877,0.022138
+It 42,Best ac:0.084823 0.084823 fi:0.915177. Ave ac:0.077784,0.020906
+It 43,Best ac:0.084823 0.084823 fi:0.915177. Ave ac:0.075270,0.023708
+It 44,Best ac:0.084823 0.084823 fi:0.915177. Ave ac:0.077814,0.020463
+It 45,Best ac:0.084823 0.084823 fi:0.915177. Ave ac:0.077615,0.020390
+It 46,Best ac:0.084823 0.084823 fi:0.915177. Ave ac:0.076121,0.021885
+It 47,Best ac:0.084823 0.084823 fi:0.915177. Ave ac:0.078592,0.019284
+It 48,Best ac:0.084823 0.084823 fi:0.915177. Ave ac:0.076116,0.022080
+It 49,Best ac:0.084823 0.084823 fi:0.915177. Ave ac:0.076008,0.023094
+Best acc 0.084823 0.084823
+All instances loaded to memory
+Initial population average accuracy1:0.004439 accuracy2:0.029905
+It 0,Best ac:0.063464 0.063464 fi:0.936536. Ave ac:0.006752,0.012302
+It 1,Best ac:0.084823 0.084823 fi:0.915177. Ave ac:0.010435,0.016185
+It 2,Best ac:0.084823 0.084823 fi:0.915177. Ave ac:0.013693,0.018755
+It 3,Best ac:0.084823 0.084823 fi:0.915177. Ave ac:0.017054,0.020962
+It 4,Best ac:0.012703 0.673913 fi:0.914127. Ave ac:0.020315,0.022989
+It 5,Best ac:0.012703 0.673913 fi:0.914127. Ave ac:0.024455,0.025636
+It 6,Best ac:0.012703 0.673913 fi:0.914127. Ave ac:0.028249,0.027999
+It 7,Best ac:0.012703 0.675749 fi:0.912291. Ave ac:0.033643,0.029185
+It 8,Best ac:0.012703 0.675749 fi:0.912291. Ave ac:0.037782,0.030771
+It 9,Best ac:0.012601 0.785942 fi:0.805420. Ave ac:0.039709,0.031591
+Iteration 10:MDL fitness activated
+Error 0.805420 TL 0.014327
+MDL Theory Length Weight: 18.7386274018 (1)
+It 10,Best ac:0.084823 0.084823 fi:0.915177. Ave ac:0.042178,0.032612
+It 11,Best ac:0.084823 0.084823 fi:0.915177. Ave ac:0.047814,0.031128
+It 12,Best ac:0.084823 0.084823 fi:0.915177. Ave ac:0.047866,0.031211
+It 13,Best ac:0.084823 0.084823 fi:0.915177. Ave ac:0.047765,0.031802
+It 14,Best ac:0.084823 0.084823 fi:0.915177. Ave ac:0.050283,0.031541
+It 15,Best ac:0.084823 0.084823 fi:0.915177. Ave ac:0.052813,0.031726
+It 16,Best ac:0.084823 0.084823 fi:0.915177. Ave ac:0.054396,0.030843
+It 17,Best ac:0.084823 0.084823 fi:0.915177. Ave ac:0.053085,0.030910
+It 18,Best ac:0.084823 0.084823 fi:0.915177. Ave ac:0.052125,0.031923
+It 19,Best ac:0.084823 0.084823 fi:0.915177. Ave ac:0.055883,0.031230
+MDL Theory Length Weight: 16.8647646616 (11)
+It 20,Best ac:0.084823 0.084823 fi:0.915177. Ave ac:0.055596,0.031650
+It 21,Best ac:0.084823 0.084823 fi:0.915177. Ave ac:0.058737,0.031399
+It 22,Best ac:0.084823 0.084823 fi:0.915177. Ave ac:0.061775,0.030642
+It 23,Best ac:0.084823 0.084823 fi:0.915177. Ave ac:0.064199,0.030215
+It 24,Best ac:0.084823 0.084823 fi:0.915177. Ave ac:0.065715,0.029138
+It 25,Best ac:0.084823 0.084823 fi:0.915177. Ave ac:0.069052,0.027275
+It 26,Best ac:0.084823 0.084823 fi:0.915177. Ave ac:0.074388,0.023780
+It 27,Best ac:0.084823 0.084823 fi:0.915177. Ave ac:0.074857,0.024026
+It 28,Best ac:0.084823 0.084823 fi:0.915177. Ave ac:0.075762,0.022432
+It 29,Best ac:0.084823 0.084823 fi:0.915177. Ave ac:0.076497,0.021364
+MDL Theory Length Weight: 15.1782881955 (21)
+It 30,Best ac:0.084823 0.084823 fi:0.915177. Ave ac:0.076236,0.022365
+It 31,Best ac:0.084823 0.084823 fi:0.915177. Ave ac:0.075839,0.022296
+It 32,Best ac:0.084823 0.084823 fi:0.915177. Ave ac:0.076000,0.022568
+It 33,Best ac:0.084823 0.084823 fi:0.915177. Ave ac:0.077366,0.020746
+It 34,Best ac:0.084823 0.084823 fi:0.915177. Ave ac:0.076973,0.021175
+It 35,Best ac:0.084823 0.084823 fi:0.915177. Ave ac:0.076274,0.022068
+It 36,Best ac:0.084823 0.084823 fi:0.915177. Ave ac:0.075140,0.023876
+It 37,Best ac:0.084823 0.084823 fi:0.915177. Ave ac:0.077593,0.020465
+It 38,Best ac:0.084823 0.084823 fi:0.915177. Ave ac:0.078945,0.018320
+It 39,Best ac:0.084823 0.084823 fi:0.915177. Ave ac:0.077197,0.021396
+MDL Theory Length Weight: 13.6604593759 (31)
+It 40,Best ac:0.084823 0.084823 fi:0.915177. Ave ac:0.076472,0.022159
+It 41,Best ac:0.084823 0.084823 fi:0.915177. Ave ac:0.077125,0.021489
+It 42,Best ac:0.084823 0.084823 fi:0.915177. Ave ac:0.077156,0.021225
+It 43,Best ac:0.084823 0.084823 fi:0.915177. Ave ac:0.077151,0.021244
+It 44,Best ac:0.084823 0.084823 fi:0.915177. Ave ac:0.076254,0.022745
+It 45,Best ac:0.084823 0.084823 fi:0.915177. Ave ac:0.076444,0.021591
+It 46,Best ac:0.084823 0.084823 fi:0.915177. Ave ac:0.075499,0.023692
+It 47,Best ac:0.084823 0.084823 fi:0.915177. Ave ac:0.077220,0.021259
+It 48,Best ac:0.084823 0.084823 fi:0.915177. Ave ac:0.076546,0.022019
+It 49,Best ac:0.084823 0.084823 fi:0.915177. Ave ac:0.077630,0.020221
+Best acc 0.084823 0.084823
+All instances loaded to memory
+Initial population average accuracy1:0.003889 accuracy2:0.033418
+It 0,Best ac:0.030733 0.032203 fi:0.971120. Ave ac:0.006126,0.009603
+It 1,Best ac:0.063054 0.063549 fi:0.942908. Ave ac:0.008369,0.011768
+It 2,Best ac:0.084823 0.084823 fi:0.915177. Ave ac:0.010797,0.014429
+It 3,Best ac:0.084823 0.084823 fi:0.915177. Ave ac:0.013433,0.017290
+It 4,Best ac:0.084823 0.084823 fi:0.915177. Ave ac:0.016780,0.020113
+It 5,Best ac:0.084823 0.084823 fi:0.915177. Ave ac:0.022986,0.022538
+It 6,Best ac:0.084823 0.084823 fi:0.915177. Ave ac:0.029273,0.026030
+It 7,Best ac:0.084823 0.084823 fi:0.915177. Ave ac:0.036171,0.026996
+It 8,Best ac:0.084823 0.084823 fi:0.915177. Ave ac:0.039904,0.028724
+It 9,Best ac:0.084823 0.084823 fi:0.915177. Ave ac:0.043640,0.029008
+Iteration 10:MDL fitness activated
+Error 0.915177 TL 0.000000
+MDL Theory Length Weight: inf (8)
+It 10,Best ac:0.084823 0.084823 fi:-nan. Ave ac:0.047156,0.030139
+It 11,Best ac:0.084823 0.084823 fi:-nan. Ave ac:0.032798,0.028323
+It 12,Best ac:0.084823 0.084823 fi:-nan. Ave ac:0.024366,0.026322
+It 13,Best ac:0.084823 0.084823 fi:-nan. Ave ac:0.017693,0.023361
+It 14,Best ac:0.084823 0.084823 fi:-nan. Ave ac:0.012596,0.020688
+It 15,Best ac:0.084823 0.084823 fi:-nan. Ave ac:0.010400,0.018775
+It 16,Best ac:0.084823 0.084823 fi:-nan. Ave ac:0.007319,0.015166
+It 17,Best ac:0.084823 0.084823 fi:-nan. Ave ac:0.006360,0.014504
+It 18,Best ac:0.084823 0.084823 fi:-nan. Ave ac:0.006073,0.014502
+It 19,Best ac:0.084823 0.084823 fi:-nan. Ave ac:0.005301,0.012662
+MDL Theory Length Weight: inf (18)
+It 20,Best ac:0.084823 0.084823 fi:-nan. Ave ac:0.004751,0.012491
+It 21,Best ac:0.084823 0.084823 fi:-nan. Ave ac:0.005037,0.013350
+It 22,Best ac:0.084823 0.084823 fi:-nan. Ave ac:0.004241,0.011362
+It 23,Best ac:0.084823 0.084823 fi:-nan. Ave ac:0.003775,0.010542
+It 24,Best ac:0.084823 0.084823 fi:-nan. Ave ac:0.002843,0.008835
+It 25,Best ac:0.084823 0.084823 fi:-nan. Ave ac:0.002280,0.008782
+It 26,Best ac:0.084823 0.084823 fi:-nan. Ave ac:0.001928,0.007700
+It 27,Best ac:0.084823 0.084823 fi:-nan. Ave ac:0.001993,0.008477
+It 28,Best ac:0.084823 0.084823 fi:-nan. Ave ac:0.001814,0.007280
+It 29,Best ac:0.084823 0.084823 fi:-nan. Ave ac:0.002044,0.008375
+MDL Theory Length Weight: inf (28)
+It 30,Best ac:0.084823 0.084823 fi:-nan. Ave ac:0.001550,0.006867
+It 31,Best ac:0.084823 0.084823 fi:-nan. Ave ac:0.001382,0.006159
+It 32,Best ac:0.084823 0.084823 fi:-nan. Ave ac:0.002086,0.008396
+It 33,Best ac:0.084823 0.084823 fi:-nan. Ave ac:0.001771,0.008201
+It 34,Best ac:0.084823 0.084823 fi:-nan. Ave ac:0.001689,0.007794
+It 35,Best ac:0.084823 0.084823 fi:-nan. Ave ac:0.000975,0.005156
+It 36,Best ac:0.084823 0.084823 fi:-nan. Ave ac:0.000784,0.005196
+It 37,Best ac:0.084823 0.084823 fi:-nan. Ave ac:0.000707,0.003956
+It 38,Best ac:0.084823 0.084823 fi:-nan. Ave ac:0.000967,0.005314
+It 39,Best ac:0.084823 0.084823 fi:-nan. Ave ac:0.000584,0.002864
+MDL Theory Length Weight: inf (38)
+It 40,Best ac:0.084823 0.084823 fi:-nan. Ave ac:0.000825,0.005712
+It 41,Best ac:0.084823 0.084823 fi:-nan. Ave ac:0.000481,0.002316
+It 42,Best ac:0.084823 0.084823 fi:-nan. Ave ac:0.000605,0.004376
+It 43,Best ac:0.084823 0.084823 fi:-nan. Ave ac:0.000581,0.003133
+It 44,Best ac:0.084823 0.084823 fi:-nan. Ave ac:0.000703,0.004899
+It 45,Best ac:0.084823 0.084823 fi:-nan. Ave ac:0.001120,0.006565
+It 46,Best ac:0.084823 0.084823 fi:-nan. Ave ac:0.001303,0.007787
+It 47,Best ac:0.084823 0.084823 fi:-nan. Ave ac:0.000865,0.005072
+It 48,Best ac:0.084823 0.084823 fi:-nan. Ave ac:0.000546,0.003368
+It 49,Best ac:0.084823 0.084823 fi:-nan. Ave ac:0.000586,0.002976
+Best acc 0.084823 0.084823
+All instances loaded to memory
+Initial population average accuracy1:0.004007 accuracy2:0.031528
+It 0,Best ac:0.084823 0.084823 fi:0.915177. Ave ac:0.006800,0.010685
+It 1,Best ac:0.084823 0.084823 fi:0.915177. Ave ac:0.009833,0.013311
+It 2,Best ac:0.012703 0.706553 fi:0.881487. Ave ac:0.010964,0.014597
+It 3,Best ac:0.012703 0.706553 fi:0.881487. Ave ac:0.013150,0.016924
+It 4,Best ac:0.012703 0.710602 fi:0.877438. Ave ac:0.015751,0.020264
+It 5,Best ac:0.012703 0.710602 fi:0.877438. Ave ac:0.021021,0.024439
+It 6,Best ac:0.002203 0.182979 fi:0.856689. Ave ac:0.026602,0.028108
+It 7,Best ac:0.002203 0.182979 fi:0.856689. Ave ac:0.031593,0.029997
+It 8,Best ac:0.012703 0.797428 fi:0.790612. Ave ac:0.034631,0.031191
+It 9,Best ac:0.012703 0.797428 fi:0.790612. Ave ac:0.035031,0.031370
+Iteration 10:MDL fitness activated
+Error 0.790612 TL 0.014813
+MDL Theory Length Weight: 17.7911948737 (2)
+It 10,Best ac:0.002203 0.182979 fi:0.891302. Ave ac:0.032975,0.031801
+It 11,Best ac:0.002203 0.182979 fi:0.891302. Ave ac:0.038005,0.033471
+It 12,Best ac:0.002203 0.182979 fi:0.891302. Ave ac:0.038972,0.033777
+It 13,Best ac:0.002203 0.182979 fi:0.891302. Ave ac:0.039924,0.033825
+It 14,Best ac:0.002203 0.182979 fi:0.891302. Ave ac:0.043512,0.034528
+It 15,Best ac:0.002203 0.182979 fi:0.891302. Ave ac:0.044451,0.034736
+It 16,Best ac:0.002203 0.182979 fi:0.891302. Ave ac:0.042464,0.034021
+It 17,Best ac:0.002203 0.182979 fi:0.891302. Ave ac:0.041824,0.035301
+It 18,Best ac:0.002203 0.182979 fi:0.891302. Ave ac:0.041850,0.035444
+It 19,Best ac:0.002203 0.182979 fi:0.891302. Ave ac:0.045987,0.035261
+MDL Theory Length Weight: 16.0120753863 (12)
+It 20,Best ac:0.002203 0.182979 fi:0.887841. Ave ac:0.045984,0.035010
+It 21,Best ac:0.002203 0.182979 fi:0.887841. Ave ac:0.043803,0.035479
+It 22,Best ac:0.002203 0.182979 fi:0.887841. Ave ac:0.040170,0.035878
+It 23,Best ac:0.002203 0.182979 fi:0.887841. Ave ac:0.036713,0.035326
+It 24,Best ac:0.002203 0.182979 fi:0.887841. Ave ac:0.035483,0.036026
+It 25,Best ac:0.002203 0.182979 fi:0.887841. Ave ac:0.034215,0.036432
+It 26,Best ac:0.002203 0.182979 fi:0.887841. Ave ac:0.030625,0.036187
+It 27,Best ac:0.001742 0.244604 fi:0.882868. Ave ac:0.026325,0.035055
+It 28,Best ac:0.001895 0.228395 fi:0.869809. Ave ac:0.022856,0.033718
+It 29,Best ac:0.001895 0.228395 fi:0.869809. Ave ac:0.018580,0.031305
+It 30,Best ac:0.001895 0.228395 fi:0.869809. Ave ac:0.014673,0.028502
+It 31,Best ac:0.001895 0.228395 fi:0.869809. Ave ac:0.010007,0.023335
+It 32,Best ac:0.001895 0.228395 fi:0.869809. Ave ac:0.006298,0.017862
+It 33,Best ac:0.001895 0.228395 fi:0.869809. Ave ac:0.003662,0.012760
+It 34,Best ac:0.001895 0.228395 fi:0.869809. Ave ac:0.002552,0.009213
+It 35,Best ac:0.001588 0.279279 fi:0.867077. Ave ac:0.001358,0.000862
+It 36,Best ac:0.001588 0.279279 fi:0.867077. Ave ac:0.001342,0.000821
+It 37,Best ac:0.001588 0.279279 fi:0.867077. Ave ac:0.001345,0.000871
+It 38,Best ac:0.001588 0.279279 fi:0.867077. Ave ac:0.001345,0.001048
+It 39,Best ac:0.001588 0.279279 fi:0.856693. Ave ac:0.001276,0.000774
+It 40,Best ac:0.001588 0.279279 fi:0.856693. Ave ac:0.001295,0.000758
+It 41,Best ac:0.001588 0.279279 fi:0.856693. Ave ac:0.001400,0.003779
+It 42,Best ac:0.001588 0.279279 fi:0.856693. Ave ac:0.001286,0.002113
+It 43,Best ac:0.001588 0.279279 fi:0.856693. Ave ac:0.001261,0.000728
+It 44,Best ac:0.001588 0.279279 fi:0.856693. Ave ac:0.001209,0.000755
+It 45,Best ac:0.001588 0.279279 fi:0.856693. Ave ac:0.001236,0.000723
+It 46,Best ac:0.001588 0.279279 fi:0.856693. Ave ac:0.001246,0.000697
+It 47,Best ac:0.001588 0.279279 fi:0.856693. Ave ac:0.001181,0.000706
+It 48,Best ac:0.001588 0.279279 fi:0.856693. Ave ac:0.001146,0.000923
+MDL Theory Length Weight: 14.4108678477 (10)
+It 49,Best ac:0.001588 0.279279 fi:0.850463. Ave ac:0.001101,0.000708
+Best acc 0.001588 0.279279
+Rule:Att sfD_c5 is 1|Att usfP_c2 is 0|DISCARD_5
+Removed 111 instances. 19412 Instances left. Acc of rule 0.001588-0.279279 
+Accuracy : 0.264990
+0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	
+0	0	0	0	0	0	0	0	0	2883	5	2	0	0	110	0	0	0	0	0	
+0	0	0	0	0	0	0	0	0	3462	8	5	0	2	117	0	0	0	0	0	
+0	0	0	0	0	0	0	0	0	3426	8	2	0	2	165	0	0	0	0	0	
+0	0	0	0	0	0	0	0	0	4088	3	1	0	2	178	0	0	0	0	0	
+0	0	0	0	0	0	0	0	0	3378	7	5	0	5	148	0	0	0	0	0	
+0	0	0	0	0	0	0	0	0	1521	0	1	0	2	594	0	0	0	0	0	
+0	0	0	0	0	0	0	0	0	1648	18	0	0	3	489	0	0	0	0	0	
+0	0	0	0	0	0	0	0	0	2199	56	10	0	11	1222	0	0	0	0	0	
+0	0	0	0	0	0	0	0	0	2506	42	11	0	0	1651	0	0	0	0	0	
+0	0	0	0	0	0	0	0	0	13742	14	4	0	0	26	0	0	0	0	0	
+0	0	0	0	0	0	0	0	0	6887	813	4	0	2	186	0	0	0	0	0	
+0	0	0	0	0	0	0	0	0	5689	126	730	0	0	174	0	0	0	0	0	
+0	0	0	0	0	0	0	0	0	4531	67	11	0	25	654	0	0	0	0	0	
+0	0	0	0	0	0	0	0	0	3817	39	5	0	371	173	0	0	0	0	0	
+0	0	0	0	0	0	0	0	0	655	595	373	0	110	12168	0	0	0	0	0	
+0	0	0	0	0	0	0	0	0	3146	23	12	0	21	602	0	0	0	0	0	
+0	0	0	0	0	0	0	0	0	3984	7	1	0	1	176	0	0	0	0	0	
+0	0	0	0	0	0	0	0	0	4302	2	4	0	0	148	0	0	0	0	0	
+0	0	0	0	0	0	0	0	0	4385	5	1	0	0	213	0	0	0	0	0	
+0	0	0	0	0	0	0	0	0	5744	9	4	0	5	218	0	0	0	0	0	
+All instances loaded to memory
+Initial population average accuracy1:0.003742 accuracy2:0.028663
+It 0,Best ac:0.031012 0.031068 fi:0.968932. Ave ac:0.006181,0.009721
+It 1,Best ac:0.031012 0.031068 fi:0.968932. Ave ac:0.008342,0.011099
+It 2,Best ac:0.084020 0.088709 fi:0.923405. Ave ac:0.009221,0.012196
+It 3,Best ac:0.085050 0.085050 fi:0.914950. Ave ac:0.009654,0.013230
+It 4,Best ac:0.085050 0.085050 fi:0.914950. Ave ac:0.011603,0.015748
+It 5,Best ac:0.085050 0.085050 fi:0.914950. Ave ac:0.014481,0.017649
+It 6,Best ac:0.085050 0.085050 fi:0.914950. Ave ac:0.018747,0.020959
+It 7,Best ac:0.085050 0.085050 fi:0.914950. Ave ac:0.025266,0.025262
+It 8,Best ac:0.085050 0.085050 fi:0.914950. Ave ac:0.031588,0.029218
+It 9,Best ac:0.084587 0.097639 fi:0.907812. Ave ac:0.039476,0.032244
+Iteration 10:MDL fitness activated
+Error 0.907812 TL 0.000649
+MDL Theory Length Weight: 466.6153413233 (1)
+It 10,Best ac:0.085050 0.085050 fi:0.914950. Ave ac:0.046087,0.032574
+It 11,Best ac:0.085050 0.085050 fi:0.914950. Ave ac:0.045236,0.033015
+It 12,Best ac:0.085050 0.085050 fi:0.914950. Ave ac:0.048578,0.032806
+It 13,Best ac:0.085050 0.085050 fi:0.914950. Ave ac:0.048754,0.033887
+It 14,Best ac:0.085050 0.085050 fi:0.914950. Ave ac:0.052915,0.032688
+It 15,Best ac:0.085050 0.085050 fi:0.914950. Ave ac:0.055294,0.031421
+It 16,Best ac:0.085050 0.085050 fi:0.914950. Ave ac:0.058219,0.031911
+It 17,Best ac:0.085050 0.085050 fi:0.914950. Ave ac:0.058892,0.031821
+It 18,Best ac:0.085050 0.085050 fi:0.914950. Ave ac:0.054499,0.033258
+It 19,Best ac:0.085050 0.085050 fi:0.914950. Ave ac:0.056984,0.031321
+MDL Theory Length Weight: 419.9538071909 (11)
+It 20,Best ac:0.085050 0.085050 fi:0.914950. Ave ac:0.056169,0.032140
+It 21,Best ac:0.085050 0.085050 fi:0.914950. Ave ac:0.054448,0.033187
+It 22,Best ac:0.085050 0.085050 fi:0.914950. Ave ac:0.055323,0.032838
+It 23,Best ac:0.085050 0.085050 fi:0.914950. Ave ac:0.055060,0.032626
+It 24,Best ac:0.085050 0.085050 fi:0.914950. Ave ac:0.057624,0.032283
+It 25,Best ac:0.085050 0.085050 fi:0.914950. Ave ac:0.062053,0.031501
+It 26,Best ac:0.085050 0.085050 fi:0.914950. Ave ac:0.063242,0.030426
+It 27,Best ac:0.085050 0.085050 fi:0.914950. Ave ac:0.062710,0.031589
+It 28,Best ac:0.085050 0.085050 fi:0.914950. Ave ac:0.068533,0.028215
+It 29,Best ac:0.085050 0.085050 fi:0.914950. Ave ac:0.071240,0.026513
+MDL Theory Length Weight: 377.9584264718 (21)
+It 30,Best ac:0.085050 0.085050 fi:0.914950. Ave ac:0.070953,0.027023
+It 31,Best ac:0.085050 0.085050 fi:0.914950. Ave ac:0.074172,0.024901
+It 32,Best ac:0.085050 0.085050 fi:0.914950. Ave ac:0.074493,0.024820
+It 33,Best ac:0.085050 0.085050 fi:0.914950. Ave ac:0.074733,0.024157
+It 34,Best ac:0.085050 0.085050 fi:0.914950. Ave ac:0.077883,0.020659
+It 35,Best ac:0.085050 0.085050 fi:0.914950. Ave ac:0.075899,0.022627
+It 36,Best ac:0.085050 0.085050 fi:0.914950. Ave ac:0.077362,0.020951
+It 37,Best ac:0.085050 0.085050 fi:0.914950. Ave ac:0.076524,0.022769
+It 38,Best ac:0.085050 0.085050 fi:0.914950. Ave ac:0.079504,0.018398
+It 39,Best ac:0.085050 0.085050 fi:0.914950. Ave ac:0.076204,0.022966
+MDL Theory Length Weight: 340.1625838247 (31)
+It 40,Best ac:0.085050 0.085050 fi:0.914950. Ave ac:0.075934,0.022705
+It 41,Best ac:0.085050 0.085050 fi:0.914950. Ave ac:0.078954,0.018683
+It 42,Best ac:0.085050 0.085050 fi:0.914950. Ave ac:0.076981,0.021919
+It 43,Best ac:0.085050 0.085050 fi:0.914950. Ave ac:0.077043,0.021188
+It 44,Best ac:0.085050 0.085050 fi:0.914950. Ave ac:0.077845,0.020275
+It 45,Best ac:0.085050 0.085050 fi:0.914950. Ave ac:0.076560,0.021417
+It 46,Best ac:0.085050 0.085050 fi:0.914950. Ave ac:0.075410,0.024184
+It 47,Best ac:0.085050 0.085050 fi:0.914950. Ave ac:0.075342,0.023944
+It 48,Best ac:0.085050 0.085050 fi:0.914950. Ave ac:0.077644,0.021472
+It 49,Best ac:0.085050 0.085050 fi:0.914950. Ave ac:0.077727,0.020708
+Best acc 0.085050 0.085050
+All instances loaded to memory
+Initial population average accuracy1:0.004098 accuracy2:0.031950
+It 0,Best ac:0.082114 0.084330 fi:0.950195. Ave ac:0.006589,0.012022
+It 1,Best ac:0.085050 0.085121 fi:0.914879. Ave ac:0.010222,0.015081
+It 2,Best ac:0.085050 0.085121 fi:0.914879. Ave ac:0.011803,0.016349
+It 3,Best ac:0.085050 0.085121 fi:0.914879. Ave ac:0.015133,0.019291
+It 4,Best ac:0.085050 0.085121 fi:0.914879. Ave ac:0.018787,0.022076
+It 5,Best ac:0.085050 0.085121 fi:0.914879. Ave ac:0.023247,0.024905
+It 6,Best ac:0.026066 0.265199 fi:0.894269. Ave ac:0.027948,0.027740
+It 7,Best ac:0.026066 0.265199 fi:0.894269. Ave ac:0.037127,0.030766
+It 8,Best ac:0.026066 0.265756 fi:0.893712. Ave ac:0.041285,0.030425
+It 9,Best ac:0.024160 0.374900 fi:0.846030. Ave ac:0.041530,0.031480
+Iteration 10:MDL fitness activated
+Error 0.846030 TL 0.014989
+MDL Theory Length Weight: 18.8149549636 (1)
+It 10,Best ac:0.085050 0.085050 fi:0.914950. Ave ac:0.039167,0.031819
+It 11,Best ac:0.085050 0.085050 fi:0.914950. Ave ac:0.043561,0.032928
+It 12,Best ac:0.085050 0.085050 fi:0.914950. Ave ac:0.047210,0.031900
+It 13,Best ac:0.085050 0.085050 fi:0.914950. Ave ac:0.050625,0.031521
+It 14,Best ac:0.085050 0.085050 fi:0.914950. Ave ac:0.049661,0.031935
+It 15,Best ac:0.085050 0.085050 fi:0.914950. Ave ac:0.051241,0.030746
+It 16,Best ac:0.085050 0.085050 fi:0.914950. Ave ac:0.052181,0.031427
+It 17,Best ac:0.085050 0.085050 fi:0.914950. Ave ac:0.053810,0.030661
+It 18,Best ac:0.085050 0.085050 fi:0.914950. Ave ac:0.054394,0.030764
+It 19,Best ac:0.085050 0.085050 fi:0.914950. Ave ac:0.056558,0.029661
+MDL Theory Length Weight: 16.9334594673 (11)
+It 20,Best ac:0.085050 0.085050 fi:0.914950. Ave ac:0.056778,0.030116
+It 21,Best ac:0.085050 0.085050 fi:0.914950. Ave ac:0.055710,0.030690
+It 22,Best ac:0.085050 0.085050 fi:0.914950. Ave ac:0.055017,0.031139
+It 23,Best ac:0.085050 0.085050 fi:0.914950. Ave ac:0.052736,0.031849
+It 24,Best ac:0.085050 0.085050 fi:0.914950. Ave ac:0.054293,0.030963
+It 25,Best ac:0.085050 0.085050 fi:0.914950. Ave ac:0.057776,0.031299
+It 26,Best ac:0.085050 0.085050 fi:0.914950. Ave ac:0.057475,0.031104
+It 27,Best ac:0.085050 0.085050 fi:0.914950. Ave ac:0.059675,0.030604
+It 28,Best ac:0.085050 0.085050 fi:0.914950. Ave ac:0.058777,0.032454
+It 29,Best ac:0.085050 0.085050 fi:0.914950. Ave ac:0.060521,0.031558
+MDL Theory Length Weight: 15.2401135206 (21)
+It 30,Best ac:0.085050 0.085050 fi:0.914950. Ave ac:0.062364,0.030785
+It 31,Best ac:0.085050 0.085050 fi:0.914950. Ave ac:0.065688,0.029653
+It 32,Best ac:0.085050 0.085050 fi:0.914950. Ave ac:0.065659,0.029519
+It 33,Best ac:0.085050 0.085050 fi:0.914950. Ave ac:0.070706,0.027140
+It 34,Best ac:0.085050 0.085050 fi:0.914950. Ave ac:0.070977,0.026808
+It 35,Best ac:0.085050 0.085050 fi:0.914950. Ave ac:0.076226,0.021785
+It 36,Best ac:0.085050 0.085050 fi:0.914950. Ave ac:0.074802,0.024096
+It 37,Best ac:0.085050 0.085050 fi:0.914950. Ave ac:0.075064,0.024211
+It 38,Best ac:0.085050 0.085050 fi:0.914950. Ave ac:0.074971,0.023892
+It 39,Best ac:0.085050 0.085050 fi:0.914950. Ave ac:0.077239,0.021311
+MDL Theory Length Weight: 13.7161021685 (31)
+It 40,Best ac:0.085050 0.085050 fi:0.914950. Ave ac:0.077450,0.021661
+It 41,Best ac:0.085050 0.085050 fi:0.914950. Ave ac:0.077147,0.020951
+It 42,Best ac:0.085050 0.085050 fi:0.914950. Ave ac:0.077594,0.021172
+It 43,Best ac:0.085050 0.085050 fi:0.914950. Ave ac:0.077979,0.020936
+It 44,Best ac:0.085050 0.085050 fi:0.914950. Ave ac:0.075923,0.023206
+It 45,Best ac:0.085050 0.085050 fi:0.914950. Ave ac:0.076751,0.022349
+It 46,Best ac:0.085050 0.085050 fi:0.914950. Ave ac:0.077331,0.021868
+It 47,Best ac:0.085050 0.085050 fi:0.914950. Ave ac:0.077461,0.021047
+It 48,Best ac:0.085050 0.085050 fi:0.914950. Ave ac:0.077069,0.021631
+It 49,Best ac:0.085050 0.085050 fi:0.914950. Ave ac:0.076930,0.021817
+Best acc 0.085050 0.085050
+All instances loaded to memory
+Initial population average accuracy1:0.004786 accuracy2:0.031266
+It 0,Best ac:0.083505 0.084860 fi:0.933311. Ave ac:0.007734,0.012784
+It 1,Best ac:0.083505 0.084860 fi:0.933311. Ave ac:0.010634,0.014871
+It 2,Best ac:0.083917 0.087883 fi:0.925442. Ave ac:0.012843,0.017811
+It 3,Best ac:0.085050 0.085121 fi:0.914879. Ave ac:0.015570,0.020723
+It 4,Best ac:0.085050 0.085121 fi:0.914879. Ave ac:0.019092,0.023202
+It 5,Best ac:0.085050 0.085121 fi:0.914879. Ave ac:0.023932,0.026794
+It 6,Best ac:0.085050 0.085121 fi:0.914879. Ave ac:0.029575,0.028526
+It 7,Best ac:0.083763 0.109370 fi:0.905773. Ave ac:0.036118,0.029500
+It 8,Best ac:0.083763 0.109370 fi:0.905773. Ave ac:0.039966,0.031134
+It 9,Best ac:0.083763 0.109370 fi:0.905773. Ave ac:0.045876,0.031248
+Iteration 10:MDL fitness activated
+Error 0.905773 TL 0.003539
+MDL Theory Length Weight: 85.3199453504 (3)
+It 10,Best ac:0.085050 0.085050 fi:0.914950. Ave ac:0.050018,0.031425
+It 11,Best ac:0.085050 0.085050 fi:0.914950. Ave ac:0.046541,0.032615
+It 12,Best ac:0.085050 0.085050 fi:0.914950. Ave ac:0.044720,0.032859
+It 13,Best ac:0.085050 0.085050 fi:0.914950. Ave ac:0.045073,0.032859
+It 14,Best ac:0.085050 0.085050 fi:0.914950. Ave ac:0.045291,0.033109
+It 15,Best ac:0.085050 0.085050 fi:0.914950. Ave ac:0.047810,0.033787
+It 16,Best ac:0.085050 0.085050 fi:0.914950. Ave ac:0.047993,0.033698
+It 17,Best ac:0.085050 0.085050 fi:0.914950. Ave ac:0.051499,0.033694
+It 18,Best ac:0.085050 0.085050 fi:0.914950. Ave ac:0.053758,0.033526
+It 19,Best ac:0.085050 0.085050 fi:0.914950. Ave ac:0.057079,0.032261
+MDL Theory Length Weight: 76.7879508154 (13)
+It 20,Best ac:0.085050 0.085050 fi:0.914950. Ave ac:0.056941,0.032628
+It 21,Best ac:0.085050 0.085050 fi:0.914950. Ave ac:0.057088,0.031973
+It 22,Best ac:0.085050 0.085050 fi:0.914950. Ave ac:0.061318,0.032026
+It 23,Best ac:0.085050 0.085050 fi:0.914950. Ave ac:0.063568,0.030134
+It 24,Best ac:0.085050 0.085050 fi:0.914950. Ave ac:0.066475,0.029204
+It 25,Best ac:0.085050 0.085050 fi:0.914950. Ave ac:0.069488,0.028020
+It 26,Best ac:0.085050 0.085050 fi:0.914950. Ave ac:0.072608,0.026419
+It 27,Best ac:0.085050 0.085050 fi:0.914950. Ave ac:0.075549,0.022974
+It 28,Best ac:0.085050 0.085050 fi:0.914950. Ave ac:0.077168,0.021925
+It 29,Best ac:0.085050 0.085050 fi:0.914950. Ave ac:0.075550,0.022882
+MDL Theory Length Weight: 69.1091557338 (23)
+It 30,Best ac:0.085050 0.085050 fi:0.914950. Ave ac:0.076299,0.022341
+It 31,Best ac:0.085050 0.085050 fi:0.914950. Ave ac:0.076818,0.022559
+It 32,Best ac:0.085050 0.085050 fi:0.914950. Ave ac:0.077952,0.020513
+It 33,Best ac:0.085050 0.085050 fi:0.914950. Ave ac:0.077087,0.021465
+It 34,Best ac:0.085050 0.085050 fi:0.914950. Ave ac:0.074098,0.025551
+It 35,Best ac:0.085050 0.085050 fi:0.914950. Ave ac:0.076308,0.022679
+It 36,Best ac:0.085050 0.085050 fi:0.914950. Ave ac:0.077272,0.021093
+It 37,Best ac:0.085050 0.085050 fi:0.914950. Ave ac:0.077096,0.021102
+It 38,Best ac:0.085050 0.085050 fi:0.914950. Ave ac:0.077308,0.021423
+It 39,Best ac:0.085050 0.085050 fi:0.914950. Ave ac:0.076679,0.021980
+MDL Theory Length Weight: 62.1982401605 (33)
+It 40,Best ac:0.085050 0.085050 fi:0.914950. Ave ac:0.077585,0.020877
+It 41,Best ac:0.085050 0.085050 fi:0.914950. Ave ac:0.077457,0.021304
+It 42,Best ac:0.085050 0.085050 fi:0.914950. Ave ac:0.077285,0.021408
+It 43,Best ac:0.085050 0.085050 fi:0.914950. Ave ac:0.076120,0.022910
+It 44,Best ac:0.085050 0.085050 fi:0.914950. Ave ac:0.076267,0.022374
+It 45,Best ac:0.085050 0.085050 fi:0.914950. Ave ac:0.075406,0.023583
+It 46,Best ac:0.085050 0.085050 fi:0.914950. Ave ac:0.078163,0.020275
+It 47,Best ac:0.085050 0.085050 fi:0.914950. Ave ac:0.075664,0.023180
+It 48,Best ac:0.085050 0.085050 fi:0.914950. Ave ac:0.076088,0.022545
+It 49,Best ac:0.085050 0.085050 fi:0.914950. Ave ac:0.077042,0.021572
+Best acc 0.085050 0.085050
+All instances loaded to memory
+Initial population average accuracy1:0.003861 accuracy2:0.029898
+It 0,Best ac:0.030600 0.032319 fi:0.980970. Ave ac:0.006305,0.010680
+It 1,Best ac:0.033691 0.049863 fi:0.950137. Ave ac:0.008118,0.013425
+It 2,Best ac:0.033691 0.049863 fi:0.950137. Ave ac:0.010195,0.015937
+It 3,Best ac:0.085050 0.085050 fi:0.914950. Ave ac:0.012164,0.016965
+It 4,Best ac:0.084587 0.097639 fi:0.907812. Ave ac:0.012743,0.018134
+It 5,Best ac:0.084587 0.097639 fi:0.907812. Ave ac:0.017467,0.022602
+It 6,Best ac:0.084587 0.097639 fi:0.907812. Ave ac:0.023219,0.025621
+It 7,Best ac:0.084587 0.097639 fi:0.907812. Ave ac:0.031402,0.028770
+It 8,Best ac:0.084587 0.097639 fi:0.907812. Ave ac:0.039275,0.030137
+It 9,Best ac:0.084587 0.097639 fi:0.907812. Ave ac:0.044105,0.030687
+Iteration 10:MDL fitness activated
+Error 0.907812 TL 0.000649
+MDL Theory Length Weight: 466.6153413233 (6)
+It 10,Best ac:0.085050 0.085050 fi:0.914950. Ave ac:0.050327,0.031551
+It 11,Best ac:0.085050 0.085050 fi:0.914950. Ave ac:0.044113,0.032328
+It 12,Best ac:0.085050 0.085050 fi:0.914950. Ave ac:0.044564,0.031563
+It 13,Best ac:0.085050 0.085050 fi:0.914950. Ave ac:0.045553,0.031944
+It 14,Best ac:0.085050 0.085050 fi:0.914950. Ave ac:0.044779,0.031995
+It 15,Best ac:0.085050 0.085050 fi:0.914950. Ave ac:0.045197,0.032485
+It 16,Best ac:0.085050 0.085050 fi:0.914950. Ave ac:0.044374,0.032376
+It 17,Best ac:0.085050 0.085050 fi:0.914950. Ave ac:0.046561,0.032696
+It 18,Best ac:0.085050 0.085050 fi:0.914950. Ave ac:0.047919,0.032052
+It 19,Best ac:0.085050 0.085050 fi:0.914950. Ave ac:0.049680,0.032540
+MDL Theory Length Weight: 419.9538071909 (16)
+It 20,Best ac:0.085050 0.085050 fi:0.914950. Ave ac:0.048988,0.032520
+It 21,Best ac:0.085050 0.085050 fi:0.914950. Ave ac:0.048627,0.032342
+It 22,Best ac:0.085050 0.085050 fi:0.914950. Ave ac:0.051670,0.032178
+It 23,Best ac:0.085050 0.085050 fi:0.914950. Ave ac:0.049695,0.031782
+It 24,Best ac:0.085050 0.085050 fi:0.914950. Ave ac:0.050461,0.032309
+It 25,Best ac:0.085050 0.085050 fi:0.914950. Ave ac:0.049443,0.032477
+It 26,Best ac:0.085050 0.085050 fi:0.914950. Ave ac:0.049229,0.032598
+It 27,Best ac:0.085050 0.085050 fi:0.914950. Ave ac:0.049197,0.032582
+It 28,Best ac:0.085050 0.085050 fi:0.914950. Ave ac:0.048506,0.032807
+It 29,Best ac:0.085050 0.085050 fi:0.914950. Ave ac:0.048377,0.032971
+MDL Theory Length Weight: 377.9584264718 (26)
+It 30,Best ac:0.085050 0.085050 fi:0.914950. Ave ac:0.048113,0.033664
+It 31,Best ac:0.085050 0.085050 fi:0.914950. Ave ac:0.051842,0.032085
+It 32,Best ac:0.085050 0.085050 fi:0.914950. Ave ac:0.050023,0.032378
+It 33,Best ac:0.085050 0.085050 fi:0.914950. Ave ac:0.050073,0.032210
+It 34,Best ac:0.085050 0.085050 fi:0.914950. Ave ac:0.051878,0.032075
+It 35,Best ac:0.085050 0.085050 fi:0.914950. Ave ac:0.051437,0.032548
+It 36,Best ac:0.085050 0.085050 fi:0.914950. Ave ac:0.049347,0.033000
+It 37,Best ac:0.085050 0.085050 fi:0.914950. Ave ac:0.049691,0.033022
+It 38,Best ac:0.085050 0.085050 fi:0.914950. Ave ac:0.050294,0.032291
+It 39,Best ac:0.085050 0.085050 fi:0.914950. Ave ac:0.051451,0.032482
+MDL Theory Length Weight: 340.1625838247 (36)
+It 40,Best ac:0.085050 0.085050 fi:0.914950. Ave ac:0.051266,0.033099
+It 41,Best ac:0.085050 0.085050 fi:0.914950. Ave ac:0.052749,0.032238
+It 42,Best ac:0.085050 0.085050 fi:0.914950. Ave ac:0.055975,0.031671
+It 43,Best ac:0.085050 0.085050 fi:0.914950. Ave ac:0.057642,0.031579
+It 44,Best ac:0.085050 0.085050 fi:0.914950. Ave ac:0.058440,0.030543
+It 45,Best ac:0.085050 0.085050 fi:0.914950. Ave ac:0.060597,0.030982
+It 46,Best ac:0.085050 0.085050 fi:0.914950. Ave ac:0.064070,0.030672
+It 47,Best ac:0.085050 0.085050 fi:0.914950. Ave ac:0.067923,0.028003
+It 48,Best ac:0.085050 0.085050 fi:0.914950. Ave ac:0.069534,0.027971
+It 49,Best ac:0.085050 0.085050 fi:0.914950. Ave ac:0.074604,0.023471
+Best acc 0.085050 0.085050
+All instances loaded to memory
+Initial population average accuracy1:0.003775 accuracy2:0.031320
+It 0,Best ac:0.083299 0.085271 fi:0.935322. Ave ac:0.005698,0.009328
+It 1,Best ac:0.085050 0.085050 fi:0.914950. Ave ac:0.009094,0.012455
+It 2,Best ac:0.085050 0.085050 fi:0.914950. Ave ac:0.010814,0.014062
+It 3,Best ac:0.085050 0.085050 fi:0.914950. Ave ac:0.012315,0.016049
+It 4,Best ac:0.085050 0.085050 fi:0.914950. Ave ac:0.013569,0.017855
+It 5,Best ac:0.085050 0.085050 fi:0.914950. Ave ac:0.017127,0.020436
+It 6,Best ac:0.085050 0.085050 fi:0.914950. Ave ac:0.022807,0.023865
+It 7,Best ac:0.085050 0.085050 fi:0.914950. Ave ac:0.028234,0.026947
+It 8,Best ac:0.085050 0.085050 fi:0.914950. Ave ac:0.034826,0.029143
+It 9,Best ac:0.085050 0.085050 fi:0.914950. Ave ac:0.041671,0.029800
+Iteration 10:MDL fitness activated
+Error 0.914950 TL 0.000000
+MDL Theory Length Weight: inf (9)
+It 10,Best ac:0.085050 0.085050 fi:-nan. Ave ac:0.046229,0.030762
+It 11,Best ac:0.085050 0.085050 fi:-nan. Ave ac:0.033311,0.029498
+It 12,Best ac:0.085050 0.085050 fi:-nan. Ave ac:0.024276,0.027207
+It 13,Best ac:0.085050 0.085050 fi:-nan. Ave ac:0.017445,0.023171
+It 14,Best ac:0.085050 0.085050 fi:-nan. Ave ac:0.013667,0.022045
+It 15,Best ac:0.085050 0.085050 fi:-nan. Ave ac:0.012026,0.021791
+It 16,Best ac:0.085050 0.085050 fi:-nan. Ave ac:0.009595,0.018520
+It 17,Best ac:0.085050 0.085050 fi:-nan. Ave ac:0.009219,0.018177
+It 18,Best ac:0.085050 0.085050 fi:-nan. Ave ac:0.008098,0.018045
+It 19,Best ac:0.085050 0.085050 fi:-nan. Ave ac:0.006735,0.016506
+MDL Theory Length Weight: inf (19)
+It 20,Best ac:0.085050 0.085050 fi:-nan. Ave ac:0.005678,0.014870
+It 21,Best ac:0.085050 0.085050 fi:-nan. Ave ac:0.006285,0.016842
+It 22,Best ac:0.085050 0.085050 fi:-nan. Ave ac:0.005151,0.013749
+It 23,Best ac:0.085050 0.085050 fi:-nan. Ave ac:0.004957,0.014452
+It 24,Best ac:0.085050 0.085050 fi:-nan. Ave ac:0.004631,0.013140
+It 25,Best ac:0.085050 0.085050 fi:-nan. Ave ac:0.003474,0.011921
+It 26,Best ac:0.085050 0.085050 fi:-nan. Ave ac:0.002808,0.010625
+It 27,Best ac:0.085050 0.085050 fi:-nan. Ave ac:0.003573,0.012003
+It 28,Best ac:0.085050 0.085050 fi:-nan. Ave ac:0.003231,0.012776
+It 29,Best ac:0.085050 0.085050 fi:-nan. Ave ac:0.002846,0.011152
+MDL Theory Length Weight: inf (29)
+It 30,Best ac:0.085050 0.085050 fi:-nan. Ave ac:0.003158,0.011642
+It 31,Best ac:0.085050 0.085050 fi:-nan. Ave ac:0.002538,0.010345
+It 32,Best ac:0.085050 0.085050 fi:-nan. Ave ac:0.003084,0.012166
+It 33,Best ac:0.085050 0.085050 fi:-nan. Ave ac:0.002829,0.011196
+It 34,Best ac:0.085050 0.085050 fi:-nan. Ave ac:0.002713,0.011579
+It 35,Best ac:0.085050 0.085050 fi:-nan. Ave ac:0.002479,0.009870
+It 36,Best ac:0.085050 0.085050 fi:-nan. Ave ac:0.002343,0.009433
+It 37,Best ac:0.085050 0.085050 fi:-nan. Ave ac:0.002042,0.008645
+It 38,Best ac:0.085050 0.085050 fi:-nan. Ave ac:0.001330,0.005519
+It 39,Best ac:0.085050 0.085050 fi:-nan. Ave ac:0.001572,0.006582
+MDL Theory Length Weight: inf (39)
+It 40,Best ac:0.085050 0.085050 fi:-nan. Ave ac:0.001443,0.006437
+It 41,Best ac:0.085050 0.085050 fi:-nan. Ave ac:0.001166,0.004621
+It 42,Best ac:0.085050 0.085050 fi:-nan. Ave ac:0.001704,0.008067
+It 43,Best ac:0.085050 0.085050 fi:-nan. Ave ac:0.001657,0.007174
+It 44,Best ac:0.085050 0.085050 fi:-nan. Ave ac:0.001201,0.004624
+It 45,Best ac:0.085050 0.085050 fi:-nan. Ave ac:0.001570,0.006608
+It 46,Best ac:0.085050 0.085050 fi:-nan. Ave ac:0.001233,0.004979
+It 47,Best ac:0.085050 0.085050 fi:-nan. Ave ac:0.000830,0.004061
+It 48,Best ac:0.085050 0.085050 fi:-nan. Ave ac:0.001150,0.006307
+It 49,Best ac:0.085050 0.085050 fi:-nan. Ave ac:0.001323,0.006688
+Best acc 0.085050 0.085050
+All instances loaded to memory
+Initial population average accuracy1:0.004168 accuracy2:0.029772
+It 0,Best ac:0.084690 0.084952 fi:0.919287. Ave ac:0.006682,0.011341
+It 1,Best ac:0.084690 0.084952 fi:0.919287. Ave ac:0.010112,0.014840
+It 2,Best ac:0.085050 0.085050 fi:0.914950. Ave ac:0.013300,0.017744
+It 3,Best ac:0.085050 0.085050 fi:0.914950. Ave ac:0.015027,0.019198
+It 4,Best ac:0.085050 0.085050 fi:0.914950. Ave ac:0.017635,0.021487
+It 5,Best ac:0.085050 0.085050 fi:0.914950. Ave ac:0.022501,0.024221
+It 6,Best ac:0.085050 0.085050 fi:0.914950. Ave ac:0.027452,0.027291
+It 7,Best ac:0.085050 0.085050 fi:0.914950. Ave ac:0.037094,0.030244
+It 8,Best ac:0.085050 0.085050 fi:0.914950. Ave ac:0.043403,0.031057
+It 9,Best ac:0.085050 0.085050 fi:0.914950. Ave ac:0.049341,0.031570
+Iteration 10:MDL fitness activated
+Error 0.914950 TL 0.000000
+MDL Theory Length Weight: inf (8)
+It 10,Best ac:0.085050 0.085050 fi:-nan. Ave ac:0.052097,0.031232
+It 11,Best ac:0.085050 0.085050 fi:-nan. Ave ac:0.035826,0.032123
+It 12,Best ac:0.085050 0.085050 fi:-nan. Ave ac:0.024244,0.028182
+It 13,Best ac:0.085050 0.085050 fi:-nan. Ave ac:0.018140,0.024675
+It 14,Best ac:0.085050 0.085050 fi:-nan. Ave ac:0.013883,0.022234
+It 15,Best ac:0.085050 0.085050 fi:-nan. Ave ac:0.011765,0.020756
+It 16,Best ac:0.085050 0.085050 fi:-nan. Ave ac:0.009790,0.019442
+It 17,Best ac:0.085050 0.085050 fi:-nan. Ave ac:0.006560,0.015507
+It 18,Best ac:0.085050 0.085050 fi:-nan. Ave ac:0.004941,0.012352
+It 19,Best ac:0.085050 0.085050 fi:-nan. Ave ac:0.004396,0.012324
+MDL Theory Length Weight: inf (18)
+It 20,Best ac:0.085050 0.085050 fi:-nan. Ave ac:0.004386,0.012047
+It 21,Best ac:0.085050 0.085050 fi:-nan. Ave ac:0.003119,0.010033
+It 22,Best ac:0.085050 0.085050 fi:-nan. Ave ac:0.002632,0.008218
+It 23,Best ac:0.085050 0.085050 fi:-nan. Ave ac:0.002090,0.006897
+It 24,Best ac:0.085050 0.085050 fi:-nan. Ave ac:0.002533,0.009522
+It 25,Best ac:0.085050 0.085050 fi:-nan. Ave ac:0.002300,0.009106
+It 26,Best ac:0.085050 0.085050 fi:-nan. Ave ac:0.001706,0.007813
+It 27,Best ac:0.085050 0.085050 fi:-nan. Ave ac:0.001131,0.005711
+It 28,Best ac:0.085050 0.085050 fi:-nan. Ave ac:0.001569,0.008553
+It 29,Best ac:0.085050 0.085050 fi:-nan. Ave ac:0.001289,0.006353
+MDL Theory Length Weight: inf (28)
+It 30,Best ac:0.085050 0.085050 fi:-nan. Ave ac:0.001145,0.005889
+It 31,Best ac:0.085050 0.085050 fi:-nan. Ave ac:0.001118,0.005297
+It 32,Best ac:0.085050 0.085050 fi:-nan. Ave ac:0.001187,0.005536
+It 33,Best ac:0.085050 0.085050 fi:-nan. Ave ac:0.000943,0.004864
+It 34,Best ac:0.085050 0.085050 fi:-nan. Ave ac:0.000640,0.004606
+It 35,Best ac:0.085050 0.085050 fi:-nan. Ave ac:0.000908,0.005630
+It 36,Best ac:0.085050 0.085050 fi:-nan. Ave ac:0.001141,0.007312
+It 37,Best ac:0.085050 0.085050 fi:-nan. Ave ac:0.000666,0.004784
+It 38,Best ac:0.085050 0.085050 fi:-nan. Ave ac:0.000418,0.002143
+It 39,Best ac:0.085050 0.085050 fi:-nan. Ave ac:0.000569,0.003669
+MDL Theory Length Weight: inf (38)
+It 40,Best ac:0.085050 0.085050 fi:-nan. Ave ac:0.000432,0.002627
+It 41,Best ac:0.085050 0.085050 fi:-nan. Ave ac:0.000629,0.004415
+It 42,Best ac:0.085050 0.085050 fi:-nan. Ave ac:0.000677,0.004983
+It 43,Best ac:0.085050 0.085050 fi:-nan. Ave ac:0.000706,0.004940
+It 44,Best ac:0.085050 0.085050 fi:-nan. Ave ac:0.000953,0.005555
+It 45,Best ac:0.085050 0.085050 fi:-nan. Ave ac:0.000556,0.003570
+It 46,Best ac:0.085050 0.085050 fi:-nan. Ave ac:0.000392,0.002941
+It 47,Best ac:0.085050 0.085050 fi:-nan. Ave ac:0.001024,0.006676
+It 48,Best ac:0.085050 0.085050 fi:-nan. Ave ac:0.001124,0.007482
+It 49,Best ac:0.085050 0.085050 fi:-nan. Ave ac:0.001020,0.005670
+Best acc 0.085050 0.085050
+Phenotype: 
+0:Att wasTouched_c5 is 0|DISCARD_5
+1:Att sfP_c1 is 1|PLAY_1
+2:Att sfP_c2 is 1|PLAY_2
+3:Att sfP_c4 is 1|PLAY_4
+4:Att is2_c2 is 0|Att sfD_c3 is 0|Att sfD_c5 is 1|Att usfD_c1 is 1|DISCARD_5
+5:Att sfD_c5 is 1|Att usfP_c2 is 0|DISCARD_5
+6:Default rule -> PLAY_5
+
+
+Train accuracy : 0.264990
+Train error : 0.735010
+Train not classified : 0.000000
+Train For each class:
+0: accuracy : 0
+0: error : 3000
+0: not classified : 0
+1: accuracy : 0
+1: error : 3594
+1: not classified : 0
+2: accuracy : 0
+2: error : 3603
+2: not classified : 0
+3: accuracy : 0
+3: error : 4272
+3: not classified : 0
+4: accuracy : 0
+4: error : 3543
+4: not classified : 0
+5: accuracy : 0
+5: error : 2118
+5: not classified : 0
+6: accuracy : 0
+6: error : 2158
+6: not classified : 0
+7: accuracy : 0
+7: error : 3498
+7: not classified : 0
+8: accuracy : 0
+8: error : 4210
+8: not classified : 0
+9: accuracy : 13742
+9: error : 44
+9: not classified : 0
+10: accuracy : 813
+10: error : 7079
+10: not classified : 0
+11: accuracy : 730
+11: error : 5989
+11: not classified : 0
+12: accuracy : 0
+12: error : 5288
+12: not classified : 0
+13: accuracy : 371
+13: error : 4034
+13: not classified : 0
+14: accuracy : 12168
+14: error : 1733
+14: not classified : 0
+15: accuracy : 0
+15: error : 3804
+15: not classified : 0
+16: accuracy : 0
+16: error : 4169
+16: not classified : 0
+17: accuracy : 0
+17: error : 4456
+17: not classified : 0
+18: accuracy : 0
+18: error : 4604
+18: not classified : 0
+19: accuracy : 0
+19: error : 5980
+19: not classified : 0
+Train Confusion Matrix. Row real class, Column predicted class
+0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	
+0	0	0	0	0	0	0	0	0	2883	5	2	0	0	110	0	0	0	0	0	
+0	0	0	0	0	0	0	0	0	3462	8	5	0	2	117	0	0	0	0	0	
+0	0	0	0	0	0	0	0	0	3426	8	2	0	2	165	0	0	0	0	0	
+0	0	0	0	0	0	0	0	0	4088	3	1	0	2	178	0	0	0	0	0	
+0	0	0	0	0	0	0	0	0	3378	7	5	0	5	148	0	0	0	0	0	
+0	0	0	0	0	0	0	0	0	1521	0	1	0	2	594	0	0	0	0	0	
+0	0	0	0	0	0	0	0	0	1648	18	0	0	3	489	0	0	0	0	0	
+0	0	0	0	0	0	0	0	0	2199	56	10	0	11	1222	0	0	0	0	0	
+0	0	0	0	0	0	0	0	0	2506	42	11	0	0	1651	0	0	0	0	0	
+0	0	0	0	0	0	0	0	0	13742	14	4	0	0	26	0	0	0	0	0	
+0	0	0	0	0	0	0	0	0	6887	813	4	0	2	186	0	0	0	0	0	
+0	0	0	0	0	0	0	0	0	5689	126	730	0	0	174	0	0	0	0	0	
+0	0	0	0	0	0	0	0	0	4531	67	11	0	25	654	0	0	0	0	0	
+0	0	0	0	0	0	0	0	0	3817	39	5	0	371	173	0	0	0	0	0	
+0	0	0	0	0	0	0	0	0	655	595	373	0	110	12168	0	0	0	0	0	
+0	0	0	0	0	0	0	0	0	3146	23	12	0	21	602	0	0	0	0	0	
+0	0	0	0	0	0	0	0	0	3984	7	1	0	1	176	0	0	0	0	0	
+0	0	0	0	0	0	0	0	0	4302	2	4	0	0	148	0	0	0	0	0	
+0	0	0	0	0	0	0	0	0	4385	5	1	0	0	213	0	0	0	0	0	
+0	0	0	0	0	0	0	0	0	5744	9	4	0	5	218	0	0	0	0	0	
+Performance of each classifier:
+Classifier 0: 13680/81829=16.717790%
+Classifier 1: 813/1847=44.017325%
+Classifier 2: 730/1186=61.551433%
+Classifier 3: 371/562=66.014235%
+Classifier 4: 31/53=58.490566%
+Classifier 5: 31/111=27.927928%
+Classifier 6: 12168/19412=62.682877%
+Test accuracy : 0.263857
+Test error : 0.736143
+Test not classified : 0.000000
+Test For each class:
+0: accuracy : 0
+0: error : 601
+0: not classified : 0
+1: accuracy : 0
+1: error : 716
+1: not classified : 0
+2: accuracy : 0
+2: error : 718
+2: not classified : 0
+3: accuracy : 0
+3: error : 867
+3: not classified : 0
+4: accuracy : 0
+4: error : 676
+4: not classified : 0
+5: accuracy : 0
+5: error : 461
+5: not classified : 0
+6: accuracy : 0
+6: error : 423
+6: not classified : 0
+7: accuracy : 0
+7: error : 668
+7: not classified : 0
+8: accuracy : 0
+8: error : 850
+8: not classified : 0
+9: accuracy : 2669
+9: error : 5
+9: not classified : 0
+10: accuracy : 181
+10: error : 1386
+10: not classified : 0
+11: accuracy : 151
+11: error : 1227
+11: not classified : 0
+12: accuracy : 0
+12: error : 1025
+12: not classified : 0
+13: accuracy : 78
+13: error : 880
+13: not classified : 0
+14: accuracy : 2462
+14: error : 324
+14: not classified : 0
+15: accuracy : 0
+15: error : 822
+15: not classified : 0
+16: accuracy : 0
+16: error : 852
+16: not classified : 0
+17: accuracy : 0
+17: error : 895
+17: not classified : 0
+18: accuracy : 0
+18: error : 913
+18: not classified : 0
+19: accuracy : 0
+19: error : 1150
+19: not classified : 0
+Test Confusion Matrix. Row real class, Column predicted class
+0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	
+0	0	0	0	0	0	0	0	0	574	0	0	0	0	27	0	0	0	0	0	
+0	0	0	0	0	0	0	0	0	689	2	0	0	1	24	0	0	0	0	0	
+0	0	0	0	0	0	0	0	0	680	2	2	0	0	34	0	0	0	0	0	
+0	0	0	0	0	0	0	0	0	837	3	0	0	1	26	0	0	0	0	0	
+0	0	0	0	0	0	0	0	0	646	1	0	0	2	27	0	0	0	0	0	
+0	0	0	0	0	0	0	0	0	345	0	1	0	0	115	0	0	0	0	0	
+0	0	0	0	0	0	0	0	0	316	5	0	0	0	102	0	0	0	0	0	
+0	0	0	0	0	0	0	0	0	433	3	1	0	0	231	0	0	0	0	0	
+0	0	0	0	0	0	0	0	0	514	10	3	0	0	323	0	0	0	0	0	
+0	0	0	0	0	0	0	0	0	2669	1	1	0	0	3	0	0	0	0	0	
+0	0	0	0	0	0	0	0	0	1350	181	1	0	0	35	0	0	0	0	0	
+0	0	0	0	0	0	0	0	0	1175	20	151	0	0	32	0	0	0	0	0	
+0	0	0	0	0	0	0	0	0	899	14	1	0	4	107	0	0	0	0	0	
+0	0	0	0	0	0	0	0	0	835	13	0	0	78	32	0	0	0	0	0	
+0	0	0	0	0	0	0	0	0	126	105	70	0	23	2462	0	0	0	0	0	
+0	0	0	0	0	0	0	0	0	694	3	2	0	5	118	0	0	0	0	0	
+0	0	0	0	0	0	0	0	0	810	3	1	0	0	38	0	0	0	0	0	
+0	0	0	0	0	0	0	0	0	853	1	0	0	0	41	0	0	0	0	0	
+0	0	0	0	0	0	0	0	0	877	0	1	0	0	35	0	0	0	0	0	
+0	0	0	0	0	0	0	0	0	1109	2	0	0	0	39	0	0	0	0	0	
+Performance of each classifier:
+Classifier 0: 2656/16393=16.202037%
+Classifier 1: 181/369=49.051491%
+Classifier 2: 151/235=64.255319%
+Classifier 3: 78/114=68.421053%
+Classifier 4: 5/10=50.000000%
+Classifier 5: 8/28=28.571429%
+Classifier 6: 2462/3851=63.931446%
+Total time: 35.86 35.8907

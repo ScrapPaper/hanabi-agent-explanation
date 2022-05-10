@@ -1,0 +1,9 @@
+Col_c5 is [B,G,R,W,Y] & wasTouched_c5 & ~safeToPlay_c1 & ~safeToPlay_c4 -> PLAY_5
+Rnk_c5 is [1,2,3] & wasTouched_c5 & ~unsafeToDiscard_c5 & ~unsafeToPlay_c5 -> PLAY_5
+safeToPlay_c2 -> PLAY_2
+~RANK & isCritical_c5 -> RANK_CHOP
+safeToPlay_c1 -> PLAY_1
+Default rule -> DISCARD_CHOP
+
+Accuracy: 0.394048
+Full log: rule-list-learning\Outputs\limit\cdbeliefOutputs\Statistics2.txt

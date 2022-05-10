@@ -1,0 +1,6 @@
+#!/bin/sh
+if [ ! -d "$1" ]; then
+  echo "Error: Directory '$1' does not exist"; exit 1
+fi
+sed -n 's/^Test accuracy : //p' $1/Statistics*.txt
+# sed -n 's/^Test accuracy : //p' $1/Statistics10.txt
