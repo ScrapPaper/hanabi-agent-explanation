@@ -18,7 +18,7 @@ For an overview of explanation methodology, please refer to
 Figures 2.1 and 3.2 of the thesis.
 
 `off-belief-small` is a modified version of the `off-belief-learning`
-implementation from Facebook Research, with modifications made to
+[implementation from Facebook Research](https://github.com/facebookresearch/off-belief-learning), with modifications made to
 enable [Hanabi-Small](https://github.com/deepmind/hanabi-learning-environment/blob/master/hanabi_learning_environment/rl_env.py#L548) compatibility.
 It is used in the `agent-training-small` and `observation-extraction`
 notebooks to train and observe agents on 2-player Hanabi-Small.
